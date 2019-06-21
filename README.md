@@ -1,5 +1,5 @@
 # LeetCodePractice
-<h3 align="center">算法知识储备 Leetcode with Python</h3>
+<h3 align="center">算法知识储备 Leetcode with Python3</h3>
 <div align="center">
     <img src="0_icons/book.png">
 </div>
