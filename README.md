@@ -7,7 +7,6 @@
     <img src="https://img.shields.io/badge/%3E-Leetcode-blue.svg">
     <img src="https://img.shields.io/badge/-Algorithm-blue.svg">
 </div>
-## 刷题
 
 | # | Title | Solution | Basic idea(One line) |
 |---| ----- | ---------| -------------------- |
