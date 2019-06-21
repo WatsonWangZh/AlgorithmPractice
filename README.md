@@ -41,7 +41,9 @@
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Math, Array, DynamicProgramming |Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py) |  |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Array, Counter |Medium|[Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/152.Maximum%20Product%20Subarray.py) |  |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |Math, Sum|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py) |  |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) |DFS,BFS,UnionFind|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Design/284.%20Peeking%20Iterator.py) | TODO |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |LinkedList|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LinkedList/206.%20Reverse%20Linked%20List.py) |  |
+| 284 | [Peeking Iterator](https://leetcode.com/problems/find-the-difference/) |Design|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Design/284.%20Peeking%20Iterator.py) | TODO |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) |HashTable, BitManipulation|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BitManipulation/389.%20Find%20the%20Difference.py) |  |
 
 
