@@ -20,10 +20,20 @@
 
 class Solution(object):
     def maxProfit(self, prices):
-        pass
+        maxProfit = 0
+        minPrice = float('inf')
+
+        for p in prices:
+            minPrice = min(p, minPrice)
+            profit = p - minPrice
+            if profit > maxProfit:
+                maxProfit = profit
+        return maxProfit
 
 def main():
-    pass
+    s = Solution()
+    print(s.maxProfit([7,1,5,3,6,4]))
+    print(s.maxProfit([7,6,4,3,1]))
 
 if __name__ == "__main__":
     main()
