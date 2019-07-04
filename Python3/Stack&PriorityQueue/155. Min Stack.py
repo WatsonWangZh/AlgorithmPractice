@@ -14,25 +14,33 @@
 # minStack.pop();
 # minStack.top();      --> Returns 0.
 # minStack.getMin();   --> Returns -2.
-
+import sys
 class MinStack:
-
+    # 最小栈相较于普通栈，可以实时保存当前栈中的最小值，故需设置min变量保存更新。
+    # 边界条件：push时，若当前元素比最小值还小，则需更新最小值，且保存进栈前的最小值供下一次比较；
+    #         pop时，若pop的元素为最小值，则需把最小值更新为次小值。
     def __init__(self):
         """
         initialize your data structure here.
         """
-        
+        self.stack = []
+        self.min = sys.maxsize
+
     def push(self, x: int) -> None:
-        pass
+        if x <= self.min:
+            self.stack.append(self.min)
+            self.min = x
+        self.stack.append(x)
 
     def pop(self) -> None:
-        pass
+        if self.stack.pop() == self.min:
+            self.min = self.stack.pop()
 
     def top(self) -> int:
-        pass
+        return self.stack[-1]
 
     def getMin(self) -> int:
-        pass
+        return self.min
 
 
 # Your MinStack object will be instantiated and called as such:
