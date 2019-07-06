@@ -14,10 +14,27 @@
 
 class Solution:
     def singleNumber(self, nums):
-        pass
-    
-def main():
-    pass
-
-if __name__ == "__main__":
-    main()
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        '''
+        字典增删，留一即为
+        times_seen_dict = {}
+        for i in range(len(nums)):
+            if nums[i] in times_seen_dict:
+                times_seen_dict[nums[i]] += 1
+            else:
+                times_seen_dict[nums[i]] = 1
+        
+        for key, value in times_seen_dict.items():
+            if value == 1:
+                return key
+        '''
+        # 空间为1，位运解决
+        xor = 0
+        for num in nums:
+            xor ^= num
+            
+        return xor
+        
