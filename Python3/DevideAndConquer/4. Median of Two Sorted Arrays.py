@@ -45,3 +45,4 @@ class Solution:
                 else: min_of_right = min(B[j], A[i])
                 
                 return (max_of_left+min_of_right)/2.0
+                
