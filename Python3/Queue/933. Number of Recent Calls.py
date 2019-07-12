@@ -15,11 +15,30 @@
 
 class RecentCounter:
 
+    # M1: 二分查找
     def __init__(self):
-        pass
+        self.nums = []
 
-    def ping(self, t: int) -> int:
-        pass
+    def ping(self, t):
+        """
+        :type t: int
+        :rtype: int
+        """
+        self.nums.append(t)
+        cur_pos = len(self.nums)
+        # 其目的在于查找该数值将会插入的位置并返回，而不会插入。
+        prev_pos = bisect.bisect_left(self.nums, t - 3000)
+        return cur_pos - prev_pos
+    
+    # M2: 队列
+#     def __init__(self):
+#         self.q = collections.deque()
+
+#     def ping(self, t: int) -> int:
+#         self.q.append(t)
+#         while self.q[0] < t-3000:
+#             self.q.popleft()
+#         return len(self.q)
 
 
 # Your RecentCounter object will be instantiated and called as such:

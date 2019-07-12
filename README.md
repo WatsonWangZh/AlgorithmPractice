@@ -73,7 +73,7 @@
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) |Heap|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Heap/703.%20Kth%20Largest%20Element%20in%20a%20Stream.py) | TODO |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Map/846.%20Hand%20of%20Straights.py) | TODO |
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) |Geometry|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Geometry/892.%20Surface%20Area%20of%203D%20Shapes.py) | TODO |
-| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Queue/933.%20Number%20of%20Recent%20Calls.py) | TODO |
+| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找或队列 |
 
 
 
