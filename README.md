@@ -9,8 +9,8 @@
 </div>
 
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
-|---| ----- | ---------| -----------| ---------| -------------------- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math, Array | Easy | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/1.%20Two%20Sum.py) | 1. Hash O(n) and O(n) space.<br>2. Sort and search with two points O(n) and O(1) space. |
+|:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math, Array | Easy | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/1.%20Two%20Sum.py) |  |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Math, LinkedList | Medium | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/2.%20Add%20Two%20Numbers.py) |  |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | String, Substring | Medium |[Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py) |  |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |DevideAndConquer|Hard| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/DevideAndConquer/4.%20Median%20of%20Two%20Sorted%20Arrays.py) | [好题,膜一发](https://www.youtube.com/watch?v=LPFhl65R7ww&t=1013s) |
