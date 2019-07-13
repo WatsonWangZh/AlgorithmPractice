@@ -16,10 +16,7 @@
 
 class Solution:
     def canWinNim(self, n: int) -> bool:
-        pass
-
-def main():
-    pass
-
-if __name__ == "__main__":
-    main()
+        # 找规律
+        # 1 2 3 4 5 6 7 8 9 10
+        # 1 1 1 0 1 1 1 0 1 1
+        return n % 4 != 0
