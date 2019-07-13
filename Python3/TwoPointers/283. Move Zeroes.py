@@ -13,9 +13,20 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        # M1.
+        # index = 0
+        # for i in range(len(nums)):
+        #     if nums[i] != 0:
+        #         nums[index] = nums[i]
+        #         index += 1
+                
+        # for i in range(index,len(nums)):
+        #     nums[i] = 0
 
-def main():
-    pass
+        # M2.
+        zero = 0
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[i], nums[zero] = nums[zero], nums[i]
+                zero += 1
 
-if __name__ == "__main__":
-    main()
