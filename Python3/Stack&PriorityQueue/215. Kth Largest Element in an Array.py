@@ -15,14 +15,11 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
 
-        # 第k大/k小问题，直觉用堆，维护容量为k的最大堆，时间复杂度O(nlogk)
+        # # M1.偷懒法，调库排序返回第k个元素即可
+        # nums.sort(reverse=True)
+        # return nums[k-1]
 
-        # M1.偷懒法，调库排序返回第k个元素即可
-        nums.sort(reverse=True)
-        return nums[k-1]
-
-        # M2.治法 快排 时间复杂度O(n)
-
+        # M2.分治法，思想类似快排 时间复杂度O(n)
         def partition(nums, l, r):
             pivot = nums[r]
             i = l-1
@@ -43,4 +40,15 @@ class Solution:
             else:
                 r = pivot_index - 1 
 
-    
+        # # M3.第k大/k小问题，直觉用堆，维护容量为k的最大堆，时间复杂度O(nlogk)
+        # import heapq
+        # heapq.heapify(nums)
+        # return heapq.nlargest(k,nums)[-1]
+
+        # # M4.PriorityQueue
+        # import queue
+        # q = queue.PriorityQueue()
+        # for i in nums: q.put(-i)
+        # for i in range(1, len(nums)+1):
+        #     temp = q.get()
+        #     if i == k: return -temp
