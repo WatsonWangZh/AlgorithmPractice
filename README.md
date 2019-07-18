@@ -48,6 +48,7 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/53.%20Maximum%20Subarray.py) |  |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |Matrix|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Matrix/54.%20Spiral%20Matrix.py) | 过程模拟，边界处理，标记已访问 |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |Sort|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Sort/56.%20Merge%20Intervals.py) | 先排序后合并 |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/69.%20Sqrt(x).py) | 二分查找 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |DynamicProgramming|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/DynamicProgramming/70.%20Climbing%20Stairs.py) |  |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) |Sort|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Sort/75.%20Sort%20Colors.py) | 两次遍历或两个指针 |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) |Stack&PriorityQueue, Tree|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Stack%26PriorityQueue/94.%20Binary%20Tree%20Inorder%20Traversal.py) | 二叉树中序遍历 M1.递归实现 M2.栈实现 |
