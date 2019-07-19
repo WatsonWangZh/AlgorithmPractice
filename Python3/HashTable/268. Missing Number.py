@@ -18,8 +18,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        # 数学方法
-        n = len(nums)
-        sum1 = sum(nums)
-        sums = (n+1) * n / 2
-        return sums - sum1
+        # M1.数学方法
+        # n = len(nums)
+        # sum1 = sum(nums)
+        # sums = (n+1) * n / 2
+        # return sums - sum1
+        # M2.位运算方法 缺失数组异或完整数组
+        missing =  len(nums)
+        for i, num in enumerate(nums):
+            missing ^= i ^ num
+        return missing 
+
