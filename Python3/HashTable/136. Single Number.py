@@ -19,7 +19,7 @@ class Solution:
         :rtype: int
         """
         '''
-        字典增删，留一即为
+        # M1.字典增删，留一即为
         times_seen_dict = {}
         for i in range(len(nums)):
             if nums[i] in times_seen_dict:
@@ -31,7 +31,7 @@ class Solution:
             if value == 1:
                 return key
         '''
-        # 空间为1，位运解决
+        # M2.空间为1，位运解决
         xor = 0
         for num in nums:
             xor ^= num
