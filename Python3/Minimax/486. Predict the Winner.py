@@ -26,7 +26,28 @@
 
 class Solution:
     def PredictTheWinner(self, nums):
-        pass
+        # M1.Recursive Time Limit Exceeded
+        # def helper(l, r, nums, t):
+        #     if l == r:
+        #         return t * nums[l]
+        #     elif t == 1:
+        #         return max((helper(l+1, r, nums, -t) + nums[l]),(helper(l, r-1, nums, -t) + nums[r]))
+        #     elif t == -1:
+        #         return min((helper(l+1, r, nums, -t) - nums[l]),(helper(l, r-1, nums, -t) - nums[r]))
+        # return helper(0, len(nums)-1, nums, 1) >= 0
+
+        # M2.dp
+        return self.predictWinner(nums, 0, len(nums)-1, dict()) >= 0
+
+    def predictWinner(self, nums, start, end, winDict):
+        if start == end:
+            return nums[start]
+        if (start, end) in winDict:
+            return winDict[(start, end)]
+        else:
+            winDict[(start, end)] = max(nums[start] - self.predictWinner(nums, start+1, end, winDict),
+                                        nums[end] - self.predictWinner(nums, start, end-1, winDict))
+            return winDict[(start, end)]
 
 def main():
     pass
