@@ -36,7 +36,7 @@ class Solution:
         #         return min((helper(l+1, r, nums, -t) - nums[l]),(helper(l, r-1, nums, -t) - nums[r]))
         # return helper(0, len(nums)-1, nums, 1) >= 0
 
-        # M2.dp
+        # M2.DP
         return self.predictWinner(nums, 0, len(nums)-1, dict()) >= 0
 
     def predictWinner(self, nums, start, end, winDict):
@@ -48,9 +48,3 @@ class Solution:
             winDict[(start, end)] = max(nums[start] - self.predictWinner(nums, start+1, end, winDict),
                                         nums[end] - self.predictWinner(nums, start, end-1, winDict))
             return winDict[(start, end)]
-
-def main():
-    pass
-
-if __name__ == "__main__":
-    main()
