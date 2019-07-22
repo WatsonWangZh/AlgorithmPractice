@@ -22,11 +22,25 @@ class TreeNode:
         self.right = None
 
 class Solution:
+    # 二叉搜索树的最小绝对差
+    # 由于BST的左<根<右，中序遍历结果即为有序，转化为在有序树组中求最小差值
     def getMinimumDifference(self, root: TreeNode) -> int:
-        pass
-
-def main():
-    pass
-
-if __name__ == "__main__":
-    main()
+        ret = []
+        self.helper(ret, root)
+        m = ret[-1] - ret[0]
+        last = None
+        for i in ret:
+            if last is None:
+                last = i
+            else:
+                if m is None or i - last < m:
+                    m = i - last
+                last = i
+        return m
+                
+        
+    def helper(self, ret, root):
+        if root:
+            self.helper(ret, root.left)
+            ret.append(root.val)
+            self.helper(ret, root.right)
