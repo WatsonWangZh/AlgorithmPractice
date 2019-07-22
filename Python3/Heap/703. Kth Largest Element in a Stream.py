@@ -16,14 +16,25 @@
 # kthLargest.add(4);   // returns 8
 # Note: 
 # You may assume that nums' length ≥ k-1 and k ≥ 1.
-
+import heapq
 class KthLargest:
-
+    # 在数据流中求第K大的元素,维护K个元素的最小堆
     def __init__(self, k: int, nums: List[int]):
-        pass
+        self.pool = nums
+        self.size = len(self.pool)
+        self.k = k
+        heapq.heapify(self.pool)
+        while self.size > k:
+            heapq.heappop(self.pool)
+            self.size -= 1
 
     def add(self, val: int) -> int:
-        pass
+        if self.size < self.k:
+            heapq.heappush(self.pool, val)
+            self.size += 1
+        elif val > self.pool[0]:
+            heapq.heapreplace(self.pool, val)
+        return self.pool[0]
 
 
 # Your KthLargest object will be instantiated and called as such:
