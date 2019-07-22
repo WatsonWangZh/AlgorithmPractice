@@ -35,10 +35,27 @@ class TreeNode:
 
 class Solution:
     def longestUnivaluePath(self, root: TreeNode) -> int:
-        pass
+        self.longestPath = 0
 
-def main():
-    pass
+        def helper(node):
+            if not node or (not node.left and not node.right):
+                return 0
 
-if __name__ == "__main__":
-    main()
+            leftp = helper(node.left)
+            rightp = helper(node.right)
+            
+            if node.left and node.right and node.left.val == node.right.val == node.val:
+                self.longestPath = max(self.longestPath, leftp + rightp + 2)
+                return max(leftp, rightp) + 1
+            
+            if node.left and node.val == node.left.val:
+                self.longestPath = max(self.longestPath, leftp + 1)
+                return leftp + 1
+            
+            if node.right and node.val == node.right.val:
+                self.longestPath = max(self.longestPath, rightp + 1)
+                return rightp + 1
+            return 0
+            
+        helper(root)
+        return self.longestPath
