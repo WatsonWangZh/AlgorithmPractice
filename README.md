@@ -49,6 +49,7 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/53.%20Maximum%20Subarray.py) |  |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |Matrix|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Matrix/54.%20Spiral%20Matrix.py) | 过程模拟，边界处理，标记已访问 |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |Sort|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Sort/56.%20Merge%20Intervals.py) | 先排序后合并 |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/66.%20Plus%20One.py) |  |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/69.%20Sqrt(x).py) | 二分查找 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |DynamicProgramming|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/DynamicProgramming/70.%20Climbing%20Stairs.py) |  |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |BinarySearch|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BinarySearch/74.%20Search%20a%202D%20Matrix.py) | 构造两段性 |
