@@ -51,6 +51,3 @@ class Solution(object):
                         head = head.next
                         slow = slow.next
         return None
-
-
-        
