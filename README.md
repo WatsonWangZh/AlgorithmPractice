@@ -52,6 +52,7 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) |String|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/String/58.%20Length%20of%20Last%20Word.py) | 长度之差 |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) |LinkedList|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LinkedList/61.%20Rotate%20List.py) | 双指针定边界 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/66.%20Plus%20One.py) | 进位处理 |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) |Math<br>String|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/String/67.%20Add%20Binary.py) | 逐位处理 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Math/69.%20Sqrt(x).py) | 二分查找 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |DynamicProgramming|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/DynamicProgramming/70.%20Climbing%20Stairs.py) |  |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |BinarySearch|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BinarySearch/74.%20Search%20a%202D%20Matrix.py) | 构造两段性 |
