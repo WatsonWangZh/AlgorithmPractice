@@ -17,10 +17,10 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    # 中序遍历 M1.递归实现 M2.栈实现
+    # 中序遍历 M1.递归实现 M2.迭代 栈实现
     
     # def inorderTraversal(self, root: TreeNode) -> List[int]:
-    #     # M1.递归实现
+    #     # M1.递归
     #     res = []
     #     self.helper(root, res)
     #     return res
@@ -33,7 +33,7 @@ class Solution:
     #     self.helper(root.right)
 
     def inorderTraversal(self, root: TreeNode) -> List[int]:
-        # M2.栈实现
+        # M2.迭代
         stack, res = [], []
         while stack or root:
             if root:
