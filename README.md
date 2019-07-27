@@ -46,6 +46,7 @@
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/35.%20Search%20Insert%20Position.py) | 折半查找，找到或越界返回 |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) |String|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/String/38.%20Count%20and%20Say.py) | 找出相同元素的个数，把个数和该元素存到新的string里 |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) |BackTracking|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/39.%20Combination%20Sum.py) |  |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) |BackTracking|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/46.%20Permutations.py) |  |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/53.%20Maximum%20Subarray.py) |  |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |Matrix|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Matrix/54.%20Spiral%20Matrix.py) | 过程模拟，边界处理，标记已访问 |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |Sort|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Sort/56.%20Merge%20Intervals.py) | 先排序后合并 |
