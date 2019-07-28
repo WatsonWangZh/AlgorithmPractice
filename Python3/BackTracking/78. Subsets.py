@@ -17,23 +17,23 @@
 
 class Solution(object):
     # M1.递归
-    def subsets(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        res = [[]]
-        self.dfs(nums, [], res)
-        return res
+    # def subsets(self, nums):
+    #     """
+    #     :type nums: List[int]
+    #     :rtype: List[List[int]]
+    #     """
+    #     res = [[]]
+    #     self.dfs(nums, [], res)
+    #     return res
 
-    def dfs(self, nums, temp, res):
-        if not nums:
-            return
-        for i in range(len(nums)):
-            temp.append(nums[i])
-            res.append(temp[:]) # deepcopy
-            self.dfs(nums[i+1:], temp, res)
-            temp.pop()
+    # def dfs(self, nums, temp, res):
+    #     if not nums:
+    #         return
+    #     for i in range(len(nums)):
+    #         temp.append(nums[i])
+    #         res.append(temp[:]) # deepcopy
+    #         self.dfs(nums[i+1:], temp, res)
+    #         temp.pop()
 
     # M2.非递归
     def subsets(self, nums):
