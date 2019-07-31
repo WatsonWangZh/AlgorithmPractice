@@ -51,6 +51,7 @@
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |BackTracking|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/40.%20Combination%20Sum%20II.py) |排序，跳过重复元素 |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |BackTracking|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/46.%20Permutations.py) | DFS+回溯 |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) |BackTracking|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/47.%20Permutations%20II.py) | 排序，跳过重复元素 |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |String|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/String/49.%20Group%20AnagramsI.py) | 三种方法求解 |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) |BackTracking|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/51.%20N-Queens.py) | :+1: :white_check_mark: |
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |BackTracking|Hard| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/BackTracking/52.%20N-Queens%20II.py) | :+1: :white_check_mark:|
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/Array/53.%20Maximum%20Subarray.py) |  |
