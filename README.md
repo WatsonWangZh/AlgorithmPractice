@@ -1,5 +1,5 @@
 # AlgorithmPractice
-<h3 align="center">算法知识储备 Algorithm Problems with Python3 </h3>
+<h3 align="center">算法知识储备 Algorithm Practice with Python3 </h3>
 <div align="center">
     <img src="0_icons/book.png">
 </div>
