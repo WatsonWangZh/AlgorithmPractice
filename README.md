@@ -158,6 +158,6 @@
 # KickStart Practice with C++
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
-| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) |  |
+| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) | Interactive Judging <br> 折半查找  |
 | 2 | [Mural](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
 | 3 | [KickStart Alarm](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058a56) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
