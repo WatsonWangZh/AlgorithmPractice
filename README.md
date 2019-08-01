@@ -155,9 +155,11 @@
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找或队列 |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/989.%20Add%20to%20Array-Form%20of%20Integer.py) | 逐位相加进位 |
 
+
 # KickStart Practice with Cpp
+
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
 | 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) | Interactive Judging <br> 折半查找  |
-| 2 | [Mural](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/2.%20Mural.cpp) | 定长最大子段和 |
-| 3 | [KickStart Alarm](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058a56) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
+| 2 | [Mural](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89) | Practice Round 2019 | Medium | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/2.%20Mural.cpp) | 定长最大子段和 |
+| 3 | [KickStart Alarm](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058a56) | Practice Round 2019 | Hard | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/3.%20KickStart%20Alarm.cpp) | TODO |
