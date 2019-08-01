@@ -1,5 +1,5 @@
 # AlgorithmPractice
-<h3 align="center">算法知识储备 Algorithm Practice with Python3 </h3>
+<h3 align="center">算法知识储备 Algorithm Practice with X </h3>
 <div align="center">
     <img src="0_icons/book.png">
 </div>
@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-Algorithm-blue.svg">
 </div>
 
-# LeetCode
+# LeetCode Practice with python3
 
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
@@ -155,7 +155,9 @@
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找或队列 |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/989.%20Add%20to%20Array-Form%20of%20Integer.py) | 逐位相加进位 |
 
-# Google KickStart
+# KickStart Practice with C++
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math<br>Array | Easy | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/KickStart/) |  |
+| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
+| 2 | [Mural](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
+| 3 | [KickStart Alarm](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058a56) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
