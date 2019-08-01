@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-Algorithm-blue.svg">
 </div>
 
-# LeetCode Practice with python3
+# LeetCode Practice with Python3
 
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
@@ -158,6 +158,6 @@
 # KickStart Practice with C++
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
-| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
+| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) |  |
 | 2 | [Mural](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
 | 3 | [KickStart Alarm](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058a56) | Practice Round 2019 | Easy | [Cpp](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Cpp/KickStart/) |  |
