@@ -16,31 +16,40 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        # if len(s) < 2 or s == s[::-1]:
-        #     return s
+        # 暴力枚举 O(n^2)
+        # 由于字符串长度小于1000，因此我们可以用 O(n^2) 的算法枚举所有可能的情况。
+        # 首先枚举回文串的中心 i，然后分两种情况向两边扩展边界，直到遇到不同字符为止:
+            # 回文串长度是奇数，则依次判断 s[i−k]==s[i+k],k=1,2,3,…s[i−k]==s[i+k],k=1,2,3,…
+            # 回文串长度是偶数，则依次判断 s[i−k]==s[i+k−1],k=1,2,3,…s[i−k]==s[i+k−1],k=1,2,3,…
+        # 如果遇到不同字符，则我们就找到了以 i 为中心的回文串边界。
+        # 时间复杂度分析：一共两重循环，所以时间复杂度是 O(n^2)。
+
+        # M1. 暴力枚举 中心扩散法
+        n = len(s)
+        res = ""
+        for i in range(0, n):
+            temp_odd = str(s[i])
+            k = 1
+            while (i-k) >= 0 and (i+k) < n and s[i-k] == s[i+k]:
+                temp_odd = str(s[i-k]) + temp_odd + str(s[i+k])
+                k += 1
+            temp_even = ''
+            k = 1
+            while (i-k) >= 0 and (i+k-1) < n and s[i-k] == s[i+k-1]:
+                temp_even = str(s[i-k]) + temp_even + str(s[i+k-1])
+                k += 1
+            temp = temp_odd if (len(temp_odd) > len(temp_even)) else temp_even
+            res = temp if (len(temp) > len(res)) else res
+        return res
         
-        # 1.中心扩散法
-        # n = len(s)
-        # start,maxlen=0,1
-        # for i in range(n):
-        #     odd = s[i-maxlen-1:i+1]
-        #     even = s[i-maxlen:i+1]
-        #     if i - maxlen - 1 >= 0 and odd == odd[::-1]:
-        #         start = i - maxlen - 1
-        #         maxlen += 2
-        #         continue
-        #     if i - maxlen >= 0 and even == even[::-1]:
-        #         start = i - maxlen
-        #         maxlen += 1
-        # return s[start:start+maxlen]
-        
-        # 2.DP方法
+        # M2. DP方法
         # dp = [[False] * n] * n ：为浅拷贝，
         # 例子dp = [[False] * 2] * 2，dp[0][0]=True, dp = [[True, False], [True, False]]
-        # n = len(s)
-        # maxlen = 0
         # Wrong Point:
         # dp = [ [False] * n] * n
+
+        # n = len(s)
+        # maxlen = 0
         # dp = [[False for _ in range(n)] for _ in range(n)]
         # res = ""
         # for end in range(n):
@@ -49,44 +58,5 @@ class Solution(object):
         #         if dp[start][end]:
         #             if end - start + 1 > maxlen:
         #                 maxlen = end - start + 1
-        #                 res = s[start:end+1]
-                        
+        #                 res = s[start:end+1]             
         # return res
-
-        if len(s)<2 or s == s[::-1]:
-            return s
-        lens=len(s)
-        maxlen=0
-        start=0
-        # 长度为奇数
-        for i in range(lens):
-            j = i - 1
-            k = i + 1
-            while j >= 0 and k < lens and s[j] == s[k]:
-                if k - j + 1 > maxlen:
-                    maxlen = k - j + 1
-                    start = j
-                j -= 1
-                k += 1
-        # 长度为偶数
-        for i in range(lens):
-            j = i
-            k = i + 1
-            while j >= 0 and k < lens and s[j] == s[k]:
-                if k - j + 1 > maxlen:
-                    maxlen = k - j + 1
-                    start = j
-                j -= 1
-                k += 1
-
-        if maxlen>0:
-            return s[start:start+maxlen]
-        return s[0]
-
-def main():
-    s = Solution()
-    print(s.longestPalindrome("babad"))
-    print(s.longestPalindrome("cbbd"))
-
-if __name__ == "__main__":
-    main()
