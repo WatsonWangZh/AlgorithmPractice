@@ -44,7 +44,6 @@ class Solution(object):
         # 如果非空，因为出度为2，所以diff += 2。
 
         diff = 1
-
         preorder = preorder.split(',')
         for x in preorder:
             diff -= 1
@@ -71,4 +70,3 @@ class Solution(object):
             while len(stack) >= 3 and stack[-2:] == ['#','#'] and stack[-3] != '#':
                 stack[-3:] = '#'
         return stack == ['#']
-        
