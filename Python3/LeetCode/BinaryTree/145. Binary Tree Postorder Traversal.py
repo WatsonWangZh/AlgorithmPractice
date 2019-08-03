@@ -19,21 +19,21 @@ class TreeNode(object):
 class Solution(object):
 
     # M1. Recursion
-    # def __init__(self):
-    #     self.res = []
+    def __init__(self):
+        self.res = []
         
-    # def postorderTraversal(self, root):
-    #     """
-    #     :type root: TreeNode
-    #     :rtype: List[int]
-    #     """
-    #     if root:
-    #         self.postorderTraversal(root.left)
-    #         self.postorderTraversal(root.right)
-    #         self.res.append(root.val)
-    #     return self.res
+    def postorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        if root:
+            self.postorderTraversal(root.left)
+            self.postorderTraversal(root.right)
+            self.res.append(root.val)
+        return self.res
 
-    # M2. Iteration 
+    # M2. Iteration with stack
     # Root Right Left , then reverse it
     def postorderTraversal(self, root):
         """
