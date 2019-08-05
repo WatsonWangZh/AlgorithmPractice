@@ -35,32 +35,3 @@ class Solution:
             if prices[i+1] > prices[i]:
                 maxprofit += prices[i+1] - prices[i]
         return maxprofit
-
-    # 错误解法: 生硬划分为三段，
-    # def maxProfit(self, prices):
-    #     maxprofit = 0
-    #     for i in range(len(prices)):
-    #         for j in range(i+1,len(prices)):
-    #             temppro = self.helper(prices[:i]) + self.helper(prices[i:j+1]) + self.helper(prices[j:])
-    #         if  temppro > maxprofit:
-    #             maxprofit = temppro
-    #     return maxprofit
-    
-    # def helper(self, prices):
-    #     maxProfit = 0
-    #     minPrice = float('inf')
-    #     for p in prices:
-    #         minPrice = min(p, minPrice)
-    #         profit = p - minPrice
-    #         if profit > maxProfit:
-    #             maxProfit = profit
-    #     return maxProfit
-
-def main():
-    s = Solution()
-    print(s.maxProfit([7,1,5,3,6,4]))
-    print(s.maxProfit([1,2,3,4,5]))
-    print(s.maxProfit([7,6,4,3,1]))
-
-if __name__ == "__main__":
-    main()
