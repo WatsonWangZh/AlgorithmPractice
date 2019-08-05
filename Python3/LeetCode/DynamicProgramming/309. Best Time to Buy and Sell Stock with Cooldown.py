@@ -16,21 +16,21 @@ class Solution(object):
         :rtype: int
         """
         # M1. https://www.youtube.com/watch?v=Ggzbo9eVrLU
-        if not prices or len(prices)<2: 
-            return 0
+        # if not prices or len(prices)<2: 
+        #     return 0
 
-        n=len(prices)
-        unhold, hold = [0] * n, [0] * n
+        # n=len(prices)
+        # unhold, hold = [0] * n, [0] * n
 
-        hold[0] = -prices[0]
-        hold[1] = max(-prices[0], -prices[1])
-        unhold[1] = max(0, prices[1]-prices[0])
+        # hold[0] = -prices[0]
+        # hold[1] = max(-prices[0], -prices[1])
+        # unhold[1] = max(0, prices[1]-prices[0])
 
-        for i in range(2,n):
-            hold[i] = max(hold[i-1], unhold[i-2] - prices[i])
-            unhold[i] = max(unhold[i-1], hold[i-1] + prices[i])
+        # for i in range(2,n):
+        #     hold[i] = max(hold[i-1], unhold[i-2] - prices[i])
+        #     unhold[i] = max(unhold[i-1], hold[i-1] + prices[i])
 
-        return unhold[n-1]
+        # return unhold[n-1]
 
     def maxProfit(self, prices):
         """
