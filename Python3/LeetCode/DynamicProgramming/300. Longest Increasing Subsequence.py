@@ -17,6 +17,7 @@ class Solution(object):
         # 初始状态：dp = [1] * len(nums)；
         # 状态方程：dp[i] = max(dp[i], dp[j] + 1) if nums[j] < nums[i] 对于j=0,1…i-1；
     # 时间复杂度O(n^2)。
+    
     # def lengthOfLIS(self, nums):
     #     """
     #     :type nums: List[int]
@@ -33,7 +34,11 @@ class Solution(object):
     #                 dp[i] = max(dp[i], dp[j] + 1)
     #     return max(dp)
 
-
+    # 优化，时间复杂度(nlogn)
+    # 对于一个上升子序列，显然当前最后一个元素越小，越有利于添加新的元素，这样LIS长度自然更长。
+    # 维护一arr数组，数组元素表示长度为i+1的LIS结尾元素的最小值(保证每一位都是最小值)， 
+    # 此时arr数组的长度就是LIS的长度
+    # 对于每一个num，如果≥arr[-1], 直接插入尾部；否则找到arr第一个大于num的位置, 替换
     def lengthOfLIS(self, nums):
         """
         :type nums: List[int]
