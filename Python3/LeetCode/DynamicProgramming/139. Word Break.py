@@ -31,12 +31,12 @@ class Solution(object):
         # 那么此时dp[i]也就为True了。按照这种递推关系，我们就可以判断目标字符串能否成功拆分。
 
         n = len(s)
-        f = [False for i in range(n+1)]
-        f[0] = True
+        dp = [False for i in range(n+1)]
+        dp[0] = True
         for i in range(n):
-            if f[i]:
+            if dp[i]:
                 for j in wordDict:
                     l = len(j)
                     if i+l <= n and s[i:i+l] == j:
-                        f[i+l] = True
-        return f[n]
+                        dp[i+l] = True
+        return dp[n]
