@@ -37,5 +37,3 @@ class Solution:
         # M3. 求对数，然后乘方，判断得数是否相等
         return n > 0 and 3 ** round(math.log(n,3)) == n
         
-        # M4. 对数换底公式
-        return (n > 0 and int(math.log(n, 10) / math.log(3, 10)) - math.log(n, 10) / math.log(3, 10) == 0)
