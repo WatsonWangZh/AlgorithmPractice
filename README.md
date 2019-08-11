@@ -188,6 +188,7 @@
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找或队列 |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/989.%20Add%20to%20Array-Form%20of%20Integer.py) | 逐位相加进位 |
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/999.%20Available%20Captures%20for%20Rook.py) |暴力枚举|
+| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) |Array<br>HashTable|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1002.%20Find%20Common%20Characters.py) | 小根堆 |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) |Greedy|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Greedy/1005.%20Maximum%20Sum%20Of%20Array%20After%20K%20Negations.py) | 小根堆 |
 | 1006 | [Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) |Math|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1006.%20Clumsy%20Factorial.py) | 直接计算<br>eval函数|
 
