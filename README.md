@@ -198,6 +198,7 @@
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) |Greedy|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Greedy/1005.%20Maximum%20Sum%20Of%20Array%20After%20K%20Negations.py) | 小根堆 |
 | 1006 | [Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) |Math|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1006.%20Clumsy%20Factorial.py) | 直接计算<br>eval函数|
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1009.%20Complement%20of%20Base%2010%20Integer.py) |进制转化 |
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) |Math<br>Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.py) |统计频次+组合计算|
 
 
 # KickStart Practice with Cpp
