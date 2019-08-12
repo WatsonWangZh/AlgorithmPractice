@@ -23,6 +23,7 @@ class Solution(object):
         :type heightMap: List[List[int]]
         :rtype: int
         """
+        # https://www.cnblogs.com/grandyang/p/5928987.html
         if not heightMap or not heightMap[0]:
             return 0
         m = len(heightMap)
