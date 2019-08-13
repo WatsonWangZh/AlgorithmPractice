@@ -200,6 +200,7 @@
 | 1006 | [Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) |Math|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1006.%20Clumsy%20Factorial.py) | 直接计算<br>eval函数|
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1009.%20Complement%20of%20Base%2010%20Integer.py) |进制转化 |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) |Math<br>Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.py) | 统计频次+组合计算 |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |Array<br>BinarySearch|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1011.%20Capacity%20To%20Ship%20Packages%20Wihtin%20D%20Days.py) | 二分+模拟 |
 
 
 # KickStart Practice with Cpp
