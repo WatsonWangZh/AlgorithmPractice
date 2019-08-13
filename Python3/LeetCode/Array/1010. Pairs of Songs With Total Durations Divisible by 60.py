@@ -30,7 +30,7 @@ class Solution(object):
         :type time: List[int]
         :rtype: int
         """
-        # 统计频次+组合计算 O(n)
+        # 统计频次 + 组合计算 O(n)
         # 统计time数组中模60的种类和每种模的频次，然后根据组合数统计他们对答案的贡献。
         # 比如 20 + 40 == 60， 那么答案就加 cnt[20] * cnt[40],
         # 因为遍历过程中会再重复计算一次 cnt[40] * cnt[20], 所以答案要除以2。
@@ -50,5 +50,5 @@ class Solution(object):
                 result += cnt(key) * cnt[60-key]
 
         result //= 2
-        
+
         return result
