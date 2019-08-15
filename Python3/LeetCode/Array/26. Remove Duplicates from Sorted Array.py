@@ -1,6 +1,5 @@
 # Given a sorted array nums, remove the duplicates in-place 
 # such that each element appear only once and return the new length.
-
 # Do not allocate extra space for another array,
 # you must do this by modifying the input array in-place with O(1) extra memory.
 
@@ -9,7 +8,6 @@
 # Your function should return length = 2, 
 # with the first two elements of nums being 1 and 2 respectively.
 # It doesn't matter what you leave beyond the returned length.
-
 # Example 2:
 # Given nums = [0,0,1,1,1,2,2,3,3,4],
 # Your function should return length = 5, 
@@ -36,6 +34,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        # 双指针移动 O(n)
+        # 如果nums的长度是0，直接返回0。
+        # 初始令uniqueCount为0，num从位置1开始遍历，若发现nums[i]和nums[uniqueCount]不相等，则说明找到新的元素，并且nums[++uniqueCount]赋值为nums[i]。
+        # num向后移动直到末尾。
+
+        if not nums:
+            return 0
+
         uniqueCount = 0
         lastUnique = None
         for num in nums:
@@ -45,11 +51,3 @@ class Solution(object):
                 uniqueCount += 1
                 
         return uniqueCount
-
-def main():
-    s = Solution()
-    print(s.removeDuplicates([1,1,2]))
-    print(s.removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
-
-if __name__ == "__main__":
-    main()
