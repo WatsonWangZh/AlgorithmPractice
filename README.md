@@ -211,6 +211,7 @@
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |Array<br>BinarySearch|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1011.%20Capacity%20To%20Ship%20Packages%20Wihtin%20D%20Days.py) | 二分+模拟 |
 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1013.%20Partition%20Array%20Into%20Three%20Parts%20With%20Equal%20Sum.py) | 线性扫描 |
 | 1014 | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) |Array|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1014.%20Best%20Sightseeing%20Pair.py) | 线性扫描 |
+| 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) |Math|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1015.%20Smallest%20Integer%20Divisible%20by%20K.py) | 暴力枚举 |
 
 
 # KickStart Practice with Cpp
