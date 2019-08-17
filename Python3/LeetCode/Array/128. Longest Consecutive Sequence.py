@@ -26,24 +26,18 @@ class Solution:
         :rtype: int
         """
         # 哈希 O(n)
-        # 从前往后扫描整个数组，过程中用两个哈希表mpl, mpr维护所有连续整数序列，两个哈希表分别将序列的左右端点映射成序列长度。
-        # 然后我们考虑如何维护哈希表：
-        # 当我们遍历到一个新的数 x 时，先查找 x 左右两边分别存在多长的连续序列，两个值分别是mpr[x-1]和mpl[x+1]，
-        # 分别记为l和r，此时我们可以将左右两部分和 x 拼起来，形成一个更长的连续整数序列，然后更新新序列的左右两端的值：
-            # 新序列的左端点是 x-left，更新哈希表：tr_left[x - left] = max(tr_left[x - left], left + 1 + right);
-            # 新序列的右端点是 x+right，更新哈希表：tr_right[x + right] = max(tr_right[x + right], left + 1 + right);
-        # 最后我们不要忘记用新序列的长度left+right+1更新答案。
-
+        # 构建hashset，删除当前元素，判断当前元素的-1，+1是否在hashset中，向两端扩展，直到不能扩展
         # 时间复杂度分析：对于每个数，仅被遍历一次，且遍历时只涉及常数次哈希表的增改查操作，所以总时间复杂度是 O(n)。
 
-        ans = 0
+        result = 0
         nums = set(nums)
-        
         mpl = mpr = {}
+
         for num in nums:
             l = mpl[num-1] if num-1 in mpl else num
             r = mpr[num+1] if num+1 in mpr else num 
             mpr[l] = r 
             mpl[r] = l 
-            ans = max(r-l+1, ans)
-        return ans  
+            result = max(r-l+1, result)
+
+        return result  
