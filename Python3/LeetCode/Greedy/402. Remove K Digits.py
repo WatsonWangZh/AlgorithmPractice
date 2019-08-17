@@ -24,7 +24,12 @@
 
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
-
+        """
+        :type num: str
+        :type k: int
+        :rtype: str
+        """
+        # 栈实现，入栈时判别pop k与push
         if k == len(num):
             return '0'
         

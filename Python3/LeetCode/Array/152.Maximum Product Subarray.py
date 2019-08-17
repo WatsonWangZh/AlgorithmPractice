@@ -43,7 +43,3 @@ class Solution(object):
             return result
         else:
             return max(self.maxProduct(nums[negIndex[0]+1:]), self.maxProduct(nums[:negIndex[-1]]))
-
-s = Solution()
-print(s.maxProduct([2,3,-2,4]))
-print(s.maxProduct([-2,0,-1]))
