@@ -213,7 +213,7 @@
 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) |Array|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1013.%20Partition%20Array%20Into%20Three%20Parts%20With%20Equal%20Sum.py) | 线性扫描 |
 | 1014 | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) |Array|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1014.%20Best%20Sightseeing%20Pair.py) | 线性扫描 |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) |Math|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1015.%20Smallest%20Integer%20Divisible%20by%20K.py) | 暴力枚举 |
-
+| 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) |String|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.py) | 子串枚举 |
 
 # KickStart Practice with Cpp
 
