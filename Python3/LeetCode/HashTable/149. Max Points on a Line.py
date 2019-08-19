@@ -69,5 +69,4 @@ class Solution(object):
                 slopes[slope] = slopes.get(slope,0) + mm[P[j]]
             maxP = max(maxP, mm[P[i]] + max(slopes.values()))
 
-        return maxP     
-        
+        return maxP
