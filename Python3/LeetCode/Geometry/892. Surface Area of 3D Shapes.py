@@ -26,8 +26,8 @@ class Solution:
     def surfaceArea(self, grid):
         n = len(grid)
         res = 0
-        for i in range(grid):
-            for j in range(grid):
+        for i in range(n):
+            for j in range(n):
                 if grid[i][j] > 0:
                     res += 4 * grid[i][j] + 2
                 if i > 0:
