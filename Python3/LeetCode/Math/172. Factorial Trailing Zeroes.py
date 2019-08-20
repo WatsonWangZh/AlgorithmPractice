@@ -32,10 +32,10 @@ class Solution(object):
         # M1.
         res = 0
         while n:
-            res += n/5
-            n/=5
+            res += n//5
+            n //= 5
         return res
         
         # M2.
-        return 0 if n < 5 else n / 5 + self.trailingZeroes(n/5)
+        return 0 if n < 5 else n // 5 + self.trailingZeroes(n//5)
         
