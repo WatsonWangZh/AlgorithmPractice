@@ -227,6 +227,7 @@
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) |Math|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1015.%20Smallest%20Integer%20Divisible%20by%20K.py) | 暴力枚举 |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) |String|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.py) | 子串枚举 |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) |String<br>Stack|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/1021.%20Remove%20Outermost%20Parentheses.py) | 栈 |
+| 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |BinaryTree|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/BinaryTree/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | :+1:<br>DFS |
 
 # KickStart Practice with Cpp
 
