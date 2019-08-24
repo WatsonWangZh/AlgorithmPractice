@@ -52,8 +52,5 @@ class Solution(object):
                 dfs(r.left, temp_sum)
             if r.right:
                 dfs(r.right, temp_sum)
-
         dfs(root, 0)
         return self.ans % self.mod
-
-        
