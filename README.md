@@ -4,8 +4,13 @@
     <img src="0_icons/book.png">
 </div>
 <div align="center">
+    <img src="https://img.shields.io/badge/%3E-Algorithm-blue.svg">
     <img src="https://img.shields.io/badge/%3E-Leetcode-blue.svg">
-    <img src="https://img.shields.io/badge/-Algorithm-blue.svg">
+    <img src="https://img.shields.io/badge/%3E-KickStart-blue.svg">
+</div>
+<div align="center">
+    <img src="https://img.shields.io/badge/%3E-Python3-Green.svg">
+    <img src="https://img.shields.io/badge/%3E-Cpp-Green.svg">
 </div>
 
 # LeetCode Practice with Python3 
