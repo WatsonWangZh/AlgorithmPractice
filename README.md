@@ -14,7 +14,7 @@
 </div>
 
 # LeetCode Practice with Python3 
-#### Total:1088 | Locked:172 | Available:916 | Solved:225 | ToSolve:691 (2019.08.25 周更)
+#### Total:1092 | Locked:177 | Available:915 | Solved:244 | ToSolve:671 (2019.09.01 周更)
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math<br>Array | Easy | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
