@@ -105,11 +105,13 @@ class Solution:
         # M3. DP Bottom-Up Variation
         dp = [[False for i in range(len(p)+1)] for j in range(len(s)+1)]   # dp[i][j] - s[:i] and p[:j]
         dp[0][0] = True
+        
         # Base cases for comparing against empty string
         for i in range(1, len(p)+1):
             if p[i-1] == '*':
                 if i >= 2:
                     dp[0][i] = dp[0][i-2]
+
         # fill out 2d array with recurrance relation
         for i in range(1, len(s)+1):
             for j in range(1, len(p)+1):
