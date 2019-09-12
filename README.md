@@ -262,6 +262,8 @@
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) |Heap<br>BFS|Hard| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Heap/407.%20Trapping%20Rain%20Water%20II.py) | :+1::white_check_mark:<br>BFS |
 | 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) |String|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/408.%20Valid%20Word%20Abbreviation.py) | 双指针<br>字符数字分别处理 |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) |HashTable|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/HashTable/409.%20Longest%20Palindrome.py) | 奇偶分别考虑 |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) |String|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/412.%20
+Fizz%20Buzz.py) | 简单明了 |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |Greedy|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Greedy/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py) | :+1:<br>排序贪心 |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) |Array<br>HashTable<br>BinarySearch|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/454.%204Sum%20II.py) | :+1::white_check_mark:<br>哈希转化 |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) |Greedy|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Greedy/455.%20Assign%20Cookies.py) | 贪心 |
