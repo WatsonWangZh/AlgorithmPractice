@@ -18,7 +18,7 @@
 **Total: 284 / 1104 |   Locked: 38 / 182 | Free: 246 / 922 | ToSolve: 144 / 676 (2019.09.08 周更)**
   
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
-|:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
+|:---:| :--: | :---------:| :-----------:| :---------:| :--------------------: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math<br>Array | Easy | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Math<br>LinkedList | Medium | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/2.%20Add%20Two%20Numbers.py) |  |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | String<br>Substring | Medium |[Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py) | HashTable<br>Deque |
