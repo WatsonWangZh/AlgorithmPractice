@@ -18,7 +18,7 @@
 **Total: 284 / 1104 |   Locked: 38 / 182 | Free: 246 / 922 | ToSolve: 144 / 676 (2019.09.08 周更)**
   
 | # | Title | Category | Difficulty | Solution | Basic idea(One line) |
-|:---:| :--: | :---------:| :-----------:| :---------:| :--------------------: |
+|:---:| :-----: | :---------:| :-----------:| :---------:| :--------------------: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math<br>Array | Easy | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Math<br>LinkedList | Medium | [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/2.%20Add%20Two%20Numbers.py) |  |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | String<br>Substring | Medium |[Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py) | HashTable<br>Deque |
@@ -250,6 +250,7 @@
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) |DynamicProgramming<br>BinarySearch|Hard| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/DynamicProgramming/354.%20Russian%20Doll%20Envelopes.py) | :+1::ballot_box_with_check:<br>常规DP<br>DP优化      |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) |Design<br>HashTable<br>Heap|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Design/355.%20Design%20Twitter.py) | :+1::ballot_box_with_check: |
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) |Design<br>HashTable|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Design/359.%20Logger%20Rate%20Limiter.py) | :lock:<br>哈希表简单应用 |
+| 362 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) |Design|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Design/362.%20Design%20Hit%20Counter.py) | :+1::lock:<br>Deque应用<br>空间换时间 |
 | 364 | [Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/) |Array<br>DFS|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/DFS&BFS/364.%20Nested%20List%20Weight%20Sum%20II.py) | :+1::white_check_mark::lock:<br>统计层序和再逆序求和 |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) |BinarySearch|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/BinarySearch/374.%20Guess%20Number%20Higher%20or%20Lower.py) | 折半查找 |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |DynamicProgramming|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/DynamicProgramming/375.%20Guess%20Number%20Higher%20or%20Lower%20II.py) | DP+MiniMax |
