@@ -32,12 +32,15 @@ class Solution:
             self.convertIsland(row, col-1, grid)
         return 
     
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands(self, grid):
+        # BFS 置0数1
         # When you hit a '1', go through all the island and convert values to 0.
-        # At end, this is 1 island, and then continue to find other '1's that haven't been zeroed out because they weren't in the island.
+        # At end, this is 1 island, and then continue to find other '1's that haven't been zeroed out 
+        # because they weren't in the island.
         
-        if(grid == []):
+        if not grid:
             return 0
+
         row, col = 0, 0 
         maxRow, maxCol = len(grid),len(grid[0]) 
         count = 0
