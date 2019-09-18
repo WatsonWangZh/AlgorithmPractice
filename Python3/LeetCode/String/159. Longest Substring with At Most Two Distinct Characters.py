@@ -49,19 +49,32 @@ class Solution(object):
         # return max_len
 
         # M2. 滑动窗口 实现之二 O(n)
-        d = collections.Counter()
-        # same as collections.defaultdic(int)
-        q = collections.deque([])
-        max_len = 0
+        # d = collections.Counter()
+        # # same as collections.defaultdic(int)
+        # q = collections.deque([])
+        # max_len = 0
 
-        for c in s:
-            q.append(c)
-            d[c] += 1
-            while len(d)>2:
-                old_c = q.popleft()
-                d[old_c] -= 1
-                if d[old_c] == 0:
-                    del d[old_c]
-            max_len = max(max_len, len(q))
+        # for c in s:
+        #     q.append(c)
+        #     d[c] += 1
+        #     while len(d)>2:
+        #         old_c = q.popleft()
+        #         d[old_c] -= 1
+        #         if d[old_c] == 0:
+        #             del d[old_c]
+        #     max_len = max(max_len, len(q))
             
-        return max_len
+        # return max_len
+
+        # 二刷
+        dic = {}
+        startIdx, maxLen = 0, 0
+        
+        for i, c in enumerate(s):
+            dic[c] = i
+            if len(dic) > 2:
+                startIdx = min(dic.values())
+                del dic[s[startIdx]]
+                startIdx += 1
+            maxLen = max(maxLen, i - startIdx + 1)
+        return maxLen
