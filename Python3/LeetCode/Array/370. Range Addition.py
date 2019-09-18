@@ -31,11 +31,11 @@ class Solution(object):
         :rtype: List[int]
         """
         # M1. 蛮力 O(n*k) TLE
-        res = [0 for _ in range(length)]
-        for start, end, val in updates:
-            for i in range(start, end+1):
-                res[i] += val
-        return res
+        # res = [0 for _ in range(length)]
+        # for start, end, val in updates:
+        #     for i in range(start, end+1):
+        #         res[i] += val
+        # return res
 
         # https://leetcode.com/problems/range-addition/solution/
         # https://www.cnblogs.com/grandyang/p/5628786.html
