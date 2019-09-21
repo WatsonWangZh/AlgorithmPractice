@@ -56,6 +56,5 @@ class Solution(object):
         for i in range(len(s)):
             if s[i] not in valids:
                 return False
-            newS += valids[s[i]]
-            return False
-        return True
+            newS = valids[s[i]] + newS
+        return s != newS
