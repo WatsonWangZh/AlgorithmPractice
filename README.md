@@ -349,6 +349,7 @@
 | 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1056.%20Confusing%20Number.py) | :lock:<br>记录翻转对 |
 | 1065 | [Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/) |String<br>Trie|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/1065.%20Index%20Pairs%20of%20a%20String.py) | :lock:<br>查找排序 |
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) |Array<br>HashTable<br>Sort<br>Heap|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
+| 1176 | [Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) |Array<br>SlidingWindow|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1176.%20Diet%20Plan%20Performance.py) | :lock:<br>滑动窗口 |
 
 
 # KickStart Practice with Cpp
