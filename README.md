@@ -347,6 +347,7 @@
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) |BinaryTree<br>DFS|Medium| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/BinaryTree/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.py) |DFS|
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) |Greedy|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Greedy/1029.%20Two%20City%20Scheduling.py) |排序贪心|
 | 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number/) |Math|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Math/1056.%20Confusing%20Number.py) | :lock:<br>记录翻转对 |
+| 1065 | [Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/) |String<br>Trie|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/String/1065.%20Index%20Pairs%20of%20a%20String.py) | :lock:<br>查找排序 |
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) |Array<br>HashTable<br>Sort<br>Heap|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
 
 
