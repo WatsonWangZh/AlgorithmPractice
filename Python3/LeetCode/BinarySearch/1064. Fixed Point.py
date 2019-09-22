@@ -32,4 +32,9 @@ class Solution(object):
         :type A: List[int]
         :rtype: int
         """
-        
+        if not A:
+            return -1
+        for i in range(len(A)):
+            if A[i] == i:
+                return i
+        return -1
