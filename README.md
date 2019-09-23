@@ -1,7 +1,7 @@
 # AlgorithmPractice
 <h3 align="center">算法知识储备 Algorithm Practice with X </h3>
 <div align="center">
-    <img src="0_icons/book.png">
+    <img src="res/book.png">
 </div>
 <div align="center">
     <img src="https://img.shields.io/badge/%3E-Algorithm-blue.svg">
