@@ -360,7 +360,7 @@
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) |Array<br>HashTable<br>Sort<br>Heap|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
 | 1150 | [Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/) |Array<br>BinarySearch|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1150.%20Check%20If%20a%20Number%20Is%20Majority%20Element%20in%20a%20Sorted%20Array.py) | :lock:<br>水题 |
 | 1176 | [Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) |Array<br>SlidingWindow|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Array/1176.%20Diet%20Plan%20Performance.py) | :lock:<br>滑动窗口 |
-
+| 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/) |Array<br>Greedy|Easy| [Python3](https://github.com/WatsonWangZh/LeetCodePractice/blob/master/Python3/LeetCode/Greedy/1196.%20How%20Many%20Apples%20Can%20You%20Put%20into%20the%20Basket.py) | :lock:<br>轻者优先 |
 
 # KickStart Practice with Cpp
 
