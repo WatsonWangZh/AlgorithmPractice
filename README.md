@@ -302,6 +302,7 @@
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) |RejectionSampling|Medium| [Python3](Python3/LeetCode/RejectionSampling/470.%20Implement%20Rand10()%20Using%20Rand7().py) |  |
 | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) |BackTracking|Medium| [Python3](Python3/LeetCode/BackTracking/473.%20Matchsticks%20to%20Square.py) | DFS<br>长者为先 |
 | 475 | [Heaters](https://leetcode.com/problems/heaters/) |Array<br>BinarySearch|Easy| [Python3](Python3/LeetCode/Array/475.%20Heaters.py) |贪心法<br>二分法 |
+| 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) |Greedy|Medium| [Python3](Python3/LeetCode/Greedy/484.%20Find%20Permutation.py) | :+1::lock:<br>贪心栈 |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) |Array|Easy| [Python3](Python3/LeetCode/Array/485.%20Max%20Consecutive%20Ones.py) | 水题 |
 | 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) |DynamicProgramming<br>MiniMax|Medium| [Python3](Python3/LeetCode/Minimax/486.%20Predict%20the%20Winner.py) | DP |
 | 487 | [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/) |TwoPointers<br>SlidingWindow|Medium| [Python3](Python3/LeetCode/TwoPointers/487.%20Max%20Consecutive%20Ones%20II.py) | :lock:<br>分两段<br>滑动窗口<br>流式记录 |
