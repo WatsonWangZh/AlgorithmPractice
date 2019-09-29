@@ -300,6 +300,7 @@
 | 465 | [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) |Array<br>Math|Hard| [Python3](Python3/LeetCode/Math/465.%20Optimal%20Account%20Balancing.py) | :+1::top::white_check_mark::lock:<br>哈希表<br>集合<br>DFS<br>综合应用 |
 | 469 | [Convex Polygon](https://leetcode.com/problems/convex-polygon/) |Array<br>Math|Medium| [Python3](Python3/LeetCode/Math/469.%20Convex%20Polygon.py) | :+1::white_check_mark::lock:<br>凸多边形性质<br>叉乘应用 |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) |RejectionSampling|Medium| [Python3](Python3/LeetCode/RejectionSampling/470.%20Implement%20Rand10()%20Using%20Rand7().py) |  |
+| 471 | [Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/) |String>br>DynamicProgramming|Hard| [Python3](Python3/LeetCode/DynamicProgramming/471.%20Encode%20String%20with%20Shortest%20Permutation.py) | :+1::top::lock:<br>二维DP |
 | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) |BackTracking|Medium| [Python3](Python3/LeetCode/BackTracking/473.%20Matchsticks%20to%20Square.py) | DFS<br>长者为先 |
 | 475 | [Heaters](https://leetcode.com/problems/heaters/) |Array<br>BinarySearch|Easy| [Python3](Python3/LeetCode/Array/475.%20Heaters.py) |贪心法<br>二分法 |
 | 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) |Greedy|Medium| [Python3](Python3/LeetCode/Greedy/484.%20Find%20Permutation.py) | :+1::lock:<br>贪心栈 |
