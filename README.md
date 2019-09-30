@@ -318,6 +318,7 @@
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) |Array<br>HashTable|Medium| [Python3](Python3/LeetCode/Array/525.%20Contiguous%20Array.py) | :+1:<br>前缀和 + 哈希表转化 |
 | 527 | [Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) |String<br>Sort|Hard| [Python3](Python3/LeetCode/String/527.%20Word%20Abbreviation.py) | :+1::white_check_mark::lock:<br>规则分桶<br>LCP求解<br>消除冲突 |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) |BinaryTree|Easy| [Python3](Python3/LeetCode/BinarySearchTree/530.%20Minimum%20Absolute%20Difference%20in%20BST.py) | 中序遍历<br>有序数组中找最小差值 |
+| 531 | [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) |Array<br>DFS|Medium| [Python3](Python3/LeetCode/DFS&BFS/531.%20Lonely%20Pixel%20I.py) |:+1::lock:<br>两次遍历|
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |BinaryTree|Easy| [Python3](Python3/LeetCode/BinaryTree/543.%20Diameter%20of%20Binary%20Tree.py) | DFS |
 | 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) |UnionFind<br>DFS|Medium| [Python3](Python3/LeetCode/UnionFind/547.%20Friend%20Circles.py) | :+1:<br>并查集入门题 |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) |String|Easy| [Python3](Python3/LeetCode/String/551.%20Student%20Attendance%20Record%20I.py) |模拟|
