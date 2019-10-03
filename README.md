@@ -319,6 +319,7 @@
 | 527 | [Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) |String<br>Sort|Hard| [Python3](Python3/LeetCode/String/527.%20Word%20Abbreviation.py) | :+1::white_check_mark::lock:<br>规则分桶<br>LCP求解<br>消除冲突 |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) |BinaryTree|Easy| [Python3](Python3/LeetCode/BinarySearchTree/530.%20Minimum%20Absolute%20Difference%20in%20BST.py) | 中序遍历<br>有序数组中找最小差值 |
 | 531 | [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) |Array<br>DFS|Medium| [Python3](Python3/LeetCode/DFS&BFS/531.%20Lonely%20Pixel%20I.py) |:+1::lock:<br>两次遍历|
+| 533 | [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/) |Array<br>DFS|Medium| [Python3](Python3/LeetCode/DFS&BFS/531.%20Lonely%20Pixel%20II.py) |:lock:<br>|
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |BinaryTree|Easy| [Python3](Python3/LeetCode/BinaryTree/543.%20Diameter%20of%20Binary%20Tree.py) | DFS |
 | 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) |UnionFind<br>DFS|Medium| [Python3](Python3/LeetCode/UnionFind/547.%20Friend%20Circles.py) | :+1:<br>并查集入门题 |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) |String|Easy| [Python3](Python3/LeetCode/String/551.%20Student%20Attendance%20Record%20I.py) |模拟|
@@ -371,6 +372,7 @@
 | 1085 | [Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/) |Array|Easy| [Python3](Python3/LeetCode/Array/1085.%20Sum%20of%20Digits%20in%20the%20Minimum%20Number.py) | :lock:<br>模拟|
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) |Array<br>HashTable<br>Sort<br>Heap|Easy| [Python3](Python3/LeetCode/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
 | 1099 | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) |Array|Easy| [Python3](Python3/LeetCode/Array/1099.%20Two%20Sum%20Less%20Than%20K.py) | :lock:<br>双指针|
+| 1118 | [Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/) |HashTable|Easy| [Python3](Python3/LeetCode/HashTable/1188.%20Number%20of%Days%20in%20a%20Month.py) | :lock:<br>分闰平|
 | 1150 | [Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/) |Array<br>BinarySearch|Easy| [Python3](Python3/LeetCode/Array/1150.%20Check%20If%20a%20Number%20Is%20Majority%20Element%20in%20a%20Sorted%20Array.py) | :lock:<br>水题 |
 | 1176 | [Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) |Array<br>SlidingWindow|Easy| [Python3](Python3/LeetCode/Array/1176.%20Diet%20Plan%20Performance.py) | :lock:<br>滑动窗口 |
 | 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/) |Array<br>Greedy|Easy| [Python3](Python3/LeetCode/Greedy/1196.%20How%20Many%20Apples%20Can%20You%20Put%20into%20the%20Basket.py) | :lock:<br>轻者优先 |
