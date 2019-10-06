@@ -372,7 +372,8 @@
 | 1085 | [Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/) |Array|Easy| [Python3](Python3/LeetCode/Array/1085.%20Sum%20of%20Digits%20in%20the%20Minimum%20Number.py) | :lock:<br>模拟|
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) |Array<br>HashTable<br>Sort<br>Heap|Easy| [Python3](Python3/LeetCode/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
 | 1099 | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) |Array|Easy| [Python3](Python3/LeetCode/Array/1099.%20Two%20Sum%20Less%20Than%20K.py) | :lock:<br>双指针|
-| 1118 | [Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/) |HashTable|Easy| [Python3](Python3/LeetCode/HashTable/1188.%20Number%20of%Days%20in%20a%20Month.py) | :lock:<br>分闰平|
+| 1118 | [Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/) |HashTable|Easy| [Python3](Python3/LeetCode/HashTable/1118.%20Number%20of%Days%20in%20a%20Month.py) | :lock:<br>分闰平|
+| 1119 | [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/) |String|Easy| [Python3](Python3/LeetCode/String/1119.%20Remove%20Vowels%20from%20a%20String.py) | :lock:<br>字符串基本操作|
 | 1133 | [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/) |Array<br>HashTable|Easy| [Python3](Python3/LeetCode/HashTable/1133.%20Largest%20Unique%20Number.py) | :+1::lock:<br>字典<br>调库<br>排序过滤 |
 | 1134 | [Armstrong Number](https://leetcode.com/problems/armstrong-number/) |Math|Easy| [Python3](Python3/LeetCode/Math/1134.%20Armstrong%20Number.py) |:lock:<br>水题 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) |Math<br>Recursion|Easy| [Python3](Python3/LeetCode/Recursion/1137.%20N-th%20Tribonacci%20Number.py) |:+1::white_check_mark::lock:<br>DP<br>记忆递归<br>记忆DP |
