@@ -314,6 +314,7 @@
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) |Stack|Medium| [Python3](Python3/LeetCode/Stack&PriorityQueue/503.%20Next%20Greater%20Element%20II.py) | 遍历查找(TLE)<br>单调栈 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7/) |Math|Easy| [Python3](Python3/LeetCode/Math/504.%20Base%207.py) | Flag and Mod |
 | 505 | [The Maze II](https://leetcode.com/problems/the-maze-ii/) |Array<br>DFS<br>BFS|Medium| [Python3](Python3/LeetCode/DFS&BFS/505.%20The%20Maze%20II.py) | :+1::white_check_mark::lock:<br>DFS |
+| 510 | [Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/) |BinarySearchTree|Medium| [Python3](Python3/LeetCode/BinarySearchTree/510.%20Inorder%20Successors%20in%20BST%20II.py) | :+1::lock:<br>分情况讨论<br>右分支有无 |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) |DynamicProgramming|Medium| [Python3](Python3/LeetCode/DynamicProgramming/518.%20Coin%20Change%202.py) | :+1:<br>DP完全背包 |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) |Array<br>HashTable|Medium| [Python3](Python3/LeetCode/Array/525.%20Contiguous%20Array.py) | :+1:<br>前缀和 + 哈希表转化 |
 | 527 | [Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) |String<br>Sort|Hard| [Python3](Python3/LeetCode/String/527.%20Word%20Abbreviation.py) | :+1::white_check_mark::lock:<br>规则分桶<br>LCP求解<br>消除冲突 |
