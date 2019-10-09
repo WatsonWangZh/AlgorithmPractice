@@ -327,6 +327,7 @@
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) |Array<br>HashTable|Medium| [Python3](Python3/LeetCode/Array/554.%20Brick%20Wall.py) |:+1::white_check_mark:<br>贪心+哈希表|
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |String<br>Math|Medium| [Python3](Python3/LeetCode/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |Array<br>HashTable|Medium| [Python3](Python3/LeetCode/Array/560.%20Subarray%20Sum%20Equals%20K.py) |前缀和 + 哈希表|
+| 588 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) |Design|Hard| [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>分别处理文件与文件夹|
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) |Design<br>String|Easy| [Python3](Python3/LeetCode/Design/604.%20Design%20Compressed%20String%20Iterator.py) |:white_check_mark::lock:<br>Demand-Computation|
 | 616 | [Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) |String|Medium| [Python3](Python3/LeetCode/String/616.%20Add%20Bold%20Tag%20in%20String.py) |:lock:<br>Bold Flag<br>与758题雷同|
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) |Array<br>HashTable|Easy| [Python3](Python3/LeetCode/Array/624.%20Maximum%20Distance%20in%20Arrays.py) |:lock:<br>|
