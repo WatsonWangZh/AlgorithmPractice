@@ -332,7 +332,7 @@
 | 616 | [Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) |String|Medium| [Python3](Python3/LeetCode/String/616.%20Add%20Bold%20Tag%20in%20String.py) |:lock:<br>Bold Flag<br>与758题雷同|
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) |Array<br>HashTable|Easy| [Python3](Python3/LeetCode/Array/624.%20Maximum%20Distance%20in%20Arrays.py) |:lock:<br>|
 | 635 | [Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) |String<br>Design|Medium| [Python3](Python3/LeetCode/Design/635.%20Design%20Log%20Storage%20System.py) | :+1::lock:<br>提取比较|
-| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) |Array<br>Math|Easy| [Python3](Python3/LeetCode/Math/643.%20Maximum%20Average%20Subarray%20I.py) |:lock:<br>遍历更新|
+| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) |Array<br>Math|Easy| [Python3](Python3/LeetCode/Math/643.%20Maximum%20Average%20Subarray%20I.py) |遍历更新|
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) |BinaryTree|Medium| [Python3](Python3/LeetCode/BinaryTree/652.%20Find%20Duplicate%20Subtrees.py) | :+1:DFS<br>哈希<br>关注局部|
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |BinarySearchTree|Easy| [Python3](Python3/LeetCode/BinarySearchTree/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py) | 中序遍历<br>已排序数组两数之和为target |
 | 664 | [Strange Printer](https://leetcode.com/problems/strange-printer/) |DynamicProgramming<br>DFS|Hard| [Python3](Python3/LeetCode/DynamicProgramming/664.%20Strange%20Printer.py) |:+1::white_check_mark:<br>DP进阶题目 |
