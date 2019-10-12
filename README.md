@@ -392,6 +392,7 @@
 | 1180 | [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/) |Math<br>String|Easy| [Python3](Python3/LeetCode/Math/1180.%20Count%20Substrings%20with%20Only%20One%20Distinct%20Letter.py) | :lock:<br>组合数<br>找规律 |
 | 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/) |Array<br>Greedy|Easy| [Python3](Python3/LeetCode/Greedy/1196.%20How%20Many%20Apples%20Can%20You%20Put%20into%20the%20Basket.py) | :lock:<br>轻者优先 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) |Array|Easy| [Python3](Python3/LeetCode/Array/1200.%20Minimum%20Absolute%20Difference.py) | :lock:<br>相邻差最小 |
+| 1213 | [Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) |Array<br>HashTable<br>TwoPointers|Easy| [Python3](Python3/LeetCode/TwoPointers/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py) | :lock:<br>Set交集<br>Counter计数<br>三指针 |
 
 # KickStart Practice with Cpp
 
