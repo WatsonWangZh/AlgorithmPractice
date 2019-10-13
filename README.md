@@ -17,7 +17,7 @@
 ### [LeetCode 全部题目 无需会员](http://206.81.6.248:12306/leetcode/algorithm)
 **Total: 356 / 1121 |   Locked: 107 / 186 | Free: 249 / 935 | ToSolve: 79 / 686 (2019.09.29 周更)**
 
-| # | Title | Category | Difficulty <br> Solution | Basic idea(One line) |
+| # | Title | Category | Difficulty <br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math<br>Array | Easy<br>[Python3](Python3/LeetCode/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Math<br>LinkedList | Medium<br>[Python3](Python3/LeetCode/Math/2.%20Add%20Two%20Numbers.py) |  |
@@ -329,6 +329,7 @@
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/554.%20Brick%20Wall.py) |:+1::white_check_mark:<br>贪心+哈希表|
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |String<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/560.%20Subarray%20Sum%20Equals%20K.py) |前缀和 + 哈希表|
+| 582 | [Kill Process](https://leetcode.com/problems/kill-process/) |BinaryTree<br>Queue|Medium<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>字典记录父子关系<br>队列实现逐层杀死|
 | 588 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) |Design|Hard<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>分别处理文件与文件夹|
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) |Design<br>String|Easy<br> [Python3](Python3/LeetCode/Design/604.%20Design%20Compressed%20String%20Iterator.py) |:white_check_mark::lock:<br>Demand-Computation|
 | 616 | [Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) |String|Medium<br> [Python3](Python3/LeetCode/String/616.%20Add%20Bold%20Tag%20in%20String.py) |:lock:<br>Bold Flag<br>与758题雷同|
