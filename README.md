@@ -15,7 +15,7 @@
 
 # LeetCode Practice with Python3 
 ### [LeetCode 全部题目 无需会员](http://206.81.6.248:12306/leetcode/algorithm)
-**Total: 356 / 1121 |   Locked: 107 / 186 | Free: 249 / 935 | ToSolve: 79 / 686 (2019.09.29 周更)**
+**Total: 376 / 1133 |   Locked: 125 / 188 | Free: 251 / 945 | ToSolve: 63 / 694 (2019.10.13 周更)**
 
 | # | Title | Category | Difficulty <br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
@@ -398,7 +398,7 @@
 
 # KickStart Practice with Cpp
 
-| # | Title | Category | Difficulty<br> Solution | Basic idea(One line) |
+| # | Title | Category | Difficulty<br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
 | 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy <br> [Cpp](Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) | Interactive Judging <br> 折半查找  |
 | 2 | [Mural](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89) | Practice Round 2019 | Medium <br> [Cpp](Cpp/KickStart/Practice%20Round%202019/2.%20Mural.cpp) | 定长最大子段和 |
