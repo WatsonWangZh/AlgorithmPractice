@@ -16,6 +16,7 @@
 # LeetCode Practice with Python3 
 ### [LeetCode 全部题目 无需会员](http://206.81.6.248:12306/leetcode/algorithm)
 **Total: 356 / 1121 |   Locked: 107 / 186 | Free: 249 / 935 | ToSolve: 79 / 686 (2019.09.29 周更)**
+
 | # | Title | Category | Difficulty <br> Solution | Basic idea(One line) |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Math<br>Array | Easy<br>[Python3](Python3/LeetCode/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
