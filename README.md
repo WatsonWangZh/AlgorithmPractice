@@ -318,6 +318,7 @@
 | 510 | [Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/) |BinarySearchTree|Medium<br> [Python3](Python3/LeetCode/BinarySearchTree/510.%20Inorder%20Successors%20in%20BST%20II.py) | :+1::lock:<br>分情况讨论<br>右分支有无 |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/518.%20Coin%20Change%202.py) | :+1:<br>DP完全背包 |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) |String|Easy<br> [Python3](Python3/LeetCode/String/520.%20Detect%20Capital.py) | 字符串基本函数 |
+| 521 | [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) |String|Easy<br> [Python3](Python3/LeetCode/String/521.%20Longest%20Uncommon%20Subsequence%20II.py) | BrainTeaser |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/525.%20Contiguous%20Array.py) | :+1:<br>前缀和 + 哈希表转化 |
 | 527 | [Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) |String<br>Sort|Hard<br> [Python3](Python3/LeetCode/String/527.%20Word%20Abbreviation.py) | :+1::white_check_mark::lock:<br>规则分桶<br>LCP求解<br>消除冲突 |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) |BinaryTree|Easy<br> [Python3](Python3/LeetCode/BinarySearchTree/530.%20Minimum%20Absolute%20Difference%20in%20BST.py) | 中序遍历<br>有序数组中找最小差值 |
