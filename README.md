@@ -327,6 +327,7 @@
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |BinaryTree|Easy<br> [Python3](Python3/LeetCode/BinaryTree/543.%20Diameter%20of%20Binary%20Tree.py) | DFS |
 | 545 | [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) |BinaryTree|Medium<br> [Python3](Python3/LeetCode/BinaryTree/545.%20Boundary%20of%20Binary%20Tree.py) | :+1::ballot_box_with_check::lock:<br>分部处理<br>左右逆序 |           
 | 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) |UnionFind<br>DFS|Medium<br> [Python3](Python3/LeetCode/UnionFind/547.%20Friend%20Circles.py) | :+1:<br>并查集入门题 |
+| 548 | [Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/548.%20Split%20Array%20with%20Equal%20Sum.py) | :+1::top::white_check_mark::lock:<br>贪心<br>前缀和<br>HashTable优化<br>中点分两段 |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) |String|Easy<br> [Python3](Python3/LeetCode/String/551.%20Student%20Attendance%20Record%20I.py) |模拟|
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/554.%20Brick%20Wall.py) |:+1::white_check_mark:<br>贪心+哈希表|
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |String<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
