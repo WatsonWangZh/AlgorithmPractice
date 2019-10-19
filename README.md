@@ -278,6 +278,7 @@
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) |ReservoirSampling|Medium<br> [Python3](Python3/LeetCode/ReservoirSampling/382.%20Linked%20List%20Random%20Node.py) | Two Pass<br>蓄水池采样 |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) |Random|Medium<br> [Python3](Python3/LeetCode/Random/384.%20Shuffle%20an%20Array.py) | random互换 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) |HashTable<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/389.%20Find%20the%20Difference.py) |  |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) |BackTracking<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/401.%20Binary%20Watch.py) |遍历count验证 |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) |Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/402.%20Remove%20K%20Digits.py) | 栈的应用 |
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) |Heap<br>BFS|Hard<br> [Python3](Python3/LeetCode/Heap/407.%20Trapping%20Rain%20Water%20II.py) | :+1::white_check_mark:<br>BFS |
 | 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) |String|Easy<br> [Python3](Python3/LeetCode/String/408.%20Valid%20Word%20Abbreviation.py) | :lock:<br>双指针<br>字符数字分别处理 |
