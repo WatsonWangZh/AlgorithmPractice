@@ -286,6 +286,7 @@
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) |HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/409.%20Longest%20Palindrome.py) | 奇偶分别考虑 |
 | 411 | [Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/) |BackTracking<br>BitManipulation|Hard<br> [Python3](Python3/LeetCode/String/411.%20Minimum%20Unique%20Word%20Abbreviation.py) |:+1::top::ballot_box_with_check::lock:<br>边缩写边检查<br>Abbreviation综合考察 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) |String|Easy<br> [Python3](Python3/LeetCode/String/412.%20Fizz%20Buzz.py) | 简单明了 |
+| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) |Array<br>Sort|Easy<br> [Python3](Python3/LeetCode/Sort/414.%20Third%20Maximum%20Number.py) |三变量更新|
 | 418 | [Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/) |Array<br>DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/418.%20Sentence%20Screen%20Fitting.py) |:+1::white_check_mark::lock:<br>建表查表<br>冲突回滚 |
 | 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/) |Array<br>String<br>Math|Easy<br> [Python3](Python3/LeetCode/Array/422.%20Valid%20Word%20Square.py) | :lock:<br>越界判断<br>对应比较 |
 | 425 | [Word Squares](https://leetcode.com/problems/word-squares/) |String<br>BackTracking<br>Trie|Hard<br> [Python3](Python3/LeetCode/String/425.%20Word%20Squares.py) | :+1::top::white_check_mark::lock:<br>前缀字典<br>前缀树经典应用 |
