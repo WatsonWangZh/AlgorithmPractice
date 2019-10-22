@@ -408,6 +408,7 @@
 | 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/) |Array<br>Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/1196.%20How%20Many%20Apples%20Can%20You%20Put%20into%20the%20Basket.py) | :lock:<br>轻者优先 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1200.%20Minimum%20Absolute%20Difference.py) | :lock:<br>相邻差最小 |
 | 1213 | [Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) |Array<br>HashTable<br>TwoPointers|Easy<br> [Python3](Python3/LeetCode/TwoPointers/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py) | :lock:<br>Set交集<br>Counter计数<br>三指针 |
+| 1228 | [Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/) |Array<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/1228.%20Missing%20Number%20In%20Arithmetic%20Progression.py) | :lock:<br>找出差<br>逐个核查 |
 
 # KickStart Practice with Cpp
 
