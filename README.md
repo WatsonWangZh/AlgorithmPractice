@@ -406,6 +406,7 @@
 | 1176 | [Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) |Array<br>SlidingWindow|Easy<br> [Python3](Python3/LeetCode/Array/1176.%20Diet%20Plan%20Performance.py) | :lock:<br>滑动窗口 |
 | 1180 | [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/) |Math<br>String|Easy<br> [Python3](Python3/LeetCode/Math/1180.%20Count%20Substrings%20with%20Only%20One%20Distinct%20Letter.py) | :lock:<br>组合数<br>找规律 |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1185.%20Day%20of%20the%20Week.py) | 形参同名问题 |
+| 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) |HashTable<br>String|Easy<br> [Python3](Python3/LeetCode/HashTable/1189.%20Maximum%20Number%20of%20Balloons.py) |计数看瓶颈 |
 | 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/) |Array<br>Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/1196.%20How%20Many%20Apples%20Can%20You%20Put%20into%20the%20Basket.py) | :lock:<br>轻者优先 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1200.%20Minimum%20Absolute%20Difference.py) | :lock:<br>相邻差最小 |
 | 1213 | [Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) |Array<br>HashTable<br>TwoPointers|Easy<br> [Python3](Python3/LeetCode/TwoPointers/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py) | :lock:<br>Set交集<br>Counter计数<br>三指针 |
@@ -424,3 +425,9 @@
 | 4 | [Training](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/00000000000698d6) | Round A 2019 | Easy <br>[Cpp](Cpp/KickStart/Round%20A%202019/1.%20Training.cpp) |:+1::white_check_mark:<br>排序<br>前缀和<br>遍历 |
 | 5 | [Parcels](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/000000000006987d) | Round A 2019 | Hard <br> [Cpp](Cpp/KickStart/Round%20A%202019/2.%20Parcels.cpp) |:+1::heart_eyes::white_check_mark:<br>队列BFS<br>二分查找<br>[曼哈顿距离与切比雪夫距离互化](https://www.cnblogs.com/SGCollin/p/9636955.html) |
 | 6 | [Contention](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/0000000000069881) | Round A 2019 | Hard <br> [Cpp](Cpp/KickStart/Round%20A%202019/3.%20Contention.cpp) |:+1::ballot_box_with_check:<br>Game may better<br>贪心思路 |
+
+# 剑指offer Practice with Cpp
+
+| # | Title | Category | Difficulty<br> Solution | Basic idea |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy <br> [Cpp](Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) | Interactive Judging <br> 折半查找  |
