@@ -4,13 +4,14 @@
     <img src="res/book.png">
 </div>
 <div align="center">
-    <img src="https://img.shields.io/badge/%3E-Algorithm-blue.svg">
     <img src="https://img.shields.io/badge/%3E-Leetcode-blue.svg">
     <img src="https://img.shields.io/badge/%3E-KickStart-blue.svg">
+    <img src="https://img.shields.io/badge/%3E-剑指Offer-blue.svg">
 </div>
 <div align="center">
     <img src="https://img.shields.io/badge/%3E-Python3-Green.svg">
     <img src="https://img.shields.io/badge/%3E-Cpp-Green.svg">
+    <img src="https://img.shields.io/badge/%3E-TestHabit-Green.svg">
 </div>
 
 # LeetCode Practice with Python3 
@@ -431,4 +432,4 @@
 
 | # | Title | Category | Difficulty<br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Number Guessing](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4) | Practice Round 2019 | Easy <br> [Cpp](Cpp/KickStart/Practice%20Round%202019/1.%20Number%20Guessing.cpp) | Interactive Judging <br> 折半查找  |
+| 3 | [数组中重复的数字](Cpp/CodingInterview/3.%20DuplicationInArray/3.%20DuplicationInArray.md) | 数据结构 | Easy <br> [DuplicationInArray](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArray.cpp)<br>[DuplicationInArrayNoEdit](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArrayNoEdit.cpp) | 排序<br>HashTable<br>数组特点<br>抽屉原理 |
