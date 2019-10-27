@@ -16,7 +16,7 @@
 
 # LeetCode Practice with Python3 
 ### [LeetCode 全部题目 无需会员](http://206.81.6.248:12306/leetcode/algorithm)
-**Total: 386 / 1138 |   Locked: 127 / 190 | Free: 259 / 948 | ToSolve: 63 / 689 (2019.10.20 周更)**
+**Total: 400 / 1147 |   Locked: 131 / 195 | Free: 269 / 952 | ToSolve: 64 / 683 (2019.10.27 周更)**
 
 | # | Title | Category | Difficulty <br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
@@ -337,7 +337,7 @@
 | 533 | [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/) |Array<br>DFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/531.%20Lonely%20Pixel%20II.py) |:lock:<br>|
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) |String<br>TwoPointers|Easy<br> [Python3](Python3/LeetCode/TwoPointers/541.%20Reverse%20String%20II.py) |分段处理<br>两端双指针|
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |BinaryTree|Easy<br> [Python3](Python3/LeetCode/BinaryTree/543.%20Diameter%20of%20Binary%20Tree.py) | DFS |
-| 544 | [Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) |Array<br>Half-Flod|Medium<br> [Python3](Python3/LeetCode/Array/544.%20Output%20Contest%20Matches.py) |折半两端匹配 |
+| 544 | [Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) |Array<br>Half-Flod|Medium<br> [Python3](Python3/LeetCode/Array/544.%20Output%20Contest%20Matches.py) |:lock:<br>折半两端匹配 |
 | 545 | [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) |BinaryTree|Medium<br> [Python3](Python3/LeetCode/BinaryTree/545.%20Boundary%20of%20Binary%20Tree.py) | :+1::ballot_box_with_check::lock:<br>分部处理<br>左右逆序 |           
 | 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) |UnionFind<br>DFS|Medium<br> [Python3](Python3/LeetCode/UnionFind/547.%20Friend%20Circles.py) | :+1:<br>并查集入门题 |
 | 548 | [Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/548.%20Split%20Array%20with%20Equal%20Sum.py) | :+1::top::white_check_mark::lock:<br>贪心<br>前缀和<br>HashTable优化<br>中点分两段 |
