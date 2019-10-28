@@ -318,6 +318,7 @@
 | 490 | [The Maze](https://leetcode.com/problems/the-maze/) |Arrays<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/490.%20The%20Maze.py) | :+1::white_check_mark::lock:<br>DFS |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) |Stack|Easy<br>[Python3](Python3/LeetCode/Stack&PriorityQueue/496.%20Next%20Greater%20Element%20I.py) | 遍历查找<br>单调栈与hashmap |
 | 499 | [The Maze III](https://leetcode.com/problems/the-maze-iii/) |Array<br>DFS<br>BFS|Hard<br> [Python3](Python3/LeetCode/DFS&BFS/499.%20The%20Maze%20III.py) |:+1::white_check_mark::lock:<br>DFS|
+| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) |Math<br>HashTable|Easy<br> [Python3](Python3/LeetCode/Math/500.%20Keyboard%20Row.py) |字符串in操作<br>集合元素求交集|
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) |BinarySearchTree|Easy<br> [Python3](Python3/LeetCode/BinarySearchTree/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.py) |中序遍历<br>遍历查相邻|
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) |Stack|Medium<br> [Python3](Python3/LeetCode/Stack&PriorityQueue/503.%20Next%20Greater%20Element%20II.py) | 遍历查找(TLE)<br>单调栈 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/504.%20Base%207.py) | Flag and Mod |
