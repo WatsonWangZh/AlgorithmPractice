@@ -349,6 +349,7 @@
 | 582 | [Kill Process](https://leetcode.com/problems/kill-process/) |BinaryTree<br>Queue|Medium<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>字典记录父子关系<br>队列实现逐层杀死|
 | 588 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) |Design|Hard<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>分别处理文件与文件夹|
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) |Design<br>String|Easy<br> [Python3](Python3/LeetCode/Design/604.%20Design%20Compressed%20String%20Iterator.py) |:white_check_mark::lock:<br>Demand-Computation|
+| 611 | [Image Smoother](https://leetcode.com/problems/image-smoother/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/611.%20Image%20Smoother.py) |依题意操作|
 | 616 | [Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) |String|Medium<br> [Python3](Python3/LeetCode/String/616.%20Add%20Bold%20Tag%20in%20String.py) |:lock:<br>Bold Flag<br>与758题雷同|
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/Array/624.%20Maximum%20Distance%20in%20Arrays.py) |:lock:<br>|
 | 625 | [Minimum Factorization](https://leetcode.com/problems/minimum-factorization/) |Math<br>Recursion|Medium<br> [Python3](Python3/LeetCode/Recursion/625.%20Minimum%20Factorization.py) |:lock:<br>贪心因式分解|
