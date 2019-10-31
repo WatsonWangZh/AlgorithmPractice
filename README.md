@@ -442,3 +442,4 @@
 | # | Title | Category | Difficulty<br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
 | 3 | [数组中重复的数字 其一](Cpp/CodingInterview/3.%20DuplicationInArray/3.%20DuplicationInArray.md) | Array | Easy <br> [DuplicationInArray](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArray.cpp) | 排序<br>HashTable<br>数组特点 |
+| 3 | [数组中重复的数字 其二](Cpp/CodingInterview/3.%20DuplicationInArray/3.%20DuplicationInArrayNoEdit.md) | Array<br>BinarySearch | Easy <br> [DuplicationInArrayNoEdit](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArrayNoEdit.cpp) | 数组特点<br>抽屉原理<br>二分查找 |
