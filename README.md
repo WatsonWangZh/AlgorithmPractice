@@ -441,4 +441,4 @@
 
 | # | Title | Category | Difficulty<br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 3 | [数组中重复的数字](Cpp/CodingInterview/3.%20DuplicationInArray/3.%20DuplicationInArray.md) | 数据结构 | Easy <br> [DuplicationInArray](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArray.cpp)<br>[DuplicationInArrayNoEdit](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArrayNoEdit.cpp) | 排序<br>HashTable<br>数组特点<br>抽屉原理 |
+| 3 | [数组中重复的数字 其一](Cpp/CodingInterview/3.%20DuplicationInArray/3.%20DuplicationInArray.md) | Array | Easy <br> [DuplicationInArray](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArray.cpp)<br>[DuplicationInArrayNoEdit](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArrayNoEdit.cpp) | 排序<br>HashTable<br>数组特点 |
