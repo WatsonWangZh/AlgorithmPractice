@@ -373,6 +373,7 @@
 | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) |String<br>HashTable|Easy<br> [Python3](Python3/LeetCode/String/734.%20Sentence%20Similarity.py) | :lock:<br>Tuple与Set|
 | 737 | [Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) |String<br>DFS<br>UnionFind|Medium<br> [Python3](Python3/LeetCode/String/737.%20Sentence%20Similarity%20II.py) | :+1::lock:<br>并查集|
 | 751 | [IP to CIDR](https://leetcode.com/problems/ip-to-cidr/) |Greedy<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/751.%20IP%20to%20CIDR.py) | :+1::lock:<br>贪心最大块<br>位运算查找|
+| 755 | [Pour Water](https://leetcode.com/problems/pour-water/) |Array<br>Simulation|Medium<br> [Python3](Python3/LeetCode/Array/755.%20Pour%20Water.py) | :lock:<br>模拟流动<br>左边优先|
 | 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string/) |String|Easy<br> [Python3](Python3/LeetCode/String/758.%20Bold%20Words%20in%20String.py) |:+1::lock:<br>Bold Flag|
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) |String|Easy<br> [Python3](Python3/LeetCode/String/771.%20Jewels%20and%20Stones.py) | 水题 |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/) |String<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/800.%20Similar%20RGB%20Color.py) | :lock:<br>蛮力求解<br>数学分析 |
