@@ -379,6 +379,7 @@
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/) |String<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/800.%20Similar%20RGB%20Color.py) | :lock:<br>蛮力求解<br>数学分析 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy<br> [Python3](Python3/LeetCode/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) |Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/860.%20Lemonade%20Change.py) | 贪心 |
+| 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/883.%20Projection%20Area%20of%203D%20Shapes.py) |规律计算|
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) |Math<br>Geometry|Easy<br>[Python3](Python3/LeetCode/Geometry/892.%20Surface%20Area%20of%203D%20Shapes.py) | 找规律问题 |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) |Array|Medium<br> [Python3](Python3/LeetCode/Array/918.%20Maximum%20Sum%20Circular%20Subarray.py) | :+1::white_check_mark:<br>前缀和单调队列|
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |String|Easy<br> [Python3](Python3/LeetCode/String/929.%20Unique%20Email%20Addresses.py) | 哈希表<br>字符串处理 |
