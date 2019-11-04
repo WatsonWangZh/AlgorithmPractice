@@ -66,6 +66,7 @@
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/46.%20Permutations.py) | DFS+回溯 |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/47.%20Permutations%20II.py) | 排序，跳过重复元素 |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |String|Medium<br>  [Python3](Python3/LeetCode/String/49.%20Group%20Anagrams.py) | 三种方法求解 |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |Math<br>BinarySearch|Medium<br>  [Python3](Python3/LeetCode/Math/50.%20Pow(x,%20n).py) |库函数<br>蛮力法<br>二分法|
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/51.%20N-Queens.py) | :+1: :white_check_mark: |
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |BackTracking|Hard<br>  [Python3](Python3/LeetCode/BackTracking/52.%20N-Queens%20II.py) | :+1: :white_check_mark:|
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/53.%20Maximum%20Subarray.py) |  |
