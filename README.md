@@ -452,3 +452,4 @@
 | 3 | [数组中重复的数字 其二](Cpp/CodingInterview/3.%20DuplicationInArray/3.%20DuplicationInArrayNoEdit.md) | Array<br>BinarySearch | Easy <br> [DuplicationInArrayNoEdit](Cpp/CodingInterview/3.%20DuplicationInArray/DuplicationInArrayNoEdit.cpp) | 数组特点<br>抽屉原理<br>二分查找 |
 | 4 | [二维数组中的查找](Cpp/CodingInterview/4.%20FindInPartiallySortedMatrix/4.%20FindInPartiallySortedMatrix.md) | Array<br>Math | Easy <br> [DuplicationInArrayNoEdit](Cpp/CodingInterview/4.%20FindInPartiallySortedMatrix/4.%20FindInPartiallySortedMatrix.cpp) |:+1:<br>单调性扫描 |
 | 5 | [替换空格](Cpp/CodingInterview/5.%20ReplaceSpaces/5.%20ReplaceSpaces.md) | String | Easy <br> [ReplaceSpaces](Cpp/CodingInterview/5.%20ReplaceSpaces/5.%20ReplaceSpaces.cpp) |线性从前往后<br>双指针从后往前 |
+| 6 | [从尾到头打印链表](Cpp/CodingInterview/6.%20PrintListInReversedOrder/6.%20PrintListInReversedOrder.md) | List | Easy <br> [PrintListInReversedOrder](Cpp/CodingInterview/6.%20PrintListInReversedOrder/6.%20PrintListInReversedOrder.cpp) |栈性质迭代<br>递归本质栈 |
