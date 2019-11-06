@@ -386,6 +386,7 @@
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) |Math<br>Geometry|Easy<br>[Python3](Python3/LeetCode/Geometry/892.%20Surface%20Area%20of%203D%20Shapes.py) | 找规律问题 |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) |Array|Medium<br> [Python3](Python3/LeetCode/Array/918.%20Maximum%20Sum%20Circular%20Subarray.py) | :+1::white_check_mark:<br>前缀和单调队列|
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |String|Easy<br> [Python3](Python3/LeetCode/String/929.%20Unique%20Email%20Addresses.py) | 哈希表<br>字符串处理 |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) |HashTable<br>TwoPointers|Medium<br> [Python3](Python3/LeetCode/TwoPointers/930.%20Binary%20Subarrays%20With%20Sum.py) | :+1::ballot_box_with_check::top:<br>记录基本元素位置<br>前缀和+counts|
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy<br> [Python3](Python3/LeetCode/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找<br>队列 |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/989.%20Add%20to%20Array-Form%20of%20Integer.py) | 逐位相加进位 |
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/999.%20Available%20Captures%20for%20Rook.py) |暴力枚举|
