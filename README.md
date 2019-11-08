@@ -425,6 +425,7 @@
 | 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1154.%20Day%20of%20the%20Year.py) |分段处理<br>特判闰年 |
 | 1165 | [Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/) |String|Easy<br> [Python3](Python3/LeetCode/String/1165.%20Single-Row%20Keyboard.py) | :lock:<br>记录下标<br>遍历统计|
 | 1169 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/) |Array<br>String|Medium<br> [Python3](Python3/LeetCode/String/1169.%20Invalid%20Transactions.py) |蛮力模拟<br>:+1:分组排序过滤 |
+| 1175 | [Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1175.%20Prime%20Arrangements.py) | :+1::white_check_mark::top:<br>暴力法求质数<br>欧拉筛法求质数 |
 | 1176 | [Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) |Array<br>SlidingWindow|Easy<br> [Python3](Python3/LeetCode/Array/1176.%20Diet%20Plan%20Performance.py) | :lock:<br>滑动窗口 |
 | 1180 | [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/) |Math<br>String|Easy<br> [Python3](Python3/LeetCode/Math/1180.%20Count%20Substrings%20with%20Only%20One%20Distinct%20Letter.py) | :lock:<br>组合数<br>找规律 |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1185.%20Day%20of%20the%20Week.py) | 形参同名问题 |
