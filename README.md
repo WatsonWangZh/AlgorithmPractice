@@ -460,3 +460,4 @@
 | 6 | [从尾到头打印链表](Cpp/CodingInterview/6.%20PrintListInReversedOrder/6.%20PrintListInReversedOrder.md) | List | Easy <br> [PrintListInReversedOrder](Cpp/CodingInterview/6.%20PrintListInReversedOrder/6.%20PrintListInReversedOrder.cpp) |栈性质迭代<br>递归本质栈 |
 | 7 | [重建二叉树](Cpp/CodingInterview/7.%20ConstructBinaryTree/7.%20ConstructBinaryTree.md) | BinaryTree | Medium <br> [ConstructBinaryTree](Cpp/CodingInterview/7.%20ConstructBinaryTree/7.%20ConstructBinaryTree.cpp) |:+1:<br>前序后序性质<br>递归构建|
 | 8 | [二叉树的下一个节点](Cpp/CodingInterview/8.%20NextNodeInBinaryTrees/8.%20NextNodeInBinaryTrees.md) | BinaryTree | Medium <br> [NextNodeInBinaryTrees](Cpp/CodingInterview/8.%20NextNodeInBinaryTrees/8.%20NextNodeInBinaryTrees.cpp) |:+1:<br>利用性质<br>分情况讨论|
+| 9 | [用两个栈实现队列](Cpp/CodingInterview/9.%20QueueWithTwoStacks/9.%20QueueWithTwoStacks.md) | Stack<br>Queue | Easy <br> [QueueWithTwoStacks](Cpp/CodingInterview/9.%20QueueWithTwoStacks/9.%20QueueWithTwoStacks.cpp) |栈式队列|
