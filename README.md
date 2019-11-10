@@ -16,7 +16,7 @@
 
 # LeetCode Practice with Python3 
 ### [LeetCode 全部题目 无需会员](http://206.81.6.248:12306/leetcode/algorithm)
-**Total: 408 / 1151 |   Locked: 133 / 195 | Free: 275 / 956 | ToSolve: 62 / 681 (2019.11.03 周更)**
+**Total: 418 / 1159 |   Locked: 133 / 199 | Free: 285 / 960 | ToSolve: 66 / 675 (2019.11.10 周更)**
 
 | # | Title | Category | Difficulty <br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
