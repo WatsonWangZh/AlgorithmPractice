@@ -170,6 +170,7 @@
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) |BackTracking|Medium<br> [Python3](Python3/LeetCode/BackTracking/216.%20Combination%20Sum%20III.py) |DFS|
 | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |Array<br>DevideAndConquer<br>Heap<br>BinaryIndexedTree<br>SegmentTree<br>LineSweep|Hard<br> [Python3](Python3/LeetCode/Array/218.%20The%20Skyline%20Problem.py) |:+1::white_check_mark:<br>思路转化<br>优先级队列<br>heapq|
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) |BackTracking|Hard<br> [Python3](Python3/LeetCode/BackTracking/224.%20Basic%20Calculator.py) |值栈与符号栈|
+| 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) |Math|Medium<br> [Python3](Python3/LeetCode/Math/223.%20Rectangle%20Area.py) |计算几何|
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/227.%20Basic%20Calculator%20II.py) |乘除特殊处理|
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) |Array|Medium<br>  [Python3](Python3/LeetCode/Array/228.%20Summary%20Ranges.py) |模拟<br>线性扫描|
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |BinarySearchTree|Medium<br>  [Python3](Python3/LeetCode/BinarySearchTree/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py) |:+1:<br>递归<br>栈迭代|
