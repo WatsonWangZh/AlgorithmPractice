@@ -466,3 +466,4 @@
 | 8 | [二叉树的下一个节点](Cpp/CodingInterview/8.%20NextNodeInBinaryTrees/8.%20NextNodeInBinaryTrees.md) | BinaryTree | Medium <br> [NextNodeInBinaryTrees](Cpp/CodingInterview/8.%20NextNodeInBinaryTrees/8.%20NextNodeInBinaryTrees.cpp) |:+1:<br>利用性质<br>分情况讨论|
 | 9 | [用两个栈实现队列](Cpp/CodingInterview/9.%20QueueWithTwoStacks/9.%20QueueWithTwoStacks.md) | Stack<br>Queue | Easy <br> [QueueWithTwoStacks](Cpp/CodingInterview/9.%20QueueWithTwoStacks/9.%20QueueWithTwoStacks.cpp) |栈式队列|
 | 10 | [斐波那契数列](Cpp/CodingInterview/10.%20Fibonacci/10.%20Fibonacci.md) | Math | Medium <br> [Fibonacci](Cpp/CodingInterview/10.%20Fibonacci/10.%20Fibonacci.cpp) |:+1::white_check_mark:<br>递归<br>记忆化搜索<br>递推<br>递推+滚动变量<br>矩阵运算 + 快速幂|
+| 11 | [旋转数组的最小元素](Cpp/CodingInterview/11.%20MinNumberInRotatedArray/11.%20MinNumberInRotatedArray.md) | Math | Medium <br> [Fibonacci](Cpp/CodingInterview/11.%20MinNumberInRotatedArray/11.%20MinNumberInRotatedArray.cpp) |:+1:<br>顺序查找<br>二分|
