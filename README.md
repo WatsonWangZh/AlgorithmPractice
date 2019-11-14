@@ -469,3 +469,4 @@
 | 11 | [旋转数组的最小元素](Cpp/CodingInterview/11.%20MinNumberInRotatedArray/11.%20MinNumberInRotatedArray.md) | Math | Medium <br> [Fibonacci](Cpp/CodingInterview/11.%20MinNumberInRotatedArray/11.%20MinNumberInRotatedArray.cpp) |:+1:<br>顺序查找<br>二分|
 | 12 | [矩阵中的路径](Cpp/CodingInterview/12.%20StringPathInMatrix/12.%20StringPathInMatrix.md) | DFS<br>Recurision | Medium <br> [Fibonacci](Cpp/CodingInterview/12.%20StringPathInMatrix/12.%20StringPathInMatrix.cpp) |DFS|
 | 13 | [机器人的运动范围](Cpp/CodingInterview/13.%20RobotMove/13.%20RobotMove.md) | DFS<br>BFS<br>Recurision | Medium <br> [RobotMove](Cpp/CodingInterview/13.%20RobotMove/13.%20RobotMove.cpp) |DFS<br>BFS|
+| 14 | [剪绳子](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.md) | Greedy<br>DynamicProgramming | Medium <br> [CuttingRope](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.cpp) |动态规划<br>贪心证明|
