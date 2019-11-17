@@ -385,6 +385,7 @@
 | 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string/) |String|Easy<br> [Python3](Python3/LeetCode/String/758.%20Bold%20Words%20in%20String.py) |:+1::lock:<br>Bold Flag|
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) |String|Easy<br> [Python3](Python3/LeetCode/String/771.%20Jewels%20and%20Stones.py) | 水题 |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/) |String<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/800.%20Similar%20RGB%20Color.py) | :lock:<br>蛮力求解<br>数学分析 |
+| 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) |Math|Hard<br> [Python3](Python3/LeetCode/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy<br> [Python3](Python3/LeetCode/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
 | 857 | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |Heap|Hard<br> [Python3](Python3/LeetCode/Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | :+1::white_check_mark::top:<br>贪心最大堆|
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) |Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/860.%20Lemonade%20Change.py) | 贪心 |
