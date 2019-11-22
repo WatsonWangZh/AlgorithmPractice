@@ -373,6 +373,7 @@
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) |Tree<br>UnionFind<br>Graph|Medium<br>[Python3](Python3/LeetCode/Graph/684.%20Redundant%20Connection.py) | :+1:<br>并查集 |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) |Recurion|Easy<br> [Python3](Python3/LeetCode/Recursion/687.%20Longest%20Univalue%20Path.py) | DFS递归 |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |Array<br>HashTable<br>Heap<br>Trie|Medium<br> [Python3](Python3/LeetCode/Array/692.%20Top%20K%20Frequent%20Words.py) |:+1::white_check_mark:<br>优先队列改造题 |
+| 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) |Array|Easy<br>[Python3](Python3/LeetCode/Array/697.%20Degree%20of%20an%20Array.py) | 统计查表 |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) |Heap|Easy<br>[Python3](Python3/LeetCode/Heap/703.%20Kth%20Largest%20Element%20in%20a%20Stream.py) | 维护k个元素的最小堆 |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) |BinarySearch|Easy<br> [Python3](Python3/LeetCode/BinarySearch/704.%20Binary%20Search.py) |依题意|
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) |HashTable<br>Design|Easy<br> [Python3](Python3/LeetCode/Design/705.%20Design%20HashSet.py) | 数组模拟 |
