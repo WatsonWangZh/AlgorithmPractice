@@ -312,6 +312,7 @@
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) |Array<br>HashTable<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/Array/454.%204Sum%20II.py) | :+1::white_check_mark:<br>哈希转化 |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) |Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/455.%20Assign%20Cookies.py) | 贪心 |
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/) |Array<br>Stack|Medium(Hard)<br> [Python3](Python3/LeetCode/Array/456.%20132%20Pattern.py) |:+1::white_check_mark:<br>单调栈扩展  |
+| 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) |Math<br>Brainteaser|Hard<br> [Python3](Python3/LeetCode/Math/458.%20Poor%20Pigs.py) |:+1:<br>数学分析<br>找规律 |
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) |Math|Medium<br> [Python3](Python3/LeetCode/Math/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) | 分奇偶找中值 |
 | 465 | [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) |Array<br>Math|Hard<br> [Python3](Python3/LeetCode/Math/465.%20Optimal%20Account%20Balancing.py) | :+1::top::white_check_mark::lock:<br>哈希表<br>集合<br>DFS<br>综合应用 |
 | 469 | [Convex Polygon](https://leetcode.com/problems/convex-polygon/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/469.%20Convex%20Polygon.py) | :+1::white_check_mark::lock:<br>凸多边形性质<br>叉乘应用 |
