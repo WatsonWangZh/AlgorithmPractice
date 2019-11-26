@@ -198,6 +198,7 @@
 | 254 | [Factor Combinations](https://leetcode.com/problems/factor-combinations/) |BackTracking|Medium<br> [Python3](Python3/LeetCode/BackTracking/254.%20Factor%20Combinations.py) |:lock:<br>自小到大<br>递归|
 | 255 | [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) |BinarySearchTree<br>Stack|Medium<br> [Python3](Python3/LeetCode/BinarySearchTree/255.%20Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree.py) |:+1::lock:<br>出入栈条件<br>空间优化|
 | 256 | [Paint House](https://leetcode.com/problems/paint-house/) |Array<br>DynamicProgramming|Easy<br> [Python3](Python3/LeetCode/DynamicProgramming/256.%20Paint%20House.py) |:+1::lock:<br>DP思路<br>更直观DP|
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) |BinaryTree<br>DFS|Easy<br> [Python3](Python3/LeetCode/DFS&BFS/257.%20Binary%20Tree%20Paths.py) |DFS<br>递归<br>迭代|
 | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) |Array<br>TwoPointers|Medium<br> [Python3](Python3/LeetCode/Array/259.%203Sum%20Smaller.py) |:lock:<br>暴力枚举<br>双指针|
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) |HashTable<br>BitManipulation|Medium<br> [Python3](Python3/LeetCode/HashTable/260.%20Single%20Number%20III.py) | 0^x=x<br> x^x=0<br>划分两组 |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) |Graph<br>UnionFind<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/Graph/261.%20Graph%20Valid%20Tree.py) |:+1::lock:<br>并查集|
