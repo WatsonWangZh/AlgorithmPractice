@@ -315,6 +315,7 @@
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/) |Array<br>Stack|Medium(Hard)<br> [Python3](Python3/LeetCode/Array/456.%20132%20Pattern.py) |:+1::white_check_mark:<br>单调栈扩展  |
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) |Math<br>Brainteaser|Hard<br> [Python3](Python3/LeetCode/Math/458.%20Poor%20Pigs.py) |:+1:<br>数学分析<br>找规律 |
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) |Math|Medium<br> [Python3](Python3/LeetCode/Math/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) | 分奇偶找中值 |
+| 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) |DynamicProgramming<br>Minimax|Medium<br> [Python3](Python3/LeetCode/Minimax/464.%20Can%20I%20Win.py) |:+1::top:<br>Minimax博弈<br>记忆化递归 |
 | 465 | [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) |Array<br>Math|Hard<br> [Python3](Python3/LeetCode/Math/465.%20Optimal%20Account%20Balancing.py) | :+1::top::white_check_mark::lock:<br>哈希表<br>集合<br>DFS<br>综合应用 |
 | 469 | [Convex Polygon](https://leetcode.com/problems/convex-polygon/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/469.%20Convex%20Polygon.py) | :+1::white_check_mark::lock:<br>凸多边形性质<br>叉乘应用 |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) |RejectionSampling|Medium<br> [Python3](Python3/LeetCode/RejectionSampling/470.%20Implement%20Rand10()%20Using%20Rand7().py) |  |
