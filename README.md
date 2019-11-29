@@ -88,6 +88,7 @@
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |BinarySearch|Medium<br>  [Python3](Python3/LeetCode/BinarySearch/74.%20Search%20a%202D%20Matrix.py) | 构造两段性 |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) |Sort|Medium<br>  [Python3](Python3/LeetCode/Sort/75.%20Sort%20Colors.py) | 两次遍历或两个指针 |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |HashTable<br>TwoPointers<br>String<br>Sliding Window|Hard<br>  [Python3](Python3/LeetCode/String/76.%20Minimum%20Window%20Substring.py) | :+1::white_check_mark:<br>滑动窗口 |
+| 77 | [Combinations](https://leetcode.com/problems/combinations/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/77.%20Combinations.py) |DFS回溯|
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/78.%20Subsets.py) | 递归<br>非递归 |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) |Search<br>BackTracking<br>Array|Medium<br>  [Python3](Python3/LeetCode/BackTracking/79.%20Word%20Search.py) |:+1:<br>DFS|
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |LinkedList|Medium<br>  [Python3](Python3/LeetCode/LinkedList/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.py) | 递归<br>双指针 |
