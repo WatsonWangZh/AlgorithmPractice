@@ -82,6 +82,7 @@
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |Array<br>DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/Array/63.%20Unique%20Paths%20II.py) |:+1::white_check_mark:<br>动态规划|
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/66.%20Plus%20One.py) | 进位处理 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) |Math<br>String|Easy<br>  [Python3](Python3/LeetCode/String/67.%20Add%20Binary.py) | 逐位处理 |
+| 68 | [Text Justification](https://leetcode.com/problems/text-justification/) |String|Hard<br>  [Python3](Python3/LeetCode/String/68.%20Text%20Justification.py) |:white_check_mark:<br>模拟<br>逐行处理拼接 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/69.%20Sqrt(x).py) | 二分查找 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/70.%20Climbing%20Stairs.py) |  |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) |String<br>Stack|Medium<br>  [Python3](Python3/LeetCode/String/71.%20Simplify%20Path.py) | :+1:<br>栈的应用 |
