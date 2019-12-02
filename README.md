@@ -84,6 +84,7 @@
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) |Math<br>String|Easy<br>  [Python3](Python3/LeetCode/String/67.%20Add%20Binary.py) | 逐位处理 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/69.%20Sqrt(x).py) | 二分查找 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/70.%20Climbing%20Stairs.py) |  |
+| 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) |String<br>Stack|Medium<br>  [Python3](Python3/LeetCode/String/71.%20Simplify%20Path.py) | :+1:<br>栈的应用 |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) |DynamicProgramming|Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/72.%20Edit%20Distance.py) | :+1::white_check_mark:<br>[最小编辑距离](https://www.youtube.com/watch?v=We3YDTzNXEk) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |BinarySearch|Medium<br>  [Python3](Python3/LeetCode/BinarySearch/74.%20Search%20a%202D%20Matrix.py) | 构造两段性 |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) |Sort|Medium<br>  [Python3](Python3/LeetCode/Sort/75.%20Sort%20Colors.py) | 两次遍历或两个指针 |
