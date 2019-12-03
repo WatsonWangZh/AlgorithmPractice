@@ -291,6 +291,7 @@
 | 370 | [Range Addition](https://leetcode.com/problems/range-addition/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Array/370.%20Range%20Addition.py) | :+1::white_check_mark::lock:<br>RangeCaching<br>Trick |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) |BinarySearch|Easy<br> [Python3](Python3/LeetCode/BinarySearch/374.%20Guess%20Number%20Higher%20or%20Lower.py) | 折半查找 |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/375.%20Guess%20Number%20Higher%20or%20Lower%20II.py) | DP+MiniMax |
+| 376 | [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) |DynamicProgramming<br>Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/376.%20Wiggle%20Subsequence.py) ||
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |Matrix|Medium<br> [Python3](Python3/LeetCode/Matrix/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py) | Counter或桶排序 |
 | 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) |Design<br>LinkedList|Medium<br> [Python3](Python3/LeetCode/Design/379.%20Design%20Phone%20Directory.py) | :lock:<br>|
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) |ReservoirSampling|Medium<br> [Python3](Python3/LeetCode/ReservoirSampling/382.%20Linked%20List%20Random%20Node.py) | Two Pass<br>蓄水池采样 |
