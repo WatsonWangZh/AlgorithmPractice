@@ -296,6 +296,7 @@
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) |ReservoirSampling|Medium<br> [Python3](Python3/LeetCode/ReservoirSampling/382.%20Linked%20List%20Random%20Node.py) | Two Pass<br>蓄水池采样 |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) |Random|Medium<br> [Python3](Python3/LeetCode/Random/384.%20Shuffle%20an%20Array.py) | random互换 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) |HashTable<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/389.%20Find%20the%20Difference.py) |  |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |String<br>HashTable<br>Greedy<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/String/392.%20Is%20Subsequence.py) | :+1::top:<br>哈希速度优化<br>二分 |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) |Stack<br>DFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/394.%20Decode%20String.py) | :+1::white_check_mark:<br>递归<br>栈 |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) |BackTracking<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/401.%20Binary%20Watch.py) |遍历count验证 |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) |Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/402.%20Remove%20K%20Digits.py) | 栈的应用 |
