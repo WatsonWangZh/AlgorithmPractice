@@ -404,6 +404,7 @@
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) |BackTracking<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BackTracking/784.%20Letter%20Case%20Permutation.py) | DFS |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/) |String<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/800.%20Similar%20RGB%20Color.py) | :lock:<br>蛮力求解<br>数学分析 |
 | 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) |Math|Hard<br> [Python3](Python3/LeetCode/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
+| 840 | [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/840.%20Magic%20Squares%20In%20Grid.py) | 枚举检查 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy<br> [Python3](Python3/LeetCode/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
 | 857 | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |Heap|Hard<br> [Python3](Python3/LeetCode/Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | :+1::white_check_mark::top:<br>贪心最大堆|
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) |Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/860.%20Lemonade%20Change.py) | 贪心 |
