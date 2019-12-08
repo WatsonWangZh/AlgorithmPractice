@@ -334,6 +334,7 @@
 | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) |BackTracking|Medium<br> [Python3](Python3/LeetCode/BackTracking/473.%20Matchsticks%20to%20Square.py) | DFS<br>长者为先 |
 | 475 | [Heaters](https://leetcode.com/problems/heaters/) |Array<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/Array/475.%20Heaters.py) |贪心法<br>二分法 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) |BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/476.%20Number%20Complement.py) |模拟<br>位运算规律 |
+| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) |BitManipulation|Medium<br> [Python3](Python3/LeetCode/BitManipulation/477.%20Total%20Hamming%20Distance.py) |按位统计|
 | 481 | [Magical String](https://leetcode.com/problems/magical-string/) |String|Medium<br> [Python3](Python3/LeetCode/String/481.%20Magical%20String.py) | :+1:规律模拟 |
 | 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) |Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/484.%20Find%20Permutation.py) | :+1::lock:<br>贪心栈 |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/485.%20Max%20Consecutive%20Ones.py) | 水题 |
