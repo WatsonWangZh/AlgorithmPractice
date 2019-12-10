@@ -123,6 +123,7 @@
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |BinaryTree|Hard<br>  [Python3](Python3/LeetCode/BinaryTree/124.%20Binary%20Tree%20Maximum%20Path%20Sum.py) | :+1:<br>DFS |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |String<br>TwoPointers|Easy<br>  [Python3](Python3/LeetCode/String/125.%20Valid%20Palindrome.py) | 正则<br>双指针线性扫描 |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Array<br>Greedy|Hard<br>  [Python3](Python3/LeetCode/Array/128.%20Longest%20Consecutive%20Sequence.py) | :+1:<br>哈希 |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) |DFS<br>BFS<br>UnionFind|Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/130.%20Surrounded%20Regions.py) | |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) |String<br>BackTracking|Medium<br> [Python3](Python3/LeetCode/String/131.%20Palindrome%20Partitioning.py) | DFS<br>回溯 |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) |Graph<br>BFS<br>DFS|Medium<br>  [Python3](Python3/LeetCode/Graph/133.%20Clone%20Graph.py) | set去重 |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) |Greddy<br>Array|Medium<br>  [Python3](Python3/LeetCode/Greedy/134.%20Gas%20Station.py) | 贪心双指针 |
@@ -498,3 +499,4 @@
 | 12 | [矩阵中的路径](Cpp/CodingInterview/12.%20StringPathInMatrix/12.%20StringPathInMatrix.md) | DFS<br>Recurision | Medium <br> [Fibonacci](Cpp/CodingInterview/12.%20StringPathInMatrix/12.%20StringPathInMatrix.cpp) |DFS|
 | 13 | [机器人的运动范围](Cpp/CodingInterview/13.%20RobotMove/13.%20RobotMove.md) | DFS<br>BFS<br>Recurision | Medium <br> [RobotMove](Cpp/CodingInterview/13.%20RobotMove/13.%20RobotMove.cpp) |DFS<br>BFS|
 | 14 | [剪绳子](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.md) | Greedy<br>DynamicProgramming | Medium <br> [CuttingRope](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.cpp) |动态规划<br>贪心证明|
+| 15 | [二进制中1的个数](Cpp/CodingInterview/15.%20NumberOf1InBinary/15.%20NumberOf1InBinary.md) | BitManipulation | Medium <br> [NumberOf1InBinary](Cpp/CodingInterview/15.%20NumberOf1InBinary/15.%20NumberOf1InBinary.cpp) |右移二进制<br>左移标志位<br>位运算规律|
