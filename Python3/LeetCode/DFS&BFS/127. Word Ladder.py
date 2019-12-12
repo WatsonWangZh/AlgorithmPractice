@@ -35,7 +35,6 @@ class Solution(object):
         :rtype: int
         """
         # M1. BFS
-        
         if endWord not in wordList:
             return 0
 
@@ -60,7 +59,31 @@ class Solution(object):
                         q.put(candidate)                   
         return 0
 
-        # M2. 双向BFS(TODO)
+        # M2. 双向BFS
 
-        if endWord not in wordList:
+        wordSet = set(wordList)
+        if endWord not in wordSet: 
             return 0
+        
+        l = len(beginWord)
+        s1 = {beginWord}
+        s2 = {endWord}
+        wordSet.remove(endWord)
+        step = 0
+        while len(s1) > 0 and len(s2) > 0:
+            step += 1
+            if len(s1) > len(s2): s1, s2 = s2, s1
+            s = set()   
+            for w in s1:
+                new_words = [
+                    w[:i] + t + w[i+1:]  for t in "abcdefghijklmnopqrstuvwxyz" for i in range(l)]
+                for new_word in new_words:
+                    if new_word in s2: 
+                        return step + 1
+                    if new_word not in wordSet: 
+                        continue
+                    wordSet.remove(new_word)                        
+                    s.add(new_word)
+            s1 = s
+        
+        return 0
