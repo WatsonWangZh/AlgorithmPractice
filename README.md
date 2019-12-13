@@ -366,6 +366,7 @@
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) |Array<br>TwoPointers|Easy<br> [Python3](Python3/LeetCode/TwoPointers/532.%20K-diff%20Pairs%20in%20an%20Array.py) |统计数频<br>特判k为0|
 | 533 | [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/) |Array<br>DFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/531.%20Lonely%20Pixel%20II.py) |:lock:<br>|
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) |String<br>TwoPointers|Easy<br> [Python3](Python3/LeetCode/TwoPointers/541.%20Reverse%20String%20II.py) |分段处理<br>两端双指针|
+| 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) |DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/542.%2001%20Matrix.py) |:+1::white_check_mark:<br>蛮力(TLE)<br>BFS<br>DP |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |BinaryTree|Easy<br> [Python3](Python3/LeetCode/BinaryTree/543.%20Diameter%20of%20Binary%20Tree.py) | DFS |
 | 544 | [Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) |Array<br>Half-Flod|Medium<br> [Python3](Python3/LeetCode/Array/544.%20Output%20Contest%20Matches.py) |:lock:<br>折半两端匹配 |
 | 545 | [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) |BinaryTree|Medium<br> [Python3](Python3/LeetCode/BinaryTree/545.%20Boundary%20of%20Binary%20Tree.py) | :+1::ballot_box_with_check::lock:<br>分部处理<br>左右逆序 |           
