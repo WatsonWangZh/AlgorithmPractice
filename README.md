@@ -449,6 +449,7 @@
 | 1085 | [Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1085.%20Sum%20of%20Digits%20in%20the%20Minimum%20Number.py) | :lock:<br>模拟|
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) |Array<br>HashTable<br>Sort<br>Heap|Easy<br> [Python3](Python3/LeetCode/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
 | 1099 | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1099.%20Two%20Sum%20Less%20Than%20K.py) | :lock:<br>双指针|
+| 1103 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1103.%20Distribute%20Candies%20to%20People.py) | :+1:<br>模拟<br>数学推导 |
 | 1118 | [Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/) |HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/1118.%20Number%20of%Days%20in%20a%20Month.py) | :lock:<br>分闰平|
 | 1119 | [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/) |String|Easy<br> [Python3](Python3/LeetCode/String/1119.%20Remove%20Vowels%20from%20a%20String.py) | :lock:<br>字符串基本操作|
 | 1133 | [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/1133.%20Largest%20Unique%20Number.py) | :+1::lock:<br>字典<br>调库<br>排序过滤 |
