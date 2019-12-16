@@ -225,6 +225,7 @@
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) |DynamicProgramming|Easy<br> [Python3](Python3/LeetCode/DynamicProgramming/276.%20Paint%20Fence.py) |:+1::lock:<br>数学分析方法|
 | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) |Array|Medium<br> [Python3](Python3/LeetCode/Array/277.%20Find%20the%20Celebrity.py) |:+1::white_check_mark::lock:<br>指定API<br>暴力法<br>验证法|
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) |BinarySearch|Easy<br> [Python3](Python3/LeetCode/BinarySearch/278.%20First%20Bad%20Version.py) | 线性查找超时<br>折半查找 |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |Math<br>DynamicProgramming<br>BFS|Medium<br> [Python3](Python3/LeetCode/Math/279.%20Perfect%20Squares.py) | :+1::white_check_mark:<br>普通DP<br>BFS优化DP |
 | 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) |Array<br>Sort|Medium<br> [Python3](Python3/LeetCode/Sort/280.%20Wiggle%20Sort.py) | :lock:<br>排序交换<br>遍历规律|
 | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) |Design|Medium<br> [Python3](Python3/LeetCode/Design/281.%20ZigZag%20Iterator.py) | :lock:<br>保存时处理<br>访问时处理 |
 | 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) |BackTracking|Hard<br> [Python3](Python3/LeetCode/BackTracking/282.%20Expression%20Add%20Operators.py) | :+1::white_check_mark:<br>DFS+表达式求值<br>求值时的特殊处理 |
