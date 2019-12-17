@@ -295,6 +295,7 @@
 | 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) |BinaryTree<br>DFS|Medium<br> [Python3](Python3/LeetCode/BinaryTree/366.%20Find%20Leaves%20of%20Binary%20Tree.py) | :+1::lock:<br>递归后序<br>深度扩展 |
 | 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) |LinkedList|Medium<br> [Python3](Python3/LeetCode/LinkedList/369.%20Plus%20One%20Linked%20List.py) | :+1::white_check_mark::lock:<br>两次翻转<br>Trick |
 | 370 | [Range Addition](https://leetcode.com/problems/range-addition/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Array/370.%20Range%20Addition.py) | :+1::white_check_mark::lock:<br>RangeCaching<br>Trick |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/371.%20Sum%20of%20Two%20Integers.py) | :+1::top:<br>位运算 |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) |BinarySearch|Easy<br> [Python3](Python3/LeetCode/BinarySearch/374.%20Guess%20Number%20Higher%20or%20Lower.py) | 折半查找 |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/375.%20Guess%20Number%20Higher%20or%20Lower%20II.py) | DP+MiniMax |
 | 376 | [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) |DynamicProgramming<br>Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/376.%20Wiggle%20Subsequence.py) ||
