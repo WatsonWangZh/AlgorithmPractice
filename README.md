@@ -178,6 +178,7 @@
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |Stack<br>PriorityQueue|Medium<br>  [Python3](Python3/LeetCode/Stack%26PriorityQueue/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) |偷懒法<br>快排<br>最大堆<br>优先级队列|
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) |BackTracking|Medium<br> [Python3](Python3/LeetCode/BackTracking/216.%20Combination%20Sum%20III.py) |DFS|
 | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |Array<br>DevideAndConquer<br>Heap<br>BinaryIndexedTree<br>SegmentTree<br>LineSweep|Hard<br> [Python3](Python3/LeetCode/Array/218.%20The%20Skyline%20Problem.py) |:+1::white_check_mark:<br>思路转化<br>优先级队列<br>heapq|
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/221.%20Maximal%20Square.py) |:+1:<br>DP|
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) |BackTracking|Hard<br> [Python3](Python3/LeetCode/BackTracking/224.%20Basic%20Calculator.py) |值栈与符号栈|
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) |Math|Medium<br> [Python3](Python3/LeetCode/Math/223.%20Rectangle%20Area.py) |计算几何|
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/227.%20Basic%20Calculator%20II.py) |乘除特殊处理|
