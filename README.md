@@ -380,6 +380,7 @@
 | 548 | [Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/548.%20Split%20Array%20with%20Equal%20Sum.py) | :+1::top::white_check_mark::lock:<br>贪心<br>前缀和<br>HashTable优化<br>中点分两段 |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) |String|Easy<br> [Python3](Python3/LeetCode/String/551.%20Student%20Attendance%20Record%20I.py) |模拟|
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/554.%20Brick%20Wall.py) |:+1::white_check_mark:<br>贪心+哈希表|
+| 555 | [Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/) |String|Medium<br> [Python3](Python3/LeetCode/String/555.%20Split%20Concatenated%20Strings.py) |枚举<br>高位优先优化|
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |String<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/560.%20Subarray%20Sum%20Equals%20K.py) |前缀和 + 哈希表|
 | 582 | [Kill Process](https://leetcode.com/problems/kill-process/) |BinaryTree<br>Queue|Medium<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>字典记录父子关系<br>队列实现逐层杀死|
