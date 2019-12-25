@@ -483,6 +483,7 @@
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |Array<br>Math<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Geometry/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py) | :+1:斜率公式转化 |
 | 1236 | [Web Crawler](https://leetcode.com/problems/web-crawler/) |HashTable<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1236.%20Web%20Crawler.py) | :+1::lock:<br>DFS遍历<br>Set去重 |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) |HashTable<br>Sort<br>Design|Medium<br> [Python3](Python3/LeetCode/Design/1244.%20Design%20A%20Leaderboard.py) | :lock:<br>基础 |
+| 1245 | [Tree Diameter](https://leetcode.com/problems/tree-diameter/) |Tree<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1245.%20Tree%20Diameter.py) | :heart_eyes::lock:<br>建图<br>DFS |
 
 # KickStart Practice with Cpp
 
