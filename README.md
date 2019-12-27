@@ -114,6 +114,7 @@
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) |BinaryTree|Easy<br>  [Python3](Python3/LeetCode/BinaryTree/104.%20Maximum%20Depth%20of%20Binary%20Tree.py) | 基本递归 |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |BinaryTree<br>DFS|Medium<br>  [Python3](Python3/LeetCode/BinaryTree/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.py) | 递归基本操作 |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |BinaryTree<br>DFS<br>BFS|Easy<br>  [Python3](Python3/LeetCode/DFS&BFS/111.%20Minimum%20Depth%20of%20Binary%20Tree.py) |:+1::top:<br>递归DFS<br>栈DFS<br>队列BFS |
+| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) |String<br>DynamicProgramming|Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/115.%20Distinct%20Subsequences.py) |:ballot_box_with_check::top:<br>DP |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) |BinaryTree|Medium<br>  [Python3](Python3/LeetCode/BinaryTree/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.py) |BFS O(1)Space |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) |BinaryTree|Medium<br>  [Python3](Python3/LeetCode/BinaryTree/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.py) |BFS O(n)Space |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/) | Array<br>DynamicProgramming |Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/120.%20Triangle.py) |DP |
@@ -380,6 +381,7 @@
 | 548 | [Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/548.%20Split%20Array%20with%20Equal%20Sum.py) | :+1::top::white_check_mark::lock:<br>贪心<br>前缀和<br>HashTable优化<br>中点分两段 |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) |String|Easy<br> [Python3](Python3/LeetCode/String/551.%20Student%20Attendance%20Record%20I.py) |模拟|
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/554.%20Brick%20Wall.py) |:+1::white_check_mark:<br>贪心+哈希表|
+| 555 | [Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/) |String|Medium<br> [Python3](Python3/LeetCode/String/555.%20Split%20Concatenated%20Strings.py) |枚举<br>高位优先优化|
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |String<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/560.%20Subarray%20Sum%20Equals%20K.py) |前缀和 + 哈希表|
 | 582 | [Kill Process](https://leetcode.com/problems/kill-process/) |BinaryTree<br>Queue|Medium<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>字典记录父子关系<br>队列实现逐层杀死|
@@ -478,8 +480,11 @@
 | 1213 | [Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) |Array<br>HashTable<br>TwoPointers|Easy<br> [Python3](Python3/LeetCode/TwoPointers/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py) | :lock:<br>Set交集<br>Counter计数<br>三指针 |
 | 1227 | [Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/) |Math<br>DynamicProgramming<br>Brainteaser|Medium<br> [Python3](Python3/LeetCode/Brainteaser/1227.%20Airplane%20Seat%20Assignment%20Probability.py) | :+1::white_check_mark:<br>DP推导<br>数学证明 |
 | 1228 | [Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/) |Array<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/1228.%20Missing%20Number%20In%20Arithmetic%20Progression.py) | :lock:<br>找出差<br>逐个核查 |
+| 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) |Array<br>LineSweep|Medium<br> [Python3](Python3/LeetCode/Array/1229.%20Meeting%20Scheduler.py) | :lock:<br>贪心双指针 |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |Array<br>Math<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Geometry/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py) | :+1:斜率公式转化 |
 | 1236 | [Web Crawler](https://leetcode.com/problems/web-crawler/) |HashTable<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1236.%20Web%20Crawler.py) | :+1::lock:<br>DFS遍历<br>Set去重 |
+| 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) |HashTable<br>Sort<br>Design|Medium<br> [Python3](Python3/LeetCode/Design/1244.%20Design%20A%20Leaderboard.py) | :lock:<br>基础 |
+| 1245 | [Tree Diameter](https://leetcode.com/problems/tree-diameter/) |Tree<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1245.%20Tree%20Diameter.py) | :heart_eyes::lock:<br>建图<br>DFS |
 
 # KickStart Practice with Cpp
 
