@@ -173,7 +173,7 @@
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |LinkedList|Easy<br>  [Python3](Python3/LeetCode/LinkedList/206.%20Reverse%20Linked%20List.py) | 逆序操作 |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) |TopologicalSort|Medium<br>  [Python3](Python3/LeetCode/TopologicalSort/207.%20Course%20Schedule.py) | 有向图中环是否存在 |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) |Trie|Medium<br>  [Python3](Python3/LeetCode/Trie/208.%20Implement%20Trie%20(Prefix%20Tree).py) | 字典树<br>单词查找树 |
-| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |DFS<br>BFS<br>TopologicalSort|Medium<br>  [Python3](Python3/LeetCode/TopologicalSort/210.%20Course%20Schedule%20II.py) |  |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |DFS<br>BFS<br>TopologicalSort|Medium<br>  [Python3](Python3/LeetCode/TopologicalSort/210.%20Course%20Schedule%20II.py) | 经典拓扑排序 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) |DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/213.%20House%20Robber%20II.py) | Rob First Or Not|
 | 214 | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) |String|Hard<br>  [Python3](Python3/LeetCode/String/214.%20Shortest%20Palindrome.py) |:+1::white_check_mark:<br>最长前缀匹配<br>KMP优化 |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |Stack<br>PriorityQueue|Medium<br>  [Python3](Python3/LeetCode/Stack%26PriorityQueue/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) |偷懒法<br>快排<br>最大堆<br>优先级队列|
