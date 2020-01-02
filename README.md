@@ -490,6 +490,7 @@
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) |HashTable<br>Sort<br>Design|Medium<br> [Python3](Python3/LeetCode/Design/1244.%20Design%20A%20Leaderboard.py) | :lock:<br>基础 |
 | 1245 | [Tree Diameter](https://leetcode.com/problems/tree-diameter/) |Tree<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1245.%20Tree%20Diameter.py) | :heart_eyes::lock:<br>建图<br>DFS |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) |String<br>Greedy|Medium<br> [Python3](Python3/LeetCode/String/1247.%20Minimum%20Swaps%20to%20Make%20Strings%20Equal.py) | 找规律<br>贪心 |
+| 1256 | [Encode Number](https://leetcode.com/problems/encode-number/) |Math<br>BitManipulation|Medium<br> [Python3](Python3/LeetCode/BitManipulation/1256.%20Encode%20Number.py) | :lock:<br>找规律 |
 
 # KickStart Practice with Cpp
 
