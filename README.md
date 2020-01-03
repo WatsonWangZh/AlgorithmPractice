@@ -101,6 +101,7 @@
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |LinkedList|Easy<br> [Python3](Python3/LeetCode/LinkedList/83.%20Remove%20Duplicates%20from%20Sorted%20List.py) |  |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Array<br>Stack|Hard<br>  [Python3](Python3/LeetCode/Array/84.%20Largest%20Rectangle%20in%20Histogram.py) | :+1::white_check_mark:<br>单调栈 |
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |Array<br>HashTable<br>DynamicProgramming<br>Stack|Hard<br>  [Python3](Python3/LeetCode/Array/85.%20Maximal%20Rectangle.py) |:+1::white_check_mark:<br>单调栈<br>84题扩展 |
+| 86 | [Partition List](https://leetcode.com/problems/partition-list/) |LinkedList<br>TwoPointers|Medium<br>  [Python3](Python3/LeetCode/TwoPointers/86.%20Partition%20List.py) |模拟<br>双指划分合并 |
 | 87 | [Scramble String](https://leetcode.com/problems/scramble-string/) |BinaryTree|Hard<br>  [Python3](Python3/LeetCode/BinaryTree/87.%20Scramble%20String.py) | 递归暴力搜索 |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/88.%20Merge%20Sorted%20Array.py) |  线性合并|
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/90.%20Subsets%20II.py) | 在78题基础上增加过滤操作 |
