@@ -106,6 +106,7 @@
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) |LinkedList<br>TwoPointers|Medium<br>  [Python3](Python3/LeetCode/TwoPointers/86.%20Partition%20List.py) |模拟<br>双指划分合并 |
 | 87 | [Scramble String](https://leetcode.com/problems/scramble-string/) |BinaryTree|Hard<br>  [Python3](Python3/LeetCode/BinaryTree/87.%20Scramble%20String.py) | 递归暴力搜索 |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/88.%20Merge%20Sorted%20Array.py) |  线性合并|
+| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/89.%20Gray%20Code.py) |:white_check_mark:<br>规律递归|
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/90.%20Subsets%20II.py) | 在78题基础上增加过滤操作 |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) |DynamicProgramming<br>String|Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/91.%20Decode%20Ways.py) | DP |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) |LinkedList|Medium<br>  [Python3](Python3/LeetCode/LinkedList/92.%20Reverse%20Linked%20List%20II.py) | 206变体 |
