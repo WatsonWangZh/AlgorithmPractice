@@ -500,6 +500,7 @@
 | 1256 | [Encode Number](https://leetcode.com/problems/encode-number/) |Math<br>BitManipulation|Medium<br> [Python3](Python3/LeetCode/BitManipulation/1256.%20Encode%20Number.py) | :lock:<br>找规律 |
 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) |Array<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Array/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | 画图规律遍历 |
 | 1267 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) |Array<br>Graph|Medium<br> [Python3](Python3/LeetCode/Array/1267.%20Count%20Servers%20that%20Communicate.py) | 枚举置位统计 |
+| 1272 | [Remove Interval](https://leetcode.com/problems/remove-interval/) |Math<br>LineSweep|Medium<br> [Python3](Python3/LeetCode/Array/1272.%20Remove%20Interval.py) | :lock:<br>模拟 |
 
 # KickStart Practice with Cpp
 
