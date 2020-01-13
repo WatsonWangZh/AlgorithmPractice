@@ -372,6 +372,7 @@
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/507.%20Perfect%20Number.py) | :+1:<br>暴力枚举<br>枚举优化 |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |Array<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/509.%20Fibonacci%20Number.py) | :+1::top:<br>原始递归<br>尾递归<br>DP循环<br>空间优化 |
 | 510 | [Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/) |BinarySearchTree|Medium<br> [Python3](Python3/LeetCode/BinarySearchTree/510.%20Inorder%20Successors%20in%20BST%20II.py) | :+1::lock:<br>分情况讨论<br>右分支有无 |
+| 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) |BinaryTree<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/BinaryTree/513.%20Find%20Bottom%20Left%20Tree%20Value.py) | 模拟层序遍历 |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/518.%20Coin%20Change%202.py) | :+1:<br>DP完全背包 |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) |String|Easy<br> [Python3](Python3/LeetCode/String/520.%20Detect%20Capital.py) | 字符串基本函数 |
 | 521 | [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) |String|Easy<br> [Python3](Python3/LeetCode/String/521.%20Longest%20Uncommon%20Subsequence%20II.py) | BrainTeaser |
