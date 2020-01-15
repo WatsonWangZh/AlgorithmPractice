@@ -504,6 +504,7 @@
 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) |Array<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Array/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | 画图规律遍历 |
 | 1267 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) |Array<br>Graph|Medium<br> [Python3](Python3/LeetCode/Array/1267.%20Count%20Servers%20that%20Communicate.py) | 枚举置位统计 |
 | 1272 | [Remove Interval](https://leetcode.com/problems/remove-interval/) |Math<br>LineSweep|Medium<br> [Python3](Python3/LeetCode/Array/1272.%20Remove%20Interval.py) | :lock:<br>模拟 |
+| 1276 | [Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) |Math<br>Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/1276.%20Number%20of%20Burgers%20with%20No%20Waste%20of%20Ingredients.py) | 数学分析模拟 |
 
 # KickStart Practice with Cpp
 
