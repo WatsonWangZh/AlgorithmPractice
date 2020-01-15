@@ -396,6 +396,7 @@
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) |String<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |Array<br>HashTable|Medium<br> [Python3](Python3/LeetCode/Array/560.%20Subarray%20Sum%20Equals%20K.py) |前缀和 + 哈希表|
 | 582 | [Kill Process](https://leetcode.com/problems/kill-process/) |BinaryTree<br>Queue|Medium<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>字典记录父子关系<br>队列实现逐层杀死|
+| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) |String|Medium<br> [Python3](Python3/LeetCode/String/583.%20Delete%20Operation%20for%20Two%20Strings.py) |:+1::white_check_mark:<br>双DP<br>LCS<br>Edit Distance|
 | 588 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) |Design|Hard<br> [Python3](Python3/LeetCode/Design/588.%20Design%20In-Memory%20File%20System.py) |:+1::lock:<br>分别处理文件与文件夹|
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) |Design<br>String|Easy<br> [Python3](Python3/LeetCode/Design/604.%20Design%20Compressed%20String%20Iterator.py) |:white_check_mark::lock:<br>Demand-Computation|
 | 611 | [Image Smoother](https://leetcode.com/problems/image-smoother/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/611.%20Image%20Smoother.py) |依题意操作|
