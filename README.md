@@ -179,6 +179,7 @@
 | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |String|Medium<br>  [Python3](Python3/LeetCode/String/186.%20Reverse%20Words%20in%20a%20String%20II.py) |:lock:<br>模拟数组扫描|
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) |String<br>HashTable<br>BitManipulation|Medium<br>  [Python3](Python3/LeetCode/String/187.%20Repeated%20DNA%20Sequences.py) | 哈希 |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) |DynamicProgramming|Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.py) |:+1::white_check_mark:<br>[DP法1](https://www.youtube.com/watch?v=oDhu5uGq_ic)<br>DP法2优化 |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/189.%20Rotate%20Array.py) |:+1::white_check_mark::top:<br>模拟<br>翻转数组|
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |BitManipulation|Easy<br>  [Python3](Python3/LeetCode/BitManipulation/191.%20Number%20of%201%20Bits.py) |循环计数<br>位运算优化 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) |DynamicProgramming|Easy<br>  [Python3](Python3/LeetCode/DynamicProgramming/198.%20House%20Robber.py) |DP与空间优化 |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) |DFS<br>BFS<br>UnionFind|Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/200.%20Number%20of%20Islands.py) | :+1:<br>BFS<br>置0数1 |
