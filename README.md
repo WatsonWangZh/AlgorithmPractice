@@ -503,6 +503,8 @@
 | 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) |Array<br>LineSweep|Medium<br> [Python3](Python3/LeetCode/Array/1229.%20Meeting%20Scheduler.py) | :lock:<br>贪心双指针  |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |Array<br>Math<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Geometry/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py) | :+1:斜率公式转化 |
 | 1236 | [Web Crawler](https://leetcode.com/problems/web-crawler/) |HashTable<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1236.%20Web%20Crawler.py) | :+1::lock:<br>DFS遍历<br>Set去重 |
+| 1243 | [Array Transformation](https://leetcode.com/problems/array-transformation/) |
+Array|Easy<br> [Python3](Python3/LeetCode/Array/1243.%20Array%20Transformation.py) | 模拟|
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) |HashTable<br>Sort<br>Design|Medium<br> [Python3](Python3/LeetCode/Design/1244.%20Design%20A%20Leaderboard.py) | :lock:<br>基础 |
 | 1245 | [Tree Diameter](https://leetcode.com/problems/tree-diameter/) |Tree<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1245.%20Tree%20Diameter.py) | :heart_eyes::lock:<br>建图<br>DFS |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) |String<br>Greedy|Medium<br> [Python3](Python3/LeetCode/String/1247.%20Minimum%20Swaps%20to%20Make%20Strings%20Equal.py) | 找规律<br>贪心 |
