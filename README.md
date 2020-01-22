@@ -504,13 +504,14 @@
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |Array<br>Math<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Geometry/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py) | :+1:斜率公式转化 |
 | 1236 | [Web Crawler](https://leetcode.com/problems/web-crawler/) |HashTable<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1236.%20Web%20Crawler.py) | :+1::lock:<br>DFS遍历<br>Set去重 |
 | 1243 | [Array Transformation](https://leetcode.com/problems/array-transformation/) |
-Array|Easy<br> [Python3](Python3/LeetCode/Array/1243.%20Array%20Transformation.py) | 模拟|
+Array|Easy<br> [Python3](Python3/LeetCode/Array/1243.%20Array%20Transformation.py) | :lock:<br>模拟|
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) |HashTable<br>Sort<br>Design|Medium<br> [Python3](Python3/LeetCode/Design/1244.%20Design%20A%20Leaderboard.py) | :lock:<br>基础 |
 | 1245 | [Tree Diameter](https://leetcode.com/problems/tree-diameter/) |Tree<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/1245.%20Tree%20Diameter.py) | :heart_eyes::lock:<br>建图<br>DFS |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) |String<br>Greedy|Medium<br> [Python3](Python3/LeetCode/String/1247.%20Minimum%20Swaps%20to%20Make%20Strings%20Equal.py) | 找规律<br>贪心 |
 | 1256 | [Encode Number](https://leetcode.com/problems/encode-number/) |Math<br>BitManipulation|Medium<br> [Python3](Python3/LeetCode/BitManipulation/1256.%20Encode%20Number.py) | :lock:<br>找规律 |
 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) |Array<br>Geometry|Easy<br> [Python3](Python3/LeetCode/Array/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | 画图规律遍历 |
 | 1267 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) |Array<br>Graph|Medium<br> [Python3](Python3/LeetCode/Array/1267.%20Count%20Servers%20that%20Communicate.py) | 枚举置位统计 |
+| 1271 | [Hexspeak](https://leetcode.com/problems/hexspeak/) |Math<br>String|Easy<br> [Python3](Python3/LeetCode/String/1271.%20Hexspeak.py) | :lock:<br>模拟 |
 | 1272 | [Remove Interval](https://leetcode.com/problems/remove-interval/) |Math<br>LineSweep|Medium<br> [Python3](Python3/LeetCode/Array/1272.%20Remove%20Interval.py) | :lock:<br>模拟 |
 | 1276 | [Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) |Math<br>Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/1276.%20Number%20of%20Burgers%20with%20No%20Waste%20of%20Ingredients.py) | 数学分析模拟 |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1281.%20Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer.py) | 模拟 |
