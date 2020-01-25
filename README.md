@@ -523,6 +523,7 @@
 | 1272 | [Remove Interval](https://leetcode.com/problems/remove-interval/) |Math<br>LineSweep|Medium<br> [Python3](Python3/LeetCode/Array/1272.%20Remove%20Interval.py) | :lock:<br>模拟 |
 | 1276 | [Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) |Math<br>Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/1276.%20Number%20of%20Burgers%20with%20No%20Waste%20of%20Ingredients.py) | 数学分析模拟 |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1281.%20Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer.py) | 模拟 |
+| 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1287.%20Element%20Appearing%20More%20Than%2025%%20In%20Sorted%20Array.py) | 模拟 |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1304.%20Find%20N%20Unique%20Integers%20Sum%20up%20to%20Zero.py) |模拟 |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1323.%20Maximum%2069%20Number.py) | 基础字符串操作 |
 
