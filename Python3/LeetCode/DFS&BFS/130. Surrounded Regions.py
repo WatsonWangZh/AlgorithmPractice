@@ -44,13 +44,15 @@ class Solution(object):
                 if board[row][col] == 'O':
                     board[row][col] = 'X'
                 if board[row][col] == 'T':
-                    board[row][col] = 'X'
+                    board[row][col] = 'O'
 
     def helper(self, row, col, board):
         if row < 0 or row >= len(board) or col < 0 or col >= len(board[0]):
             return
-        board[row][col] = 'T'
-        self.helper(row+1, col, board)
-        self.helper(row-1, col, board)
-        self.helper(row, col+1, board)
-        self.helper(row, col-1, board)
+        
+        if board[row][col] == 'O':
+            board[row][col] = 'T'
+            self.helper(row+1, col, board)
+            self.helper(row-1, col, board)
+            self.helper(row, col+1, board)
+            self.helper(row, col-1, board)
