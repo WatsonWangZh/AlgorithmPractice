@@ -331,6 +331,7 @@
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) |HashTable<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/389.%20Find%20the%20Difference.py) |  |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |String<br>HashTable<br>Greedy<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/String/392.%20Is%20Subsequence.py) | :+1::top:<br>哈希速度优化<br>二分 |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) |Stack<br>DFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/394.%20Decode%20String.py) | :+1::white_check_mark:<br>递归<br>栈 |
+| 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) |UnionFind<br>Graph|Medium<br> [Python3](Python3/LeetCode/Graph/399.%20Evaluate%20Division.py) | 哈希模拟<br>并查集|
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) |BackTracking<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/401.%20Binary%20Watch.py) |遍历count验证 |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) |Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/402.%20Remove%20K%20Digits.py) | 栈的应用 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) |BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/405.%20Convert%20a%20Number%20to%20Hexadecimal.py) |特殊处理负数|
