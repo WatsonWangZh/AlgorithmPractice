@@ -83,6 +83,7 @@
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) |Array<br>DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/Array/62.%20Unique%20Paths.py) |:+1::white_check_mark:<br>递归<br>记忆递归<br>DP<br>DP空间优化<br>组合数学 |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |Array<br>DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/Array/63.%20Unique%20Paths%20II.py) |:+1::white_check_mark:<br>动态规划|
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) |Array<br>DynamicProgramming|Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/64.%20Minimum%20Path%20Sum.py) |普通DP<br>待优化|
+| 65 | [Valid Number](https://leetcode.com/problems/valid-number/) |Math<br>String|Hard<br>  [Python3](Python3/LeetCode/String/65.%20Valid%20Number.py) |:+1:<br>正则<br>模拟|
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/66.%20Plus%20One.py) | 进位处理 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) |Math<br>String|Easy<br>  [Python3](Python3/LeetCode/String/67.%20Add%20Binary.py) | 逐位处理 |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) |String|Hard<br>  [Python3](Python3/LeetCode/String/68.%20Text%20Justification.py) |:white_check_mark:<br>模拟<br>逐行处理拼接 |
