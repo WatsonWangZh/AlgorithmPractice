@@ -27,7 +27,7 @@ class Solution(object):
         l1, l2, l3 = len(s1), len(s2), len(s3)
         if l1 + l2 != l3:
             return False
-        dp = [[False] *  (l2 + 1)] for _ in range(l1 + 1)]
+        dp = [[False] * (l2 + 1) for _ in range(l1 + 1)]
         for i in range(l1 + 1):
             for j in range(l2 + 1):
                 if i == 0 and j == 0:
