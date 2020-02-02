@@ -63,6 +63,7 @@
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |Array|Hard<br> [Python3](Python3/LeetCode/Array/41.%20First%20Missing%20Positive.py) |:+1:<br>桶排序|
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |Array<br>TwoPointers<br>Stack|Hard<br>  [Python3](Python3/LeetCode/TwoPointers/42.%20Trapping%20Rain%20Water.py) |:+1::white_check_mark:<br>多次线性扫描<br>双指针|
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) |Math<br>String|Medium<br>  [Python3](Python3/LeetCode/String/43.%20Multiply%20Strings.py) |:+1:<br>模拟<br>竖式乘法<br>大数相乘|
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) |String<br>DynamicProgramming<br>BackTracking<br>Greedy|Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/44.%20Wildcard%20Matching.py) |:ballot_box_with_check::heart_eyes::+1::top:<br>DP<br>双指针模拟|
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) |Array<br>Greedy|Hard<br> [Python3](Python3/LeetCode/Greedy/45.%20Jump%20Game%20II.py) | :+1:<br>贪心 |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/46.%20Permutations.py) | DFS+回溯 |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/47.%20Permutations%20II.py) | 排序，跳过重复元素 |
