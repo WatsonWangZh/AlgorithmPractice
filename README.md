@@ -205,6 +205,7 @@
 | 214 | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) |String|Hard<br>  [Python3](Python3/LeetCode/String/214.%20Shortest%20Palindrome.py) |:+1::white_check_mark:<br>最长前缀匹配<br>KMP优化 |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |Stack<br>PriorityQueue|Medium<br>  [Python3](Python3/LeetCode/Stack%26PriorityQueue/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) |偷懒法<br>快排<br>最大堆<br>优先级队列|
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) |BackTracking|Medium<br> [Python3](Python3/LeetCode/BackTracking/216.%20Combination%20Sum%20III.py) |DFS|
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/217.%20Contains%20Duplicate.py) |水题|
 | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |Array<br>DevideAndConquer<br>Heap<br>BinaryIndexedTree<br>SegmentTree<br>LineSweep|Hard<br> [Python3](Python3/LeetCode/Array/218.%20The%20Skyline%20Problem.py) |:+1::white_check_mark:<br>思路转化<br>优先级队列<br>heapq|
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/221.%20Maximal%20Square.py) |:+1:<br>DP|
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) |BackTracking|Hard<br> [Python3](Python3/LeetCode/BackTracking/224.%20Basic%20Calculator.py) |值栈与符号栈|
