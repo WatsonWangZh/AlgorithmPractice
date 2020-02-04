@@ -191,6 +191,7 @@
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) |DFS<br>BFS<br>UnionFind|Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/200.%20Number%20of%20Islands.py) | :+1:<br>BFS<br>置0数1 |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |BitManipulation|Medium<br>  [Python3](Python3/LeetCode/BitManipulation/201.%20%20Bitwise%20AND%20of%20Numbers%20Range.py) | 找规律<br>位运算 |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) |Math<br>HashTable|Easy<br>  [Python3](Python3/LeetCode/HashTable/202.%20Happy%20Number.py) |:+1:<br>字典模拟<br>龟兔赛跑|
+| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) |LinkedList|Easy<br>  [Python3](Python3/LeetCode/LinkedList/203.%20Remove%20Linked%20List%20Elements.py) |模拟<br>头部节点的处理|
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) |String<br>HashTable|Easy<br> [Python3](Python3/LeetCode/String/205.%20Isomorphic%20Strings.py) | :+1:<br>哈希表映射 |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |LinkedList|Easy<br>  [Python3](Python3/LeetCode/LinkedList/206.%20Reverse%20Linked%20List.py) | 逆序操作 |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) |TopologicalSort|Medium<br>  [Python3](Python3/LeetCode/TopologicalSort/207.%20Course%20Schedule.py) | 有向图中环是否存在 |
