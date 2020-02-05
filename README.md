@@ -208,6 +208,7 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/217.%20Contains%20Duplicate.py) |水题|
 | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) |Array<br>DevideAndConquer<br>Heap<br>BinaryIndexedTree<br>SegmentTree<br>LineSweep|Hard<br> [Python3](Python3/LeetCode/Array/218.%20The%20Skyline%20Problem.py) |:+1::white_check_mark:<br>思路转化<br>优先级队列<br>heapq|
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/219.%20Contains%20Duplicate%20II.py) |哈希模拟|
+| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) |Array<br>Sort<br>OrderedMap|Medium<br> [Python3](Python3/LeetCode/HashTable/220.%20Contains%20Duplicate%20III.py) |:+1:<br>滑动窗口<br>数学推导|
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/221.%20Maximal%20Square.py) |:+1:<br>DP|
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) |BackTracking|Hard<br> [Python3](Python3/LeetCode/BackTracking/224.%20Basic%20Calculator.py) |值栈与符号栈|
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) |Math|Medium<br> [Python3](Python3/LeetCode/Math/223.%20Rectangle%20Area.py) |计算几何|
