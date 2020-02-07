@@ -146,6 +146,7 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |String<br>TwoPointers|Easy<br>  [Python3](Python3/LeetCode/String/125.%20Valid%20Palindrome.py) | 正则<br>双指针线性扫描 |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) |BFS|Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/127.%20Word%20Ladder.py) | :top::ballot_box_with_check:<br>BFS<br>双向BFS|
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Array<br>Greedy|Hard<br>  [Python3](Python3/LeetCode/Array/128.%20Longest%20Consecutive%20Sequence.py) | :+1:<br>哈希 |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) |BinaryTree<br>DFS|Medium<br>  [Python3](Python3/LeetCode/BinaryTree/129.%20Sum%20Root%20to%20Leaf%20Numbers.py) | DFS模拟 |
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) |DFS<br>BFS<br>UnionFind|Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/130.%20Surrounded%20Regions.py) | :+1:<br>BFS<b；r>逆向考虑|
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) |String<br>BackTracking|Medium<br> [Python3](Python3/LeetCode/String/131.%20Palindrome%20Partitioning.py) | DFS<br>回溯 |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) |Graph<br>BFS<br>DFS|Medium<br>  [Python3](Python3/LeetCode/Graph/133.%20Clone%20Graph.py) | set去重 |
