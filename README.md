@@ -181,6 +181,7 @@
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) |String|Medium<br> [Python3](Python3/LeetCode/String/165.%20Compare%20Version%20Numbers.py) | 字符串操作 |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) |String<br>HashTable<br>Math|Medium<br>  [Python3](Python3/LeetCode/String/166.%20Fraction%20to%20Recurring%20Decimal.py) | 循环节的处理 |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |Math<br>Sum|Easy<br> [Python3](Python3/LeetCode/Math/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py) | 哈希表<br>双指针 |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) |Math|Easy<br> [Python3](Python3/LeetCode/Math/168.%20Excel%20Sheet%20Column%20Title.py) |模拟|
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/169.%20Majority%20Element.py) |  |
 | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) |Design<br>HashTable|Easy<br>  [Python3](Python3/LeetCode/Design/170.%20Two%20Sum%20III%20-%20Data%20structure%20design.py) | :lock:<br>哈希简单应用 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |Math|Easy<br>  [Python3](Python3/LeetCode/Math/171.%20Excel%20Sheet%20Column%20Number.py) |遍历模拟|
