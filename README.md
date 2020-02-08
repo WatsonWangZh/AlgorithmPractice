@@ -183,6 +183,7 @@
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |Math<br>Sum|Easy<br> [Python3](Python3/LeetCode/Math/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py) | 哈希表<br>双指针 |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/169.%20Majority%20Element.py) |  |
 | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) |Design<br>HashTable|Easy<br>  [Python3](Python3/LeetCode/Design/170.%20Two%20Sum%20III%20-%20Data%20structure%20design.py) | :lock:<br>哈希简单应用 |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |Math|Easy<br>  [Python3](Python3/LeetCode/Math/171.%20Excel%20Sheet%20Column%20Number.py) |遍历模拟|
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |Math<br>BitManipulation|Easy<br>  [Python3](Python3/LeetCode/Math/172.%20Factorial%20Trailing%20Zeroes.py) | :+1:<br>质数分解 |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |BinarySearchTree|Easy<br>  [Python3](Python3/LeetCode/BinarySearchTree/173.%20Binary%20Search%20Tree%20Iterator.py) | 栈模拟中序遍历 |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) |Sort|Medium<br>  [Python3](Python3/LeetCode/Sort/179.%20Largest%20Number.py) |:+1:<br>自定义排序<br>Trick|
