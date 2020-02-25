@@ -170,6 +170,7 @@
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | String |Medium<br> [Python3](Python3/LeetCode/String/151.%20Reverse%20Words%20in%20a%20String.py) |One Line Solution<br>数组翻转拼接 |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Array<br>Counter |Medium<br> [Python3](Python3/LeetCode/Array/152.Maximum%20Product%20Subarray.py) | :+1:<br>递归|
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | BinarySearch |Medium<br> [Python3](Python3/LeetCode/BinarySearch/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py) |朴素<br>折半 |
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |Array<br>BinarySearch|Hard<br> [Python3](Python3/LeetCode/BinarySearch/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | :+1:<br>折半 |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) |Stack<br>PriorityQueue|Easy<br> [Python3](Python3/LeetCode/Stack%26PriorityQueue/155.%20Min%20Stack.py) |  |
 | 156 | [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) |BinaryTree|Medium<br>  [Python3](Python3/LeetCode/BinaryTree/156.%20Binary%20Tree%20Upside%20Down.py) | :lock:<br>栈模拟 |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) |String|Easy<br>  [Python3](Python3/LeetCode/String/157.%20Read%20N%20Characters%20Given%20Read4.py) | :lock:<br>理解题意 |
