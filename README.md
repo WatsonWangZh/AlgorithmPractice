@@ -559,6 +559,7 @@
 | 1296 | [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) |Array<br>Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/1296.%20Divide%20Array%20in%20Sets%20of%20K%20Consecutive%20Numbers.py) | 排序<br>哈希模拟 |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1304.%20Find%20N%20Unique%20Integers%20Sum%20up%20to%20Zero.py) |模拟 |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1323.%20Maximum%2069%20Number.py) | 基础字符串操作 |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py) |模拟<br>分桶前缀和 |
 
 # KickStart Practice with Cpp
 
