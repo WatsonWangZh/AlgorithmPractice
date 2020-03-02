@@ -467,6 +467,7 @@
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) |DFS<br>BFS|Easy<br> [Python3](Python3/LeetCode/DFS&BFS/733.%20Flood%20Fill.py) |队列BFS<br>递归DFS|
 | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) |String<br>HashTable|Easy<br> [Python3](Python3/LeetCode/String/734.%20Sentence%20Similarity.py) | :lock:<br>Tuple与Set|
 | 737 | [Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) |String<br>DFS<br>UnionFind|Medium<br> [Python3](Python3/LeetCode/String/737.%20Sentence%20Similarity%20II.py) | :+1::lock:<br>并查集|
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) |Array<br>DynamicProgramming|Easy<br> [Python3](Python3/LeetCode/DynamicProgramming/746.%20Min%20Cost%20Climbing%20Stairs.py) |:+1:<br>70题扩展<br>两种DP |
 | 751 | [IP to CIDR](https://leetcode.com/problems/ip-to-cidr/) |Greedy<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/751.%20IP%20to%20CIDR.py) | :+1::lock:<br>贪心最大块<br>位运算查找|
 | 755 | [Pour Water](https://leetcode.com/problems/pour-water/) |Array<br>Simulation|Medium<br> [Python3](Python3/LeetCode/Array/755.%20Pour%20Water.py) | :lock:<br>模拟流动<br>左边优先|
 | 756 | [Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/) |BitManipulation<br>DFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/756.%20Pyramid%20Transition%20Matrix.py) |:+1:<br>模拟<br>DFS&BFS |
