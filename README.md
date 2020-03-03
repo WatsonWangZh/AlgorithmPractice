@@ -180,6 +180,7 @@
 | 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) |String|Medium<br>  [Python3](Python3/LeetCode/String/161.%20One%20Edit%20Distance.py) |:lock:<br>数组扫描 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) |BinarySearch|Medium<br>  [Python3](Python3/LeetCode/BinarySearch/162.%20Find%20Peak%20Element.py) | 单调区间的变换点 |
 | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) |Array|Medium<br>  [Python3](Python3/LeetCode/Array/163.%20Missing%20Ranges.py) | :+1:lock:<br>模拟数组扫描 |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) |Sort|Hard<br>  [Python3](Python3/LeetCode/Sort/164.%20Maximum%20Gap.py) |:+1::white_check_mark:<br>快速排序<br>基数排序<br>桶排序<br>鸽笼原理|
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) |String|Medium<br> [Python3](Python3/LeetCode/String/165.%20Compare%20Version%20Numbers.py) | 字符串操作 |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) |String<br>HashTable<br>Math|Medium<br>  [Python3](Python3/LeetCode/String/166.%20Fraction%20to%20Recurring%20Decimal.py) | 循环节的处理 |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |Math<br>Sum|Easy<br> [Python3](Python3/LeetCode/Math/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py) | 哈希表<br>双指针 |
