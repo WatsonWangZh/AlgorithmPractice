@@ -10,6 +10,32 @@
 # ]
 
 class Solution:
+
+    # 二刷DP (TODO)
+    
+
+    # 二刷
+    def partition(self, s):
+        """
+            :type s: str
+            :rtype: List[List[str]]
+        """
+        res = []
+        self.dfs(0, [], s, res)
+        return res
+ 
+    def dfs(self, cur, cur_list, s, res):
+        if cur == len(s):
+            ans.append(cur_list)
+            return
+ 
+        for i in range(cur, len(s)):
+            t = s[cur:i + 1]
+            if t == t[::-1]:
+                self.dfs(i + 1, cur_list + [t], s, res)
+
+
+    # 一刷参考
     # 是一道需要用DFS来解的题目，既然题目要求找到所有可能拆分成回文数的情况，那么肯定是所有的情况都要遍历到，
     # 对于每一个子字符串都要分别判断一次是不是回文数，那么肯定有一个判断回文数的子函数，还需要一个DFS函数用来递归，
     # 再加上原本的这个函数，总共需要三个函数来求解。我们将已经检测好的回文子串放到字符串数组header中，当s遍历完了之后，
@@ -44,3 +70,6 @@ class Solution:
                 self.helper(s, j, header)
                 header.pop()
         return
+    
+    def isPalindrome(self, s):
+        return s == s[::-1]
