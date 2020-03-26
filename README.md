@@ -225,6 +225,7 @@
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) |Math|Medium<br> [Python3](Python3/LeetCode/Math/223.%20Rectangle%20Area.py) |计算几何|
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) |BackTracking|Hard<br> [Python3](Python3/LeetCode/BackTracking/224.%20Basic%20Calculator.py) |值栈与符号栈|
 | 225 | [ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) |Stack<br>Design|Easy<br> [Python3](Python3/LeetCode/Design/225.%20Implement%20Stack%20using%20Queues.py) |双队实现栈|
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |BinaryTree|Easy<br>  [Python3](Python3/LeetCode/BinaryTree/226.%20Invert%20Binary%20Tree.py) |递归<br>迭代|
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/227.%20Basic%20Calculator%20II.py) |乘除特殊处理|
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) |Array|Medium<br>  [Python3](Python3/LeetCode/Array/228.%20Summary%20Ranges.py) |模拟<br>线性扫描|
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |BinarySearchTree|Medium<br>  [Python3](Python3/LeetCode/BinarySearchTree/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py) |:+1:<br>递归<br>栈迭代|
