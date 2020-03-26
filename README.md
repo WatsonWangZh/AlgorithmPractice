@@ -228,6 +228,7 @@
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |BinaryTree|Easy<br>  [Python3](Python3/LeetCode/BinaryTree/226.%20Invert%20Binary%20Tree.py) |递归<br>迭代|
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) |BackTracking|Medium<br>  [Python3](Python3/LeetCode/BackTracking/227.%20Basic%20Calculator%20II.py) |乘除特殊处理|
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) |Array|Medium<br>  [Python3](Python3/LeetCode/Array/228.%20Summary%20Ranges.py) |模拟<br>线性扫描|
+| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) |Array|Medium<br> [Python3](Python3/LeetCode/Array/229.%20Majority%20Element%20II.py) |:+1:<br>摩尔投票算法|
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |BinarySearchTree|Medium<br>  [Python3](Python3/LeetCode/BinarySearchTree/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py) |:+1:<br>递归<br>栈迭代|
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) |Math<br>BitManipulation|Easy<br>  [Python3](Python3/LeetCode/Math/231.%20Power%20of%20Two.py) |基本数学<br>位运算|
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) |Stack<br>PriorityQueue|Easy<br>  [Python3](Python3/LeetCode/Stack%26PriorityQueue/232.%20Implement%20Queue%20using%20Stacks.py) |双栈实现队列|
