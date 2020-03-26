@@ -145,6 +145,7 @@
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) |DynamicProgramming|Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.py) | :+1::white_check_mark:<br>贪心<br>DP |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |BinaryTree|Hard<br>  [Python3](Python3/LeetCode/BinaryTree/124.%20Binary%20Tree%20Maximum%20Path%20Sum.py) | :+1:<br>DFS |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |String<br>TwoPointers|Easy<br>  [Python3](Python3/LeetCode/String/125.%20Valid%20Palindrome.py) | 正则<br>双指针线性扫描 |
+| 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) |Array<br>String<br>BackTracking<br>BFS|Hard<br>  [Python3](Python3/LeetCode/DFS&BFS/126.%20Word%20Ladder%20II.py) |  |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) |BFS|Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/127.%20Word%20Ladder.py) | :top::ballot_box_with_check:<br>BFS<br>双向BFS|
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Array<br>Greedy|Hard<br>  [Python3](Python3/LeetCode/Array/128.%20Longest%20Consecutive%20Sequence.py) | :+1:<br>哈希 |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) |BinaryTree<br>DFS|Medium<br>  [Python3](Python3/LeetCode/BinaryTree/129.%20Sum%20Root%20to%20Leaf%20Numbers.py) | DFS模拟 |
@@ -561,6 +562,7 @@
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1304.%20Find%20N%20Unique%20Integers%20Sum%20up%20to%20Zero.py) |模拟 |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1323.%20Maximum%2069%20Number.py) | 基础字符串操作 |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py) |模拟<br>分桶前缀和 |
+| 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/1389.%20Create%20Target%20Array%20in%20the%20Given%20Order.py) ||
 
 # KickStart Practice with Cpp
 
