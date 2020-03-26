@@ -270,6 +270,7 @@
 | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |String<br>Design|Medium<br> [Python3](Python3/LeetCode/Design/272.%20Encode%20and%20Decode%20Strings.py) |:roll_eyes::lock:<br>无聊字符串操作|
 | 272 | [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) |BinarySearchTree<br>Stack|Hard<br> [Python3](Python3/LeetCode/BinarySearchTree/272.%20Closest%20Binary%20Search%20Tree%20Value%20II.py) |:+1::white_check_mark::lock:<br>中序遍历更新结果|
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) |String|Hard<br> [Python3](Python3/LeetCode/String/273.%20Integer%20to%20English%20Words.py) |:+1::white_check_mark:<br>模拟|
+| 274 | [H-Index](https://leetcode.com/problems/h-index/) |HashTable<br>Sort|Medium<br> [Python3](Python3/LeetCode/Sort/274.%20H-Index.py) |模拟|
 | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) |BinarySearch|Medium<br> [Python3](Python3/LeetCode/BinarySearch/275.%20H-Index%20II.py) |构造二段性|
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) |DynamicProgramming|Easy<br> [Python3](Python3/LeetCode/DynamicProgramming/276.%20Paint%20Fence.py) |:+1::lock:<br>数学分析方法|
 | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) |Array|Medium<br> [Python3](Python3/LeetCode/Array/277.%20Find%20the%20Celebrity.py) |:+1::white_check_mark::lock:<br>指定API<br>暴力法<br>验证法|
