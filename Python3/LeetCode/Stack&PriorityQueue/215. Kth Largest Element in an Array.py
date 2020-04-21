@@ -91,3 +91,54 @@ class Solution:
                     break
                 right -= 1
         return left
+
+# 堆排
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        return self.heap_sort(nums, k)
+    
+    def heap_sort(self, nums, k):
+        # 构建大顶堆
+        for i in range(len(nums) // 2 - 1, -1, -1):
+            self.heap_adjust(nums, i, len(nums))
+        
+        cnt = 0
+        # 交换堆顶元素，然后重新调整堆结构
+        for i in range(len(nums) - 1, 0, -1):
+            self.heap_swap(nums, 0, i)
+            cnt += 1
+            if cnt == k:
+                return nums[i]
+            self.heap_adjust(nums, 0, i)
+        # 说明k==len(nums)
+        return nums[0]
+    
+    def heap_adjust(self, nums, start, length):
+        tmp = nums[start]
+        k = 2 * start + 1
+        # 对于完全二叉树而言，没有左孩子 = 没有右孩子
+        while k < length:
+            # 当前节点左节点序号
+            left = 2 * start + 1
+            # 当前节点右节点序号
+            right = left + 1
+            
+            if right < length and nums[right] > nums[left]:
+                # 右节点较大
+                k = right
+                
+            # 子节点比父节点大，则将子节点赋值给父节点
+            if nums[k] > tmp:
+                nums[start] = nums[k]
+                start = k 
+            else:
+                break
+                
+            k = 2 * k + 1
+            
+        nums[start] = tmp
+        
+    def heap_swap(self, nums, i, j):
+        nums[i], nums[j] = nums[j], nums[i]
+        return nums
+            
