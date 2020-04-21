@@ -19,7 +19,7 @@ class Solution:
         # nums.sort(reverse=True)
         # return nums[k-1]
 
-        # M2.分治法，思想类似快排 时间复杂度O(n)
+        # M2.交换法快排分治 时间复杂度O(n)
         def partition(nums, l, r):
             pivot = nums[r]
             i = l-1
@@ -52,3 +52,42 @@ class Solution:
         # for i in range(1, len(nums)+1):
         #     temp = q.get()
         #     if i == k: return -temp
+
+# 二刷 填坑法快排分治
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        return self.quick_sort(nums, k)
+    
+    def quick_sort(self, nums, k):
+        # 递增快排
+        k = len(nums) - k
+        left = 0
+        right = len(nums) - 1
+        while left < right:
+            j = self.partition(nums, left, right)
+            if j == k:
+                break
+            elif j < k:
+                left = j + 1
+            else:
+                right = j - 1
+        return nums[k]
+    
+    def partition(self, nums, left, right):
+        while True:
+            while nums[left] < nums[right]:
+                right -= 1
+            else:
+                nums[left], nums[right] = nums[right], nums[left]
+                if left >= right:
+                    break
+                left += 1
+            
+            while nums[left] < nums[right]:
+                left += 1
+            else:
+                nums[left], nums[right] = nums[right], nums[left]
+                if left >= right:
+                    break
+                right -= 1
+        return left
