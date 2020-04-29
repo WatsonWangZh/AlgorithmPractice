@@ -527,6 +527,7 @@
 | 1119 | [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/) |String|Easy<br> [Python3](Python3/LeetCode/String/1119.%20Remove%20Vowels%20from%20a%20String.py) | :lock:<br>字符串基本操作|
 | 1133 | [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/HashTable/1133.%20Largest%20Unique%20Number.py) | :+1::lock:<br>字典<br>调库<br>排序过滤 |
 | 1134 | [Armstrong Number](https://leetcode.com/problems/armstrong-number/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1134.%20Armstrong%20Number.py) |:lock:<br>水题 |
+| 1135 | [Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) |UnionFind<br>Graph|Medium<br> [Python3](Python3/LeetCode/Graph/1135.%20Connecting%20Cities%20With%20Minimum%20Cost.py) |最小生成树<br>Kruskal算法<br>Prim算法 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) |Math<br>Recursion|Easy<br> [Python3](Python3/LeetCode/Recursion/1137.%20N-th%20Tribonacci%20Number.py) |:+1::white_check_mark::lock:<br>DP<br>记忆递归<br>记忆DP |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/1140.%20Stone%20Game%20II.py) |:ballot_box_with_check:<br>DP|
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/1143.%20Longest%20Common%20Subsequence.py) |二维DP|
