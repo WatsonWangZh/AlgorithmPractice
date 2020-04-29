@@ -529,6 +529,7 @@
 | 1134 | [Armstrong Number](https://leetcode.com/problems/armstrong-number/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1134.%20Armstrong%20Number.py) |:lock:<br>水题 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) |Math<br>Recursion|Easy<br> [Python3](Python3/LeetCode/Recursion/1137.%20N-th%20Tribonacci%20Number.py) |:+1::white_check_mark::lock:<br>DP<br>记忆递归<br>记忆DP |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/1140.%20Stone%20Game%20II.py) |:ballot_box_with_check:<br>DP|
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) |DynamicProgramming|Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/1143.%20Longest%20Common%20Subsequence.py) |二维DP|
 | 1150 | [Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/) |Array<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/Array/1150.%20Check%20If%20a%20Number%20Is%20Majority%20Element%20in%20a%20Sorted%20Array.py) | :lock:<br>水题 |
 | 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year/) |Math|Easy<br> [Python3](Python3/LeetCode/Math/1154.%20Day%20of%20the%20Year.py) |分段处理<br>特判闰年 |
 | 1165 | [Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/) |String|Easy<br> [Python3](Python3/LeetCode/String/1165.%20Single-Row%20Keyboard.py) | :lock:<br>记录下标<br>遍历统计|
