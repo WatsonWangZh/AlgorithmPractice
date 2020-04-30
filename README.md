@@ -47,7 +47,7 @@
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |LinkedList|Hard<br>  [Python3](Python3/LeetCode/LinkedList/25.%20Reverse%20Nodes%20in%20k-Group.py) | 翻转拼接 |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py) | 双指针移动 |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |Array|Easy<br>  [Python3](Python3/LeetCode/Array/27.%20Remove%20Element.py) |  |
-| 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |String|Easy<br>  [Python3](Python3/LeetCode/String/28.%20Implement%20strStr().py) | 字符串匹配 |
+| 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |String|Easy<br>  [Python3](Python3/LeetCode/String/28.%20Implement%20strStr().py) | 字符串匹配<br>KMP算法 |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) |Math|Medium<br>  [Python3](Python3/LeetCode/Math/29.%20Divide%20Two%20Integers.py) | 尽可能多减 |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |String|Hard<br>  [Python3](Python3/LeetCode/String/30.%20Substring%20with%20Concatenation%20of%20All%20Words.py) | 两种实现。|
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) |Array|Medium<br> [Python3](Python3/LeetCode/Array/31.%20Next%20Permutation.py) |  |
