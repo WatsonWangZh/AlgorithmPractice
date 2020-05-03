@@ -358,6 +358,7 @@
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |Matrix|Medium<br> [Python3](Python3/LeetCode/Matrix/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py) | Counter或桶排序 |
 | 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) |Design<br>LinkedList|Medium<br> [Python3](Python3/LeetCode/Design/379.%20Design%20Phone%20Directory.py) | :lock:<br>|
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) |ReservoirSampling|Medium<br> [Python3](Python3/LeetCode/ReservoirSampling/382.%20Linked%20List%20Random%20Node.py) | Two Pass<br>蓄水池采样 |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) |String|Easy<br> [Python3](Python3/LeetCode/String/383.%20Ransom%20Note.py) | 模拟<br>哈希表 |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) |Random|Medium<br> [Python3](Python3/LeetCode/Random/384.%20Shuffle%20an%20Array.py) | random互换 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) |HashTable<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/389.%20Find%20the%20Difference.py) |  |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |String<br>HashTable<br>Greedy<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/String/392.%20Is%20Subsequence.py) | :+1::top:<br>哈希速度优化<br>二分 |
