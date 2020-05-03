@@ -602,4 +602,5 @@
 | 13 | [机器人的运动范围](Cpp/CodingInterview/13.%20RobotMove/13.%20RobotMove.md) | DFS<br>BFS<br>Recurision | Medium <br> [RobotMove](Cpp/CodingInterview/13.%20RobotMove/13.%20RobotMove.cpp) |DFS<br>BFS|
 | 14 | [剪绳子](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.md) | Greedy<br>DynamicProgramming | Medium <br> [CuttingRope](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.cpp) |动态规划<br>贪心证明|
 | 15 | [二进制中1的个数](Cpp/CodingInterview/15.%20NumberOf1InBinary/15.%20NumberOf1InBinary.md) | BitManipulation | Medium <br> [NumberOf1InBinary](Cpp/CodingInterview/15.%20NumberOf1InBinary/15.%20NumberOf1InBinary.cpp) |右移二进制<br>左移标志位<br>位运算规律|
+| 50 | [第一个只出现一次的字符](Cpp/CodingInterview/50.%20FirstNotRepeatingChar.md) | HashTable<br>Queue | Easy<br>Medium <br> [FirstNotRepeatingChar](Cpp/CodingInterview/50.%20FirstNotRepeatingChar/50.%20FirstNotRepeatingChar.cpp) |:+1:<br>队列灵活应用|
 | 66 | [构建乘积数组](Cpp/CodingInterview/66.%20ConstuctArray.md) | Trick | Medium <br> [ConstuctArray](Cpp/CodingInterview/66.%20ConstuctArray/66.%20ConstuctArray.cpp) |思路转化|
