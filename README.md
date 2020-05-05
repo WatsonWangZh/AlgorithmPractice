@@ -605,5 +605,6 @@
 | 14 | [剪绳子](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.md) | Greedy<br>DynamicProgramming | Medium <br> [CuttingRope](Cpp/CodingInterview/14.%20CuttingRope/14.%20CuttingRope.cpp) |动态规划<br>贪心证明|
 | 15 | [二进制中1的个数](Cpp/CodingInterview/15.%20NumberOf1InBinary/15.%20NumberOf1InBinary.md) | BitManipulation | Medium <br> [NumberOf1InBinary](Cpp/CodingInterview/15.%20NumberOf1InBinary/15.%20NumberOf1InBinary.cpp) |右移二进制<br>左移标志位<br>位运算规律|
 | 19 | [正则表达式匹配](Cpp/CodingInterview/19.%20RegularExpressions/19.%20RegularExpressions.md) | String<br>Recursion | Hard <br> [RegularExpressions](Cpp/CodingInterview/19.%20RegularExpressions/19.%20RegularExpressions.cpp) ||
+| 20 | [表示数值的字符串](Cpp/CodingInterview/20.%20NumericStrings/20.%20NumericStrings.md) | String | Hard <br> [NumericStrings](Cpp/CodingInterview/20.%20NumericStrings/20.%20NumericStrings.cpp) ||
 | 50 | [第一个只出现一次的字符](Cpp/CodingInterview/50.%20FirstNotRepeatingChar.md) | HashTable<br>Queue | Easy<br>Medium <br> [FirstNotRepeatingChar](Cpp/CodingInterview/50.%20FirstNotRepeatingChar/50.%20FirstNotRepeatingChar.cpp) |:+1:<br>队列灵活应用|
 | 66 | [构建乘积数组](Cpp/CodingInterview/66.%20ConstuctArray.md) | Trick | Medium <br> [ConstuctArray](Cpp/CodingInterview/66.%20ConstuctArray/66.%20ConstuctArray.cpp) |思路转化|
