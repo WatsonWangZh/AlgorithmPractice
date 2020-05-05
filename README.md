@@ -404,6 +404,7 @@
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) |BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/476.%20Number%20Complement.py) |模拟<br>位运算规律 |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) |BitManipulation|Medium<br> [Python3](Python3/LeetCode/BitManipulation/477.%20Total%20Hamming%20Distance.py) |按位统计|
 | 481 | [Magical String](https://leetcode.com/problems/magical-string/) |String|Medium<br> [Python3](Python3/LeetCode/String/481.%20Magical%20String.py) | :+1:规律模拟 |
+| 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) |String|Easy<br> [Python3](Python3/LeetCode/String/482.%20License%20Key%20Formatting.py) |字符串基础操作<br>模拟<br>Google |
 | 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) |Greedy|Medium<br> [Python3](Python3/LeetCode/Greedy/484.%20Find%20Permutation.py) | :+1::lock:<br>贪心栈 |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/485.%20Max%20Consecutive%20Ones.py) | 水题 |
 | 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) |DynamicProgramming<br>MiniMax|Medium<br> [Python3](Python3/LeetCode/Minimax/486.%20Predict%20the%20Winner.py) | DP |
