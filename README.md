@@ -361,6 +361,7 @@
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) |ReservoirSampling|Medium<br> [Python3](Python3/LeetCode/ReservoirSampling/382.%20Linked%20List%20Random%20Node.py) | Two Pass<br>蓄水池采样 |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) |String|Easy<br> [Python3](Python3/LeetCode/String/383.%20Ransom%20Note.py) | 模拟<br>哈希表 |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) |Random|Medium<br> [Python3](Python3/LeetCode/Random/384.%20Shuffle%20an%20Array.py) | random互换 |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) |String<br>HashTable|Easy<br> [Python3](Python3/LeetCode/String/387.%20First%20Unique%20Characters%20in%20a%20String.py) |哈希模拟 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) |HashTable<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BitManipulation/389.%20Find%20the%20Difference.py) |  |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |String<br>HashTable<br>Greedy<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/String/392.%20Is%20Subsequence.py) | :+1::top:<br>哈希速度优化<br>二分 |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) |Stack<br>DFS|Medium<br> [Python3](Python3/LeetCode/DFS&BFS/394.%20Decode%20String.py) | :+1::white_check_mark:<br>递归<br>栈 |
