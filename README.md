@@ -503,6 +503,7 @@
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |String|Easy<br> [Python3](Python3/LeetCode/String/929.%20Unique%20Email%20Addresses.py) | 哈希表<br>字符串处理<br>Google |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) |HashTable<br>TwoPointers|Medium<br> [Python3](Python3/LeetCode/TwoPointers/930.%20Binary%20Subarrays%20With%20Sum.py) | :+1::ballot_box_with_check::top:<br>记录基本元素位置<br>前缀和+counts|
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) |Queue|Easy<br> [Python3](Python3/LeetCode/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找<br>队列 |
+| 975 | [Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) |DynamicProgramming<br>Stack<br>OrderedMap|Hard<br> [Python3](Python3/LeetCode/DynamicProgramming/975.%20Odd%20Even%20Jump.py) | :+1::ballot_box_with_check:<br>单调栈<br>记忆化递归<br>Google |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/989.%20Add%20to%20Array-Form%20of%20Integer.py) | 逐位相加进位 |
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/999.%20Available%20Captures%20for%20Rook.py) |暴力枚举|
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/Array/1002.%20Find%20Common%20Characters.py) | 小根堆 |
