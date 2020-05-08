@@ -465,6 +465,7 @@
 | 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) |String|Easy<br> [Python3](Python3/LeetCode/String/657.%20Robot%20Return%20to%20Origin.py) | 抵消count<br>模拟 |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) |BinarySearch|Medium<br> [Python3](Python3/LeetCode/BinarySearch/658.%20Find%20K%20Closest%20elements.py) | :+1::white_check_mark:<br>排序<br>双指针<br>二分查找|
 | 664 | [Strange Printer](https://leetcode.com/problems/strange-printer/) |DynamicProgramming<br>DFS|Hard<br> [Python3](Python3/LeetCode/DynamicProgramming/664.%20Strange%20Printer.py) |:+1::white_check_mark:<br>DP进阶题目 |
+| 681 | [Next Closest Time](https://leetcode.com/problems/next-closest-time/) |String|Hard<br> [Python3](Python3/LeetCode/String/681.%20Next%20Closest%20Time.py) |:lock:<br>模拟<br>Google |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) |Tree<br>UnionFind<br>Graph|Medium<br>[Python3](Python3/LeetCode/Graph/684.%20Redundant%20Connection.py) | :+1:<br>并查集 |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) |Recurion|Easy<br> [Python3](Python3/LeetCode/Recursion/687.%20Longest%20Univalue%20Path.py) | DFS递归 |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |Array<br>HashTable<br>Heap<br>Trie|Medium<br> [Python3](Python3/LeetCode/Array/692.%20Top%20K%20Frequent%20Words.py) |:+1::white_check_mark:<br>优先队列改造题 |
