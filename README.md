@@ -492,6 +492,7 @@
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) |BackTracking<br>BitManipulation|Easy<br> [Python3](Python3/LeetCode/BackTracking/784.%20Letter%20Case%20Permutation.py) | DFS |
 | 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) |Graph<br>DFS<br>BFS|Medium<br> [Python3](Python3/LeetCode/Graph/785.%20Is%20Graph%20Bipartite?.py) | DFS模拟 |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/) |String<br>Math|Easy<br> [Python3](Python3/LeetCode/Math/800.%20Similar%20RGB%20Color.py) | :lock:<br>蛮力求解<br>数学分析 |
+| 809 | [Expressive Words](https://leetcode.com/problems/expressive-words/) |String|Medium<br> [Python3](Python3/LeetCode/String/809.%20Expressive%20Words.py) | 模拟<br>分段核对 |
 | 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) |Math|Hard<br> [Python3](Python3/LeetCode/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
 | 840 | [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/840.%20Magic%20Squares%20In%20Grid.py) | 枚举检查 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy<br> [Python3](Python3/LeetCode/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
