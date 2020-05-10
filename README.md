@@ -510,6 +510,7 @@
 | 975 | [Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) |DynamicProgramming<br>Stack<br>OrderedMap|Hard<br> [Python3](Python3/LeetCode/DynamicProgramming/975.%20Odd%20Even%20Jump.py) | :+1::ballot_box_with_check:<br>单调栈<br>记忆化递归<br>Google |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/989.%20Add%20to%20Array-Form%20of%20Integer.py) | 逐位相加进位 |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) |BinaryTree|Easy<br> [Python3](Python3/LeetCode/BinaryTree/993.%20Cousin%20in%20Binary%20Tree.py) |DFS或BFS预处理|
+| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) |Graph|Easy<br> [Python3](Python3/LeetCode/Graph/997.%20Find%20the%20Town%20Judge.py) |集合模拟<br>出入度|
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/999.%20Available%20Captures%20for%20Rook.py) |暴力枚举|
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) |Array<br>HashTable|Easy<br> [Python3](Python3/LeetCode/Array/1002.%20Find%20Common%20Characters.py) | 小根堆 |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) |TwoPointers<br>SlidingWindow|Medium<br> [Python3](Python3/LeetCode/TwoPointers/1004.%20Max%20Consecutive%20Ones%20III.py) | 滑动窗口 |
