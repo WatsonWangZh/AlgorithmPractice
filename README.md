@@ -495,6 +495,7 @@
 | 809 | [Expressive Words](https://leetcode.com/problems/expressive-words/) |String|Medium<br> [Python3](Python3/LeetCode/String/809.%20Expressive%20Words.py) | 模拟<br>分段核对 |
 | 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) |Math|Hard<br> [Python3](Python3/LeetCode/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
 | 840 | [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/840.%20Magic%20Squares%20In%20Grid.py) | 枚举检查 |
+| 843 | [Guess the Word](https://leetcode.com/problems/guess-the-word/) |Minimax|Hard<br> [Python3](Python3/LeetCode/Minimax/843.%20Guess%20the%20Word.py) | :+1:<br>Google<br>交互问题 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy<br> [Python3](Python3/LeetCode/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/849.%20Maximize%20Distance%20to%20Closest%20Person.py) |滑动窗口<br>两侧特殊处理<br>Google|
 | 857 | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |Heap|Hard<br> [Python3](Python3/LeetCode/Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | :+1::white_check_mark::top:<br>贪心最大堆|
