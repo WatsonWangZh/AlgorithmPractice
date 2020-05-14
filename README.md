@@ -500,6 +500,7 @@
 | 843 | [Guess the Word](https://leetcode.com/problems/guess-the-word/) |Minimax|Hard<br> [Python3](Python3/LeetCode/Minimax/843.%20Guess%20the%20Word.py) | :+1:<br>Google<br>交互问题 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |Heap|Easy<br> [Python3](Python3/LeetCode/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) |Array|Easy<br> [Python3](Python3/LeetCode/Array/849.%20Maximize%20Distance%20to%20Closest%20Person.py) |滑动窗口<br>两侧特殊处理<br>Google|
+| 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |Array<br>BinarySearch|Easy<br> [Python3](Python3/LeetCode/Array/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) |线性<br>折半|
 | 857 | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |Heap|Hard<br> [Python3](Python3/LeetCode/Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | :+1::white_check_mark::top:<br>贪心最大堆|
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) |Greedy|Easy<br> [Python3](Python3/LeetCode/Greedy/860.%20Lemonade%20Change.py) | 贪心 |
 | 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) |Array<br>Math|Medium<br> [Python3](Python3/LeetCode/Math/883.%20Projection%20Area%20of%203D%20Shapes.py) |规律计算|
