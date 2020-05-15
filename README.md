@@ -16,7 +16,7 @@
 
 # LeetCode Practice with Python3 
 ### [LeetCode 全部题目 无需会员](http://206.81.6.248:12306/leetcode/algorithm)
-**Total: 483 / 1216 |   Locked: 139 / 208 | Free: 344 / 1008 | ToSolve: 69 / 664 (2020.01.13 周更)**
+**Total: 568 / 1322 |   Locked: 143 / 214 | Free: 425 / 1179 | ToSolve: 71 / 754 (2020.05.15 周更)**
 
 | # | Title | Category <br> Difficulty <br> Solution | Basic idea |
 |:---:| :-----: | :---------:| :---------:| 
@@ -49,7 +49,7 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |Array<br>Easy<br>  [Python3](Python3/LeetCode/Array/27.%20Remove%20Element.py) |  |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |String<br>Easy<br>  [Python3](Python3/LeetCode/String/28.%20Implement%20strStr().py) | 字符串匹配<br>KMP算法 |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) |Math<br>Medium<br>  [Python3](Python3/LeetCode/Math/29.%20Divide%20Two%20Integers.py) | 尽可能多减 |
-| 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |String<br>Hard<br>  [Python3](Python3/LeetCode/String/30.%20Substring%20with%20Concatenation%20of%20All%20Words.py) | 两种实现。|
+| 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |String<br>Hard<br>  [Python3](Python3/LeetCode/String/30.%20Substring%20with%20Concatenation%20of%20All%20Words.py) | 两种实现|
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) |Array<br>Medium<br> [Python3](Python3/LeetCode/Array/31.%20Next%20Permutation.py) |  |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |String<br>DynamicProgramming<br>Hard<br>  [Python3](Python3/LeetCode/String/32.%20Longest%20Valid%20Parentheses.py) | :+1::white_check_mark::heart_eyes:<br>暴力枚举<br>栈模拟<br>动态规划<br>双向扫描 |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |Binary Search<br>Medium<br> [Python3](Python3/LeetCode/BinarySearch/33.%20Search%20in%20Rotated%20Sorted%20Array.py) |  |
@@ -149,7 +149,7 @@
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) |BFS<br>Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/127.%20Word%20Ladder.py) | :top::ballot_box_with_check:<br>BFS<br>双向BFS|
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Array<br>Greedy<br>Hard<br>  [Python3](Python3/LeetCode/Array/128.%20Longest%20Consecutive%20Sequence.py) | :+1:<br>哈希 |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) |BinaryTree<br>DFS<br>Medium<br>  [Python3](Python3/LeetCode/BinaryTree/129.%20Sum%20Root%20to%20Leaf%20Numbers.py) | DFS模拟 |
-| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) |DFS<br>BFS<br>UnionFind<br>Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/130.%20Surrounded%20Regions.py) | :+1:<br>BFS<b；r>逆向考虑|
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) |DFS<br>BFS<br>UnionFind<br>Medium<br>  [Python3](Python3/LeetCode/DFS&BFS/130.%20Surrounded%20Regions.py) | :+1:<br>BFS<br>逆向考虑|
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) |String<br>BackTracking<br>Medium<br> [Python3](Python3/LeetCode/String/131.%20Palindrome%20Partitioning.py) | DFS<br>回溯<br>DP(TODO) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) |Graph<br>BFS<br>DFS<br>Medium<br>  [Python3](Python3/LeetCode/Graph/133.%20Clone%20Graph.py) | set去重 |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) |Greddy<br>Array<br>Medium<br>  [Python3](Python3/LeetCode/Greedy/134.%20Gas%20Station.py) | 贪心双指针 |
@@ -212,7 +212,7 @@
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |Array<br>TwoPointers<br>BinarySearch<br>Medium<br>  [Python3](Python3/LeetCode/TwoPointers/209.%20Minimum%20Size%20Subarray%20Sum.py) |双指针<br>滑动窗口 |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |DFS<br>BFS<br>TopologicalSort<br>Medium<br>  [Python3](Python3/LeetCode/TopologicalSort/210.%20Course%20Schedule%20II.py) | 经典拓扑排序 |
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) |BackTracking<br>Design<br>Trie<br>Medium<br>  [Python3](Python3/LeetCode/Design/211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design.py) | 字典模拟<br>Trie(TODO)|
-| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) |String<br>BackTracking<br>Trie<br>Hard<br>  [Python3](Python3/LeetCode/Trie/212.%20Word%20Search%20II.py) |:+1::white_check_mark<br>DFS<br>Trie优化|
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) |String<br>BackTracking<br>Trie<br>Hard<br>  [Python3](Python3/LeetCode/Trie/212.%20Word%20Search%20II.py) |:+1::white_check_mark:<br>DFS<br>Trie优化|
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) |DynamicProgramming<br>Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/213.%20House%20Robber%20II.py) | Rob First Or Not|
 | 214 | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) |String<br>Hard<br>  [Python3](Python3/LeetCode/String/214.%20Shortest%20Palindrome.py) |:+1::white_check_mark:<br>最长前缀匹配<br>KMP优化 |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |Stack<br>PriorityQueue<br>Medium<br>  [Python3](Python3/LeetCode/Stack%26PriorityQueue/215.%20Kth%20Largest%20Element%20in%20an%20Array.py) |偷懒法<br>交换快排<br>最大堆<br>优先级队列<br>填坑快排<br>堆排|
@@ -294,8 +294,8 @@
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) |Design<br>Heap<br>Hard<br> [Python3](Python3/LeetCode/Design/295.%20Find%20Median%20from%20Data%20Stream.py) |:+1::white_check_mark::heart_eyes:<br>双堆 |
 | 296 | [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) |Math<br>Sort<br>Hard<br> [Python3](Python3/LeetCode/Math/296.%20Best%20Meeting%20Point.py) | :+1::lock:<br>排序隐性考察|
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |BinaryTree<br>Hard<br> [Python3](Python3/LeetCode/BinaryTree/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.py) | :+1:<br>递归DFS |
-| 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) |BinaryTree<br>Medium<br> [Python3](Python3/LeetCode/BinaryTree/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence.py) | :+1:lock:<br>中序遍历<br>栈的应用 |
-| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) |String<br>HashTable<br>Easy<br> [Python3](Python3/LeetCode/String/299.%20Bulls%20and%20Cows.py) | :+1:lock:<br>哈希表灵活应用 |
+| 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) |BinaryTree<br>Medium<br> [Python3](Python3/LeetCode/BinaryTree/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence.py) | :+1::lock:<br>中序遍历<br>栈的应用 |
+| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) |String<br>HashTable<br>Easy<br> [Python3](Python3/LeetCode/String/299.%20Bulls%20and%20Cows.py) | :+1::lock:<br>哈希表灵活应用 |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |DynamicProgramming<br>Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/300.%20Longest%20Increasing%20Subsequence.py) |DP与优化 |
 | 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) |BackTracking<br>Hard<br> [Python3](Python3/LeetCode/BackTracking/301.%20Remove%20Invalid%20Parentheses.py) | :+1:<br>DFS+括号序列 |
 | 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) |Array<br>BinarySearch<br>Hard<br> [Python3](Python3/LeetCode/BinarySearch/302.%20Smallest%20Rectangle%20Enclosing%20Black%20Pixels.py) | :+1::white_check_mark::lock:<br>原始线性搜索<br>二分搜索 |
