@@ -79,3 +79,30 @@ class Solution(object):
             queue.append(i)
 
         return result
+
+        # 二刷
+        # 分情况讨论:
+        # 1. 出现在中间 -》 普通最大子数组和问题
+        # 2. 出现在两端 -》 数组总和 - 最小子数组和 -》 普通最小子数组和问题
+        # 3. 数组全为负数 -》 取数组中最大的负数
+
+        total_sum = 0
+        max_sum_of_subarray = float('-inf')
+        min_sum_of_subarray = float('inf')
+        cur_max, cur_min = 0, 0
+        
+        for num in A:
+            total_sum += num
+            
+            cur_min = min(cur_min+num, num)
+            min_sum_of_subarray = min(min_sum_of_subarray, cur_min)
+            
+            cur_max = max(cur_max+num, num)
+            max_sum_of_subarray = max(max_sum_of_subarray, cur_max)
+            
+        # 全为负数
+        if total_sum - min_sum_of_subarray == 0:
+            return max_sum_of_subarray
+        else:
+            # 最大和子数组出现在中间或两端
+            return max(max_sum_of_subarray, total_sum - min_sum_of_subarray)
