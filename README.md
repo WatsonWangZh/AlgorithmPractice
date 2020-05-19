@@ -509,6 +509,7 @@
 | 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) |Array<br>Math<br>Medium<br> [Python3](Python3/LeetCode/Math/883.%20Projection%20Area%20of%203D%20Shapes.py) |规律计算|
 | 891 | [Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/) |Array<br>Math<br>Hard<br> [Python3](Python3/LeetCode/Math/891.%20Sum%20ofSubsequence%20Width.py) |:+1:<br>数学规律|
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) |Math<br>Geometry<br>Easy<br>[Python3](Python3/LeetCode/Geometry/892.%20Surface%20Area%20of%203D%20Shapes.py) | 找规律问题 |
+| 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) |Stack<br>Medium<br> [Python3](Python3/LeetCode/Stack/901.%20Online%20Stock%20Span.py) |蛮力算法<br>栈记忆 |
 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) |TwoPointers<br>Medium<br> [Python3](Python3/LeetCode/TwoPointers/904.%20Fruit%20Into%20Baskets.py) |滑动窗口<br>159题包装<br>Google |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) |Array<br>Medium(Hard)<br> [Python3](Python3/LeetCode/Array/918.%20Maximum%20Sum%20Circular%20Subarray.py) | :+1::white_check_mark:<br>前缀和单调队列<br>分情况讨论|
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |String<br>Easy<br> [Python3](Python3/LeetCode/String/929.%20Unique%20Email%20Addresses.py) | 哈希表<br>字符串处理<br>Google |
