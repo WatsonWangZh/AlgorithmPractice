@@ -541,6 +541,7 @@
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) |Math<br>DynamicProgramming<br>Easy<br>[Python3](Python3/LeetCode/Math/1025.%20Divisor%20Game.py) |数学推导|
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) |BinaryTree<br>DFS<br>Medium<br> [Python3](Python3/LeetCode/BinaryTree/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.py) |DFS|
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) |Greedy<br>Easy<br> [Python3](Python3/LeetCode/Greedy/1029.%20Two%20City%20Scheduling.py) |排序贪心|
+| 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) |Array<br>Medium<br> [Python3](Python3/LeetCode/Array/1035.%20Uncrossed%20Lines.py) |DP基础题|
 | 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number/) |Math<br>Easy<br> [Python3](Python3/LeetCode/Math/1056.%20Confusing%20Number.py) | :lock:<br>记录翻转对<br>注意拼接顺序 |
 | 1064 | [Fixed Point](https://leetcode.com/problems/fixed-point/) |Array<br>BinarySearch<br>Easy<br> [Python3](Python3/LeetCode/BinarySearch/1064.%20Fixed%20Point.py) | :lock:<br>水题|
 | 1065 | [Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/) |String<br>Trie<br>Easy<br> [Python3](Python3/LeetCode/String/1065.%20Index%20Pairs%20of%20a%20String.py) | :lock:<br>查找排序 |
