@@ -360,6 +360,7 @@
 | 376 | [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) |DynamicProgramming<br>Greedy<br>Medium<br> [Python3](Python3/LeetCode/Greedy/376.%20Wiggle%20Subsequence.py) ||
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |Matrix<br>Medium<br> [Python3](Python3/LeetCode/Matrix/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py) | Counter或桶排序 |
 | 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) |Design<br>LinkedList<br>Medium<br> [Python3](Python3/LeetCode/Design/379.%20Design%20Phone%20Directory.py) | :lock:<br>|
+| 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |Design<br>Array<br>HashTable<br>Medium<br> [Python3](Python3/LeetCode/Design/380.%20Insert%20Delete%20GetRandom%20O(1).py) |:+1:<br>dict+list<br>Trick |
 | 382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) |ReservoirSampling<br>Medium<br> [Python3](Python3/LeetCode/ReservoirSampling/382.%20Linked%20List%20Random%20Node.py) | Two Pass<br>蓄水池采样 |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) |String<br>Easy<br> [Python3](Python3/LeetCode/String/383.%20Ransom%20Note.py) | 模拟<br>哈希表 |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) |Random<br>Medium<br> [Python3](Python3/LeetCode/Random/384.%20Shuffle%20an%20Array.py) | random互换 |
