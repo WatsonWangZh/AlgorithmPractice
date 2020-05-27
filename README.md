@@ -498,7 +498,7 @@
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) |String<br>Easy<br> [Python3](Python3/LeetCode/String/771.%20Jewels%20and%20Stones.py) | 水题 |
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) |Brainteaser<br>Medium<br> [Python3](Python3/LeetCode/Brainteaser/777.%20Swap%20Adjacent%20in%20LR%20String.py) | :+1::white_check_mark:<br>找规律<br>Funny |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) |BackTracking<br>BitManipulation<br>Easy<br> [Python3](Python3/LeetCode/BackTracking/784.%20Letter%20Case%20Permutation.py) | DFS |
-| 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) |Graph<br>DFS<br>BFS<br>Medium<br> [Python3](Python3/LeetCode/Graph/785.%20Is%20Graph%20Bipartite?.py) | DFS模拟 |
+| 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) |Graph<br>DFS<br>BFS<br>Medium<br> [Python3](Python3/LeetCode/Graph/785.%20Is%20Graph%20Bipartite%3F.py) | DFS模拟 |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color/) |String<br>Math<br>Easy<br> [Python3](Python3/LeetCode/Math/800.%20Similar%20RGB%20Color.py) | :lock:<br>蛮力求解<br>数学分析 |
 | 809 | [Expressive Words](https://leetcode.com/problems/expressive-words/) |String<br>Medium<br> [Python3](Python3/LeetCode/String/809.%20Expressive%20Words.py) | 模拟<br>分段核对 |
 | 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) |Math<br>Hard<br> [Python3](Python3/LeetCode/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
