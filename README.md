@@ -510,6 +510,7 @@
 | 857 | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |Heap<br>Hard<br> [Python3](Python3/LeetCode/Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | :+1::white_check_mark::top:<br>贪心最大堆|
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) |Greedy<br>Easy<br> [Python3](Python3/LeetCode/Greedy/860.%20Lemonade%20Change.py) | 贪心 |
 | 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) |Array<br>Math<br>Medium<br> [Python3](Python3/LeetCode/Math/883.%20Projection%20Area%20of%203D%20Shapes.py) |规律计算|
+| 886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) |DFS<br>Medium<br> [Python3](Python3/LeetCode/DFS&BFS/886.%20Possible%20Bipartition.py) |建图+785|
 | 891 | [Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/) |Array<br>Math<br>Hard<br> [Python3](Python3/LeetCode/Math/891.%20Sum%20ofSubsequence%20Width.py) |:+1:<br>数学规律|
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) |Math<br>Geometry<br>Easy<br>[Python3](Python3/LeetCode/Geometry/892.%20Surface%20Area%20of%203D%20Shapes.py) | 找规律问题 |
 | 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) |Stack<br>Medium<br> [Python3](Python3/LeetCode/Stack/901.%20Online%20Stock%20Span.py) |蛮力算法<br>栈记忆 |
