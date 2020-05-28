@@ -45,3 +45,45 @@ class Solution(object):
         for i in range(1, num+1):
             dp.append(dp[i>>1] + (i&1))
         return dp
+
+
+        # Official Solutions:
+        # https://leetcode.com/problems/counting-bits/solution/
+
+        # 1. popcount
+        res = []
+        
+        def popcount(num):
+            count = 0
+            while num:
+                num = num & (num-1)
+                count += 1
+            return count
+        
+        for i in range(num+1):
+            res.append(popcount(i))
+        return res
+
+        # 2. DP + Most Significant Bit
+        res = [0] * (num+1)
+        i, b = 0, 1
+        
+        while b <= num:
+            while i < b and i + b <= num:
+                res[i+b] = res[i] + 1
+                i += 1
+            i = 0
+            b <<= 1
+        return res
+
+        # 3. DP + Least Significant Bit
+        res = [0] * (num+1)
+        for i in range(1, num+1):
+            res[i] = res[i >> 1] + (i&1)
+        return res
+
+        # 4. DP + Last Set Bit
+        res = [0]
+        for i in range(1, num+1):
+            res.append(res[i & (i-1)] + 1)
+        return res
