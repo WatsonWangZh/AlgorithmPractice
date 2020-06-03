@@ -36,3 +36,8 @@ class Solution(object):
             result += dif[i]
             
         return result
+
+        # 另外简洁写法
+        costs.sort(key=lambda x:x[1]-x[0])
+        k = len(costs) >> 1
+        return sum(x[i<k] for i, x in enumerate(costs))
