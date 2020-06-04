@@ -25,3 +25,11 @@ class Solution(object):
             s[l-i-1] = s[i]
             s[i] = tmp
         return s
+
+        # 二刷
+        l, r = 0, len(s)-1
+        while l < r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
+        return s
