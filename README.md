@@ -436,6 +436,7 @@
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) |Array<br>HashTable<br>Medium<br> [Python3](Python3/LeetCode/Array/525.%20Contiguous%20Array.py) | :+1:<br>前缀和 + 哈希表转化 |
 | 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) |BackTracking<br>Medium<br> [Python3](Python3/LeetCode/BackTracking/526.%20Beautiful%20Arrangement.py) | :ballot_box_with_check:<br>回溯 |
 | 527 | [Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) |String<br>Sort<br>Hard<br> [Python3](Python3/LeetCode/String/527.%20Word%20Abbreviation.py) | :+1::white_check_mark::lock:<br>规则分桶<br>LCP求解<br>消除冲突 |
+| 528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) |Design<br>BinarySearch<br>Random<br>Medium<br> [Python3](Python3/LeetCode/Design/528.%20Random%20Pick%20with%20Weight.py) |问题建模 |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) |BinaryTree<br>Easy<br> [Python3](Python3/LeetCode/BinarySearchTree/530.%20Minimum%20Absolute%20Difference%20in%20BST.py) | 中序遍历<br>有序数组中找最小差值 |
 | 531 | [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) |Array<br>DFS<br>Medium<br> [Python3](Python3/LeetCode/DFS&BFS/531.%20Lonely%20Pixel%20I.py) |:+1::lock:<br>两次遍历|
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) |Array<br>TwoPointers<br>Easy<br> [Python3](Python3/LeetCode/TwoPointers/532.%20K-diff%20Pairs%20in%20an%20Array.py) |统计数频<br>特判k为0|
