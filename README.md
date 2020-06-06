@@ -374,7 +374,7 @@
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) |BackTracking<br>BitManipulation<br>Easy<br> [Python3](Python3/LeetCode/BitManipulation/401.%20Binary%20Watch.py) |遍历count验证 |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) |Greedy<br>Medium<br> [Python3](Python3/LeetCode/Greedy/402.%20Remove%20K%20Digits.py) | 栈的应用 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) |BitManipulation<br>Easy<br> [Python3](Python3/LeetCode/BitManipulation/405.%20Convert%20a%20Number%20to%20Hexadecimal.py) |特殊处理负数|
-| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |Greedy<br>Medium<br> [Python3](Python3/LeetCode/Greedy/406.%20Queue%20Reconstruction%20by%20Height.py) |贪心性质发现|
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |Greedy<br>Medium<br> [Python3](Python3/LeetCode/Greedy/406.%20Queue%20Reconstruction%20by%20Height.py) |:+1:<br>贪心性质发现<br>模拟|
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) |Heap<br>BFS<br>Hard<br> [Python3](Python3/LeetCode/Heap/407.%20Trapping%20Rain%20Water%20II.py) | :+1::white_check_mark:<br>BFS |
 | 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) |String<br>Easy<br> [Python3](Python3/LeetCode/String/408.%20Valid%20Word%20Abbreviation.py) | :lock:<br>双指针<br>字符数字分别处理 |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) |HashTable<br>Easy<br> [Python3](Python3/LeetCode/HashTable/409.%20Longest%20Palindrome.py) | 奇偶分别考虑 |

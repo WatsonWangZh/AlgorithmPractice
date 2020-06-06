@@ -33,9 +33,26 @@ class Solution(object):
         # 依次插入元素：由上一点，先进入res的元素不会被后进入的元素影响，因此每一次插入只需要考虑自己不需要考虑别人。
         # 当遍历到元素[a,b]的时候，比它大的元素已经进组，比它小的元素还没进组，那么它应该插到res的第b位，从而实现0到b-1的数字都比它大。
 
-        people.sort(key= lambda (h, n): (-h, n))
+        # 多级排序 先按身高降序排序，相同身高的按其前面的人数升序排序
+        people.sort(key= lambda x: (-x[0], x[1]))
         res = []
         for p in people:
             res.insert(p[1], p)
         return res
         
+
+        # https://leetcode-cn.com/problems/queue-reconstruction-by-height/solution/cong-cha-ru-pai-xu-dao-tui-jie-fa-by-terjer7/
+        # 从插入排序倒推解法
+        people.sort(key=lambda p: p[1], reverse=True)
+        people.sort(key=lambda p: p[0])
+
+        res = []
+        for p in reversed(people):
+            if p[1] == 0: 
+                res.append(p)
+            else: 
+                res.insert(-p[1], p)
+
+        res.reverse()
+        
+        return res
