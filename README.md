@@ -604,6 +604,7 @@
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) |Math<br>Easy<br> [Python3](Python3/LeetCode/Math/1323.%20Maximum%2069%20Number.py) | 基础字符串操作 |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |Array<br>HashTable<br>Easy<br> [Python3](Python3/LeetCode/HashTable/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py) |模拟<br>分桶前缀和 |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) |Array<br>Easy<br> [Python3](Python3/LeetCode/Array/1389.%20Create%20Target%20Array%20in%20the%20Given%20Order.py) ||
+| 1429 | [First Unique Number](https://leetcode.com/problems/first-unique-number/) |HashTable<br>Design<br>Medium<br> [Python3](Python3/LeetCode/Design/1429.%20First%20Unique%20Number.py) |hash+deque|
 
 # KickStart Practice with Cpp
 
