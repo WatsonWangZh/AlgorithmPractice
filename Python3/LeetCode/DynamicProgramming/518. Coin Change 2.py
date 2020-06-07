@@ -34,21 +34,33 @@ class Solution(object):
         :type coins: List[int]
         :rtype: int
         """
-        # 动态规划，完全背包 O(amount⋅n)
-        # 将总金额视为背包容量，将硬币的面额视为重量，价值视为 1，此题就是变种的固定容量完全背包问题。
-        # 设计状态 f(j) 表示硬币总面额为 j 时的方案数，
-        # 对于每一种硬币面额 coins(i)，j 从 coins(i) 枚举到 amount，
-        # 累计转移 f(j)=f(j)+f(j−coins(i))。
-        # 初始时 f(0)=1，最终答案为 f(amount)。
-        # 时间复杂度
-        # 状态数为 O(amount)，转移总数为O(n)，
-        # 每次转移的时间复杂度为 O(1)，故总时间复杂度为 O(amount⋅n)。
+        
+        # M1. 二维DP
+        dp = [[0 for _ in range(amount + 1)] for _ in range(len(coins) + 1)]
+        # dp[i][j]的含义：j代表所需要金额， i代表选到几种硬币，如i=0代表一种硬币都不用
 
-        f = [0 for _ in range(amount + 1)]
-        f[0] = 1
+        # 初始化状态
+        for c in range(1, amount + 1):
+            dp[0][c] = 0  # 没有任何一种硬币，不论需要多少金额，都没有对应的方案数
 
-        for i in range(len(coins)):
-            for j in range(coins[i], amount + 1):
-                f[j] += f[j - coins[i]]
+        for r in range(len(coins) + 1):
+            dp[r][0] = 1  # 如果金额为0，对多少种硬币来说都是1种方案
 
-        return f[amount]
+        for r in range(1, len(coins) + 1):
+            for c in range(1, amount + 1):
+                dp[r][c] = dp[r - 1][c] + (dp[r][c - coins[r - 1]]\
+                           if c - coins[r - 1] >= 0\
+                           else 0)
+                           
+        return dp[-1][-1]
+
+        # M2. 一维DP 空间优化
+        # https://leetcode.com/problems/coin-change-2/solution/
+
+        dp = [0] * (amount + 1)
+        dp[0] = 1
+        
+        for coin in coins:
+            for x in range(coin, amount + 1):
+                dp[x] += dp[x - coin]
+        return dp[-1]

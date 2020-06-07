@@ -430,7 +430,7 @@
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |Array<br>Math<br>Easy<br> [Python3](Python3/LeetCode/Math/509.%20Fibonacci%20Number.py) | :+1::top:<br>原始递归<br>尾递归<br>DP循环<br>空间优化 |
 | 510 | [Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii/) |BinarySearchTree<br>Medium<br> [Python3](Python3/LeetCode/BinarySearchTree/510.%20Inorder%20Successors%20in%20BST%20II.py) | :+1::lock:<br>分情况讨论<br>右分支有无 |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) |BinaryTree<br>DFS<br>BFS<br>Medium<br> [Python3](Python3/LeetCode/BinaryTree/513.%20Find%20Bottom%20Left%20Tree%20Value.py) | 模拟层序遍历 |
-| 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) |DynamicProgramming<br>Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/518.%20Coin%20Change%202.py) | :+1:<br>DP完全背包 |
+| 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) |DynamicProgramming<br>Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/518.%20Coin%20Change%202.py) | :+1:<br>二维DP<br>一维DP |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) |String<br>Easy<br> [Python3](Python3/LeetCode/String/520.%20Detect%20Capital.py) | 字符串基本函数 |
 | 521 | [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) |String<br>Easy<br> [Python3](Python3/LeetCode/String/521.%20Longest%20Uncommon%20Subsequence%20II.py) | BrainTeaser |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) |Array<br>HashTable<br>Medium<br> [Python3](Python3/LeetCode/Array/525.%20Contiguous%20Array.py) | :+1:<br>前缀和 + 哈希表转化 |
