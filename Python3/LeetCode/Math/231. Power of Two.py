@@ -36,4 +36,10 @@ class Solution:
     
         # M3.
         return n > 0 and n & (-n) == n
+
+        for i in range(n):
+            if 2**i == n:
+                return True
+            if 2**i > n:
+                return False
     
