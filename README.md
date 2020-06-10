@@ -153,6 +153,7 @@
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) |String<br>BackTracking<br>Medium<br> [Python3](Python3/LeetCode/String/131.%20Palindrome%20Partitioning.py) | DFS<br>回溯<br>DP(TODO) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) |Graph<br>BFS<br>DFS<br>Medium<br>  [Python3](Python3/LeetCode/Graph/133.%20Clone%20Graph.py) | set去重 |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) |Greddy<br>Array<br>Medium<br>  [Python3](Python3/LeetCode/Greedy/134.%20Gas%20Station.py) | 贪心双指针 |
+| 135 | [Candy](https://leetcode.com/problems/candy/) |Greddy<br>Hard<br>  [Python3](Python3/LeetCode/Greedy/135.%20Candy.py) | :ballot_box_with_check:<br>找规律<br>Trick |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) |HashTable<br>BitManipulation<br>Easy<br>  [Python3](Python3/LeetCode/HashTable/136.%20Single%20Number.py) | 字典应用<br>位运算 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) |HashTable<br>BitManipulation<br>Medium<br>  [Python3](Python3/LeetCode/HashTable/137.%20Single%20Number%20II.py) | hash<br>数学<br>位运算 |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) |LinkedList<br>Medium<br>  [Python3](Python3/LeetCode/LinkedList/138.%20Copy%20List%20with%20Random%20Pointer.py) | [Two Pass HashMap](https://www.youtube.com/watch?v=8KbsJIHyYLA) |
