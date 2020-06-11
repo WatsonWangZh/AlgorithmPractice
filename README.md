@@ -94,7 +94,7 @@
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) |DynamicProgramming<br>Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/72.%20Edit%20Distance.py) | :+1::white_check_mark:<br>[最小编辑距离](https://www.youtube.com/watch?v=We3YDTzNXEk) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |Array<br>Medium<br>  [Python3](Python3/LeetCode/Array/73.%20Set%20Matrix%20Zeroes.py) |分配资源再利用<br>Trick |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |BinarySearch<br>Medium<br>  [Python3](Python3/LeetCode/BinarySearch/74.%20Search%20a%202D%20Matrix.py) | 构造两段性 |
-| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) |Sort<br>Medium<br>  [Python3](Python3/LeetCode/Sort/75.%20Sort%20Colors.py) | 两次遍历或两个指针 |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) |Sort<br>Medium<br>  [Python3](Python3/LeetCode/Sort/75.%20Sort%20Colors.py) | :+1:<br>计数排序<br>冒泡排序<br>三指针法 |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |HashTable<br>TwoPointers<br>String<br>Sliding Window<br>Hard<br>  [Python3](Python3/LeetCode/String/76.%20Minimum%20Window%20Substring.py) | :+1::white_check_mark:<br>滑动窗口 |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) |BackTracking<br>Medium<br>  [Python3](Python3/LeetCode/BackTracking/77.%20Combinations.py) |DFS回溯|
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) |BackTracking<br>Medium<br>  [Python3](Python3/LeetCode/BackTracking/78.%20Subsets.py) | 递归<br>非递归 |
@@ -192,6 +192,7 @@
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |Math<br>Easy<br>  [Python3](Python3/LeetCode/Math/171.%20Excel%20Sheet%20Column%20Number.py) |遍历模拟|
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |Math<br>BitManipulation<br>Easy<br>  [Python3](Python3/LeetCode/Math/172.%20Factorial%20Trailing%20Zeroes.py) | :+1:<br>质数分解 |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |BinarySearchTree<br>Easy<br>  [Python3](Python3/LeetCode/BinarySearchTree/173.%20Binary%20Search%20Tree%20Iterator.py) | 栈模拟中序遍历 |
+| 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) |BinarySearch<br>DynamicProgramming<br>Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/174.%20Dungeon%20Game.py) |  |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) |Sort<br>Medium<br>  [Python3](Python3/LeetCode/Sort/179.%20Largest%20Number.py) |:+1:<br>自定义排序<br>Trick|
 | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |String<br>Medium<br>  [Python3](Python3/LeetCode/String/186.%20Reverse%20Words%20in%20a%20String%20II.py) |:lock:<br>模拟数组扫描|
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) |String<br>HashTable<br>BitManipulation<br>Medium<br>  [Python3](Python3/LeetCode/String/187.%20Repeated%20DNA%20Sequences.py) | 哈希 |

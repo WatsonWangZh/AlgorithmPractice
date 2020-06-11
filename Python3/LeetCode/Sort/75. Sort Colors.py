@@ -19,10 +19,10 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # 经典荷兰国旗问题
-        # M1. two-pass algorithm
+        # M1. 计数排序
         # 首先遍历一遍原数组，分别记录 红色(0)，白色(1)，蓝色(2) 的个数。
         # 然后更新原数组，按个数分别赋上 红色(0)，白色(1)，蓝色(2)。
+
         # count = Counter(nums)
         # for i in range(len(nums)):
         #     if i < count[0]:    
@@ -32,19 +32,30 @@ class Solution:
         #     else:
         #         nums[i] = 2
 
-        # M2.双指针法
-        lred_idx, rblue_idx = 0, len(nums)-1
-        cur = lred_idx
-        # 用两个指针把红色元素移到最左边，蓝色元素移到最右边
-        while cur <= rblue_idx:
-            if nums[cur] == 0:
-                nums[cur], nums[lred_idx] = nums[lred_idx], nums[cur]
-                cur += 1
-                lred_idx += 1
-            elif nums[cur] == 2:
-                nums[cur], nums[rblue_idx] = nums[rblue_idx], nums[cur]
-                rblue_idx -= 1
+        # M2.三指针法 p0, p2, curr
+        # https://leetcode.com/problems/sort-colors/solution/
+
+        # for all idx < p0 : nums[idx < p0] = 0
+        # curr is an index of element under consideration
+        p0 = curr = 0
+        # for all idx > p2 : nums[idx > p2] = 2
+        p2 = len(nums) - 1
+
+        while curr <= p2:
+            if nums[curr] == 0:
+                nums[p0], nums[curr] = nums[curr], nums[p0]
+                p0 += 1
+                curr += 1
+            elif nums[curr] == 2:
+                nums[curr], nums[p2] = nums[p2], nums[curr]
+                p2 -= 1
             else:
-                cur += 1
-                
+                curr += 1
+
+        # M3. 冒泡排序
         
+        n = len(nums)
+        for i in range(n):
+            for j in range(i+1, n):
+                if nums[i] > nums[j]:
+                    nums[i], nums[j] = nums[j], nums[i]
