@@ -90,7 +90,7 @@ class RandomizedSet:
             self.nums[idx] = last
             self.pos[last] = idx
             self.nums.pop()
-            self.pos.pop(val, 0)
+            self.pos.pop(val)
             return True
         return False
 
