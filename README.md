@@ -557,6 +557,7 @@
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) |Greedy<br>Easy<br> [Python3](Python3/LeetCode/Greedy/1029.%20Two%20City%20Scheduling.py) |排序贪心|
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) |Array<br>Medium<br> [Python3](Python3/LeetCode/Array/1035.%20Uncrossed%20Lines.py) |DP基础题|
 | 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number/) |Math<br>Easy<br> [Python3](Python3/LeetCode/Math/1056.%20Confusing%20Number.py) | :lock:<br>记录翻转对<br>注意拼接顺序 |
+| 1062 | [Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/) |String<br>BinarySearch<br>Medium<br> [Python3](Python3/LeetCode/String/1062.%20Longest%20Repeating%20Substring.py) | :ballot_box_with_check:<br>Set<br>Hash<br>Rabin-Karp |
 | 1064 | [Fixed Point](https://leetcode.com/problems/fixed-point/) |Array<br>BinarySearch<br>Easy<br> [Python3](Python3/LeetCode/BinarySearch/1064.%20Fixed%20Point.py) | :lock:<br>水题|
 | 1065 | [Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/) |String<br>Trie<br>Easy<br> [Python3](Python3/LeetCode/String/1065.%20Index%20Pairs%20of%20a%20String.py) | :lock:<br>查找排序 |
 | 1085 | [Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/) |Array<br>Easy<br> [Python3](Python3/LeetCode/Array/1085.%20Sum%20of%20Digits%20in%20the%20Minimum%20Number.py) | :lock:<br>模拟|
