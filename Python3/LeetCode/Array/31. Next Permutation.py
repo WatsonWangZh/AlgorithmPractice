@@ -14,31 +14,28 @@
 
 class Solution(object):
     def nextPermutation(self, nums):
-        n=len(nums)
-        i,j=n-1,n-1
-        while i>0 and nums[i]<=nums[i-1]:
-            i-=1 
+
+        n = len(nums)
+        i,j = n-1, n-1
+
+        # From right to left, find the first decreasing number
+        while i > 0 and nums[i] <= nums[i-1]:
+            i -= 1 
         
         # [3,2,1] -> [1,2,3]
         if i==0: 
             nums[:]=nums[::-1]
             return nums
-        
+
+        # From right to left, finding number just larget than the first decreasing number
         for j in range(n-1, i-1, -1):
-            if nums[j]>nums[i-1]:
+            if nums[j] > nums[i-1]:
                 break 
-            
-        # while j>=i-1 and nums[j]<=nums[i-1]: 
-        #    j-=1 
-        nums[j],nums[i-1]=nums[i-1],nums[j]
+             
+        # Swap 
+        nums[j], nums[i-1] = nums[i-1], nums[j]
+
+        # Reversing the backend numbers
         nums[i:] = nums[i:][::-1]
+
         return nums
-
-def main():
-    s = Solution()
-    print(s.nextPermutation([1,2,3]))
-    print(s.nextPermutation([3,2,1]))
-    print(s.nextPermutation([1,1,5]))
-
-if __name__ == "__main__":
-    main()
