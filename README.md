@@ -192,7 +192,7 @@
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |Math<br>Easy<br>  [Python3](Python3/LeetCode/Math/171.%20Excel%20Sheet%20Column%20Number.py) |遍历模拟|
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |Math<br>BitManipulation<br>Easy<br>  [Python3](Python3/LeetCode/Math/172.%20Factorial%20Trailing%20Zeroes.py) | :+1:<br>质数分解 |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |BinarySearchTree<br>Easy<br>  [Python3](Python3/LeetCode/BinarySearchTree/173.%20Binary%20Search%20Tree%20Iterator.py) | 栈模拟中序遍历 |
-| 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) |BinarySearch<br>DynamicProgramming<br>Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/174.%20Dungeon%20Game.py) |  |
+| 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) |BinarySearch<br>DynamicProgramming<br>Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/174.%20Dungeon%20Game.py) | :+1::top::ballot_box_with_check:<br>DP逆向推导 |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) |Sort<br>Medium<br>  [Python3](Python3/LeetCode/Sort/179.%20Largest%20Number.py) |:+1:<br>自定义排序<br>Trick|
 | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |String<br>Medium<br>  [Python3](Python3/LeetCode/String/186.%20Reverse%20Words%20in%20a%20String%20II.py) |:lock:<br>模拟数组扫描|
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) |String<br>HashTable<br>BitManipulation<br>Medium<br>  [Python3](Python3/LeetCode/String/187.%20Repeated%20DNA%20Sequences.py) | 哈希 |
