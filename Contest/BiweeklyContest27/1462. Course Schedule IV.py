@@ -3,7 +3,7 @@
 # User Tried:3124
 # Total Accepted:1910
 # Total Submissions:7112
-# Difficulty:Medium
+# Difficulty:Medium 
 # There are a total of n courses you have to take, labeled from 0 to n-1.
 # Some courses may have direct prerequisites, 
 # for example, to take course 0 you have first to take course 1, which is expressed as a pair: [1,0]

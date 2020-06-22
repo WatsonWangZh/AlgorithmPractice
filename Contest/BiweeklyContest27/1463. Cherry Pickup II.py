@@ -3,7 +3,7 @@
 # User Tried:949
 # Total Accepted:817
 # Total Submissions:1523
-# Difficulty:Hard
+# Difficulty:Hard 
 # Given a rows x cols matrix grid representing a field of cherries. 
 # Each cell in grid represents the number of cherries that you can collect.
 # You have two robots that can collect cherries for you, 

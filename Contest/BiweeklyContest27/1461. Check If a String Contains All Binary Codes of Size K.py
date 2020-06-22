@@ -3,7 +3,7 @@
 # User Tried:4007
 # Total Accepted:2876
 # Total Submissions:9725
-# Difficulty:Medium
+# Difficulty:Medium 
 # Given a binary string s and an integer k.
 # Return True if any binary code of length k is a substring of s. Otherwise, return False.
 

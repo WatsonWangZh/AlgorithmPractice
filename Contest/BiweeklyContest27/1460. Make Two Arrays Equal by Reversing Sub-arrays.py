@@ -31,7 +31,7 @@
 # Input: target = [1,1,1,1,1], arr = [1,1,1,1,1]
 # Output: true
  
-# Constraints:
+# Constraints: 
 # target.length == arr.length
 # 1 <= target.length <= 1000
 # 1 <= target[i] <= 1000
