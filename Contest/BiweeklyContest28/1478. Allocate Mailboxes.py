@@ -34,7 +34,7 @@
 # 1 <= houses[i] <= 10^4
 # 1 <= k <= n
 # Array houses contain unique integers.
-
+ 
 class Solution:
     def minDistance(self, houses: List[int], k: int) -> int:
         # if k >= len(houses):

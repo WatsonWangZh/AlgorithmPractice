@@ -47,7 +47,7 @@ class Solution:
         #     for j in range(i+1, len(arr)):
         #         if sum(arr[i:j]) == target:
         #             res.append(arr[i:j])
-        #             loc = j
+        #             loc = j 
                     
         # for i in range(loc, len(arr)):
         #     for j in range(i+1, len(arr)):

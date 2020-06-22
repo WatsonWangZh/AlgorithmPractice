@@ -68,7 +68,7 @@
 # 0 <= col1 <= col2 < cols
 # 1 <= newValue, rectangle[i][j] <= 10^9
 # 0 <= row < rows
-# 0 <= col < cols
+# 0 <= col < cols 
 
 class SubrectangleQueries:
 
