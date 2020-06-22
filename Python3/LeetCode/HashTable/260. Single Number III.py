@@ -19,23 +19,34 @@ class Solution(object):
         :rtype: List[int]
         """
         # M1.hash计数 空间复杂度O(n)
-        # M2.0^x=x; x^x=0
-        tmp = 0
+        from collections import Counter
+        count = Counter(nums)
+        return [x for x in count if count[x] == 1]    
+
+        # M2. 滚动增删
+        res = []
         for num in nums:
-            tmp ^= num
-        # find the rightmost '1' bit 
-        i = 0
-        # print(bin(tmp))
-        while tmp & 1 == 0:
-            tmp >>= 1
-            i += 1
-        tmp = 1 << i
-        # compute in two seperate groups
-        first, second = 0, 0
-        for num in nums:
-            if num & tmp:
-                first ^= num
+            if num in res:
+                res.remove(num)
             else:
-                second ^= num
-        return [first, second]
+                res.append(num)
+        return res
+
+        # https://leetcode.com/problems/single-number-iii/solution/
+        # M3. Awesome XOR Bit Manipulation!
+        # difference between two numbers (x and y) which were seen only once
+        bitmask = 0
+        for num in nums:
+            bitmask ^= num
+        # print(bin(bitmask)[2:])
+        # rightmost 1-bit diff between x and y
+        diff = bitmask & (-bitmask)
+        # print(bin(diff)[2:])
+        x = 0
+        for num in nums:
+            # bitmask which will contain only x
+            if num & diff:
+                x ^= num
+        
+        return [x, bitmask^x]
 

@@ -154,8 +154,8 @@
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) |Graph<br>BFS<br>DFS<br>Medium<br>  [Python3](Python3/LeetCode/Graph/133.%20Clone%20Graph.py) | set去重 |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) |Greddy<br>Array<br>Medium<br>  [Python3](Python3/LeetCode/Greedy/134.%20Gas%20Station.py) | 贪心双指针 |
 | 135 | [Candy](https://leetcode.com/problems/candy/) |Greddy<br>Hard<br>  [Python3](Python3/LeetCode/Greedy/135.%20Candy.py) | :ballot_box_with_check:<br>找规律<br>Trick |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) |HashTable<br>BitManipulation<br>Easy<br>  [Python3](Python3/LeetCode/HashTable/136.%20Single%20Number.py) | 字典应用<br>位运算 |
-| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) |HashTable<br>BitManipulation<br>Medium<br>  [Python3](Python3/LeetCode/HashTable/137.%20Single%20Number%20II.py) | hash<br>数学<br>位运算 |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) |HashTable<br>BitManipulation<br>Easy<br>  [Python3](Python3/LeetCode/HashTable/136.%20Single%20Number.py) | 字典应用<br>Awesome XOR! |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) |HashTable<br>BitManipulation<br>Medium<br>  [Python3](Python3/LeetCode/HashTable/137.%20Single%20Number%20II.py) | hash<br>数学<br>Awesome XOR! |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) |LinkedList<br>Medium<br>  [Python3](Python3/LeetCode/LinkedList/138.%20Copy%20List%20with%20Random%20Pointer.py) | [Two Pass HashMap](https://www.youtube.com/watch?v=8KbsJIHyYLA) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) |DynamicProgramming<br>Medium<br>  [Python3](Python3/LeetCode/DynamicProgramming/139.%20Word%20Break.py) | DP规律|
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) |DynamicProgramming<br>Hard<br>  [Python3](Python3/LeetCode/DynamicProgramming/140.%20Word%20Break%20II.py) |:+1::white_check_mark:<br>DFS<br>记忆DP |
@@ -260,7 +260,7 @@
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) |BinaryTree<br>DFS<br>Easy<br> [Python3](Python3/LeetCode/DFS&BFS/257.%20Binary%20Tree%20Paths.py) |DFS<br>递归<br>迭代|
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) |Math<br>Easy<br> [Python3](Python3/LeetCode/Math/2598%20Add%20Digits.py) |模拟<br>公式法|
 | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) |Array<br>TwoPointers<br>Medium<br> [Python3](Python3/LeetCode/Array/259.%203Sum%20Smaller.py) |:lock:<br>暴力枚举<br>双指针|
-| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) |HashTable<br>BitManipulation<br>Medium<br> [Python3](Python3/LeetCode/HashTable/260.%20Single%20Number%20III.py) | 0^x=x<br> x^x=0<br>划分两组 |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) |HashTable<br>BitManipulation<br>Medium<br> [Python3](Python3/LeetCode/HashTable/260.%20Single%20Number%20III.py) | Awesome XOR! |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) |Graph<br>UnionFind<br>DFS<br>BFS<br>Medium<br> [Python3](Python3/LeetCode/Graph/261.%20Graph%20Valid%20Tree.py) |:+1::lock:<br>并查集|
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) |Math<br>Medium<br> [Python3](Python3/LeetCode/Math/263.%20Ugly%20Number.py) | 依题意 |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) |Math<br>Medium<br>[Python3](Python3/LeetCode/Math/264.%20Ugly%20Number%20II.py) | :+1::white_check_mark:<br>模拟 |
