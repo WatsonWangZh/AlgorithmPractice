@@ -224,6 +224,7 @@
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) |Array<br>HashTable<br>Easy<br> [Python3](Python3/LeetCode/HashTable/219.%20Contains%20Duplicate%20II.py) |哈希模拟|
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) |Array<br>Sort<br>OrderedMap<br>Medium<br> [Python3](Python3/LeetCode/HashTable/220.%20Contains%20Duplicate%20III.py) |:+1:<br>滑动窗口<br>数学推导|
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |DynamicProgramming<br>Medium<br> [Python3](Python3/LeetCode/DynamicProgramming/221.%20Maximal%20Square.py) |:+1:<br>DP|
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) |BinarySearch<br>BinaryTree<br>Medium<br> [Python3](Python3/LeetCode/BinaryTree/222.%20Count%20Complete%20Tree%20Ndoes.py) |:+1::ballot_box_with_check:<br>BS in BS|
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) |Math<br>Medium<br> [Python3](Python3/LeetCode/Math/223.%20Rectangle%20Area.py) |计算几何|
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) |BackTracking<br>Hard<br> [Python3](Python3/LeetCode/BackTracking/224.%20Basic%20Calculator.py) |值栈与符号栈|
 | 225 | [ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) |Stack<br>Design<br>Easy<br> [Python3](Python3/LeetCode/Design/225.%20Implement%20Stack%20using%20Queues.py) |双队实现栈|
