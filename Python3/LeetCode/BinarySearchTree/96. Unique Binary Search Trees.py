@@ -24,7 +24,7 @@ class Solution(object):
         # 其中h(0)=h(1)=1，因为0个或者1个数能组成的形状都只有一个。从1到n依次算出h(x)的值即可。
         # 此外这其实就是一个卡特兰数，可以直接用数学公式计算，不过上面的方法更加直观一些。
 
-        # M1. 无记忆搜索
+        # M1. DP
         # dp = [0] * (n+1)
         # dp[0] = dp[1] = 1 
 
@@ -34,17 +34,9 @@ class Solution(object):
 
         # return dp[-1]
 
-        # M2. 优化 记忆化搜索
-        dp = [0] * (n+1)
-        return self.helper(dp, n)
-
-    def helper(self, dp, m):
-            if m <= 1:
-                return 1
-            if dp[m] > 0:
-                return dp[m]
-            for i in range(m):
-                left = self.helper(dp, i)
-                right = self.helper(dp, m-i-1)
-                dp[m] += left * right
-            return dp[m]
+        # M2. Catalan number 
+        # https://www.youtube.com/watch?v=7I9w3unEfX4
+        C = 1
+        for i in range(0, n):
+            C = C * 2*(2*i+1)/(i+2)
+        return int(C)
