@@ -287,7 +287,7 @@
 | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) |Design<br>Medium<br>[Python3](Python3/LeetCode/Design/284.%20Peeking%20Iterator.py) | iterator小改动 |
 | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) |BinarySearchTree<br>Medium<br> [Python3](Python3/LeetCode/BinarySearchTree/285.%20Inorder%20Successors%20in%20BST.py) | :+1::ballot_box_with_check::lock:<br>迭代中序遍历|
 | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) |Array<br>BFS<br>Medium<br> [Python3](Python3/LeetCode/Array/286.%20Walls%20and%20Gates.py) | :+1::lock:<br>BFS<br>DFS |
-| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |BinarySearch<br>Medium<br> [Python3](Python3/LeetCode/BinarySearch/287.%20Find%20the%20Duplicate%20Number.py) | set去重<br>抽屉原理<br>构造两段性 |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |BinarySearch<br>Medium<br> [Python3](Python3/LeetCode/BinarySearch/287.%20Find%20the%20Duplicate%20Number.py) | Counter计数<br>set去重<br>:+1:构造两段性 |
 | 288 | [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) |Design<br>HashTable<br>Medium<br>[Python3](Python3/LeetCode/Design/288.%20Unique%20Word%20Abbreviation.py) |:+1::lock:<br>Set与Dict灵活应用 |
 | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) |Array<br>Medium<br>[Python3](Python3/LeetCode/Array/289.%20Game%20of%20Life.py) |模拟<br>Trick |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) |String<br>HashTable<br>Easy<br> [Python3](Python3/LeetCode/String/290.%20Word%20Pattern.py) | :+1:<br>205题扩展<br>哈希表映射 |

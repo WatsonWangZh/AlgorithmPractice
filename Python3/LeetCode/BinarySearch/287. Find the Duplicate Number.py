@@ -22,25 +22,36 @@ class Solution(object):
         :rtype: int
         """
         # M1.set去重
-        # L = set()
-        # for i in range(len(nums)):
-        #     if nums[i] in L:
-        #         return nums[i]
-        #     L.add(nums[i])
-        # return True
+        L = set()
+        for i in range(len(nums)):
+            if nums[i] in L:
+                return nums[i]
+            L.add(nums[i])
+        return True
 
-        # M2.抽屉原理 构造两段性 O(nlgn)
-        l = 0
-        r = len(nums) - 1
+        # M2. 构造两段性  折半查找 O(nlgn)
+        # 抽屉原理
+
+        l, r = 0, len(nums) - 1
+
         while l < r:
             mid = (l + r) // 2
+
             count = 0
             for n in nums:
                 if n <= mid:
                     count += 1
+
             if count <= mid:
                 l = mid + 1
             else:
                 r = mid
+                
         return l
-        
+
+        # M3. Counter计数
+        from collections import Counter
+        count = Counter(nums)
+        for num in nums:
+            if count[num] > 1:
+                return num
