@@ -1,5 +1,5 @@
 # AlgorithmPractice
-## [LeetCode Solutions All in One(In progress)](.)
+## LeetCode Solutions All in One(In progress)
 | # | Title<br>Difficulty | Category  <br> Solution | Notes |
 |:---:| :-----: | :---------:| :---------:| 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) <br> Easy | Math<br>Array <br>[Python3](Python3/LeetCode/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
