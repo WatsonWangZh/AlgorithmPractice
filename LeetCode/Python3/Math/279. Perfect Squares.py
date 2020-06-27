@@ -30,24 +30,66 @@ class Solution(object):
                 j += 1
         return dp[n]
 
-        # M2. BFS优化DP O(n^1.5)
-        # 通过 BFS 来优化动态规划的效率，可以将整个过程看做一张图，每个数字都是一个点，两个数字之间差距为平方数时有一条单向边。
-        # 使用 BFS 来求从 0 到 n 的最短路。
-        # 时间复杂度
-        # BFS的时间复杂度为 O(n+m)，这里的点数，也就是数字个数 n，边数同算法1中的分析是 O(i^0.5)，
-        # 故总时间复杂度仍然是 O(n^1.5)，但由于BFS可能能快速找到到结点 n 的路径，常数会比较优。
-        dp = [n] * (n+1)
+
+# 二刷 200627
+# M1. 蛮力算法 TLE
+class Solution:
+    def numSquares(self, n: int) -> int:
+        square_nums = [i**2 for i in range(1, int(n**0.5)+1)]
+
+        def minNumSquares(k):
+            """ recursive solution """
+            # bottom cases: find a square number
+            if k in square_nums:
+                return 1
+            min_num = float('inf')
+
+            # Find the minimal value among all possible solutions
+            for square in square_nums:
+                if k < square:
+                    break
+                new_num = minNumSquares(k-square) + 1
+                min_num = min(min_num, new_num)
+            return min_num
+
+        return minNumSquares(n)
+
+# M2. DP
+class Solution:
+    def numSquares(self, n: int) -> int:
+        square_nums = [i**2 for i in range(1, int(n**0.5)+1)]
+        
+        dp = [i for i in range(n+1)]
+        # bottom case
         dp[0] = 0
-        q = []
-        q.append(0)
-        while len(q) > 0:
-            s = q.pop()
-            if s > n:
-                break
-            i = 1
-            while s+i*i <= n:
-                if dp[s+i*i] > dp[s]+1:
-                    dp[s+i*i] = dp[s] + 1
-                    q.append(s+i*i)
-                i += 1
-        return dp[n]
+        
+        for i in range(1, n+1):
+            for square in square_nums:
+                if i < square:
+                    break
+                dp[i] = min(dp[i], dp[i-square] + 1)
+        
+        return dp[-1]
+
+
+# M3. BFS
+class Solution:
+    def numSquares(self, n: int) -> int:
+
+        from collections import deque
+        queue = deque([n])
+        step = 0
+        visited = set()
+
+        while(queue):
+            step += 1
+            for _ in range(len(queue)):
+                tmp = queue.pop()
+                for i in range(1, int(tmp**0.5)+1):
+                    x = tmp- i**2
+                    if x == 0:
+                        return step
+                    if x not in visited:
+                        queue.appendleft(x)
+                        visited.add(x)
+        return step
