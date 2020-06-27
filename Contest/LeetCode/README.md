@@ -30,3 +30,11 @@
 | 2 | [Making File Names Unique](https://leetcode.com/contest/weekly-contest-194/problems/making-file-names-unique/) |  Medium | [Python3](./WeeklyContest194/2.py) |  |
 | 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/) |  Medium | [WA Other's Solution](./WeeklyContest194/3.py) |To Check |
 | 4 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/contest/weekly-contest-194/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  Hard | [TODO](./WeeklyContest194/4.py) | |
+
+## [Biweekly Contest 29](https://leetcode.com/contest/biweekly-contest-29): [4968 / 7932](https://leetcode.com/contest/biweekly-contest-29/ranking)
+| # | Title | Difficulty | Solution | Remark |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [Python3](./BiweeklyContest29/1.py) |   |
+| 2 | [The kth Factor of n](https://leetcode.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/) |  Medium | [Python3](./BiweeklyContest29/2.py) |  |
+| 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [TLE](./BiweeklyContest29/3.py) |TODO |
+| 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Past Competition](./BiweeklyContest29/4.py) | DO AGAIN|
