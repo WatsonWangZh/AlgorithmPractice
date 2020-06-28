@@ -39,7 +39,7 @@
 | 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [TLE](./BiweeklyContest29/3.py) |TODO |
 | 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Past Competition](./BiweeklyContest29/4.py) | DO AGAIN|
 
-## [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/): [1217 / 8068](https://leetcode.com/contest/weekly-contest-195/ranking) :see_no_evil: LeetCode Crash.
+## [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/): [2010 / 11468](https://leetcode.com/contest/weekly-contest-195/ranking) :see_no_evil: LeetCode Crash.
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
 | 1 | [Path Crossing](https://leetcode.com/contest/weekly-contest-195/problems/path-crossing/) | Easy | [Python3](./WeeklyContest195/1.py) |   |
