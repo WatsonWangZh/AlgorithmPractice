@@ -38,3 +38,11 @@
 | 2 | [The kth Factor of n](https://leetcode.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/) |  Medium | [Python3](./BiweeklyContest29/2.py) |  |
 | 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [TLE](./BiweeklyContest29/3.py) |TODO |
 | 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Past Competition](./BiweeklyContest29/4.py) | DO AGAIN|
+
+## [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/): [1217 / 8068](https://leetcode.com/contest/weekly-contest-195/ranking) :see_no_evil: LeetCode Crash.
+| # | Title | Difficulty | Solution | Remark |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Path Crossing](https://leetcode.com/contest/weekly-contest-195/problems/path-crossing/) | Easy | [Python3](./WeeklyContest195/1.py) |   |
+| 2 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/) |  Medium | [Python3](./WeeklyContest195/2.py) |  |
+| 3 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |  Medium | [Naive MLE](./WeeklyContest195/3.py) | |
+| 4 | [Max Value of Equation](https://leetcode.com/contest/weekly-contest-195/problems/max-value-of-equation/) |  Hard | [TODO](./WeeklyContest195/4.py) | |
