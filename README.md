@@ -63,8 +63,8 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) <br>Medium|Array<br> [Python3](LeetCode/Python3/Array/59.%20Spiral%20Matrix%20II.py) | 简单模拟 |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) <br>Medium|Math<br>BackTracking<br> [Python3](LeetCode/Python3/Math/60.%20Permutation%20Sequence.py) | :+1::top::white_check_mark:<br>based on 46<br>based on 31<br>规律模拟 |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) <br>Medium|LinkedList<br>  [Python3](LeetCode/Python3/LinkedList/61.%20Rotate%20List.py) | 双指针定边界 |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Python3/Array/62.%20Unique%20Paths.py) |:+1::white_check_mark:<br>递归<br>记忆递归<br>DP<br>DP空间优化<br>组合数学 |
-| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Python3/Array/63.%20Unique%20Paths%20II.py) |:+1::white_check_mark:<br>动态规划|
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Python3/DynamicProgramming/62.%20Unique%20Paths.py) |:+1::white_check_mark:<br>递归<br>记忆递归<br>DP<br>DP空间优化<br>组合数学 |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Python3/DynamicProgramming/63.%20Unique%20Paths%20II.py) |:+1::white_check_mark:<br>动态规划|
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Python3/DynamicProgramming/64.%20Minimum%20Path%20Sum.py) |普通DP<br>待优化|
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) <br>Hard|Math<br>String<br>  [Python3](LeetCode/Python3/String/65.%20Valid%20Number.py) |:+1:<br>正则<br>模拟|
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) <br>Easy|Array<br>  [Python3](LeetCode/Python3/Array/66.%20Plus%20One.py) | 进位处理 |
