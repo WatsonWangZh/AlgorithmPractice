@@ -63,10 +63,11 @@ class Solution(object):
         return res
 
 
-        # M2. DFS + Trie 优化 Accepted
+        # M2. 递归回溯 + Trie 优化 Accepted
         rows, cols = len(board), len(board[0])
         res = set()
 
+        # 建立 Trie树
         root = {}
         for word in words:
             tmp = root
@@ -78,14 +79,18 @@ class Solution(object):
             
         
         def dfs(start, trie):
+
             i, j = start[0], start[1]
             char = board[i][j]
             if char not in trie:
                 return
+
             board[i][j] = '#'
             trie = trie[char]
+
             if '#' in trie:
                 res.add(trie.pop('#'))
+
             if i > 0 and board[i-1][j] != '#':
                 dfs([i-1, j], trie)
             if j > 0 and board[i][j-1] != '#':
@@ -94,9 +99,11 @@ class Solution(object):
                 dfs([i+1, j], trie)
             if j < (cols-1) and board[i][j+1] != '#':
                 dfs([i, j+1], trie)
+
             board[i][j] = char
                
         for i in range(rows):
             for j in range(cols):
                 dfs([i,j], root)
+
         return res
