@@ -615,7 +615,7 @@
 
 ### Concurrency
 | # | Title| Difficulty | Solution | Notes |
-|:---:| :-----: | :---------:| :---------:| :---------:| :---------:|
+|:---:| :-----: | :---------:| :---------:| :---------:| 
 | 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | Easy | [Python3](LeetCode/Concurrency//1114.%20Print%20in%20Order.py) | TODO |
 
 
