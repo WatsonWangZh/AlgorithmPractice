@@ -609,17 +609,17 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 ### Database
 | # | Title | Difficulty | Solution | Notes |
 |:---:| :-----: | :-------:| :-------:|  :---------:|
-| 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)  | Easy |[SQL](LeetCode/Database/175.%20Combine%20Two%20Tables.sql)|TODO |
+| 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)  | Easy |[SQL](LeetCode/Database/175.%20Combine%20Two%20Tables.sql)|left join |
 
 ### Shell
 | # | Title|Difficulty | Solution | Notes |
 |:---:| :-----: | :---------:| :---------:|  :---------:|
-| 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | Easy | [Shell](LeetCode/Shell/195.%20Tenth%20Line.sh) | TODO |
+| 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | Easy | [Shell](LeetCode/Shell/195.%20Tenth%20Line.sh) | sed<br>awk<br>head<br>tail |
 
 ### Concurrency
 | # | Title| Difficulty | Solution | Notes |
 |:---:| :-----: | :---------:| :---------:| :---------:| 
-| 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | Easy | [Python3](LeetCode/Concurrency//1114.%20Print%20in%20Order.py) | TODO |
+| 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | Easy | [Python3](LeetCode/Concurrency//1114.%20Print%20in%20Order.py) | 资源锁 |
 
 
 ## [CodingInterview](./CodingInterview/)

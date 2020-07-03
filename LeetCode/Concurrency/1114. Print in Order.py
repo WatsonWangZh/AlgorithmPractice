@@ -27,24 +27,31 @@
 # even though the numbers in the input seems to imply the ordering. 
 # The input format you see is mainly to ensure our tests' comprehensiveness.
 
+from threading import Lock
 class Foo:
     def __init__(self):
-        pass
+        self.firstJobDone = Lock()
+        self.secondJobDone = Lock()
+        self.firstJobDone.acquire()
+        self.secondJobDone.acquire()
 
 
     def first(self, printFirst: 'Callable[[], None]') -> None:
         
         # printFirst() outputs "first". Do not change or remove this line.
         printFirst()
-
+        self.firstJobDone.release()
 
     def second(self, printSecond: 'Callable[[], None]') -> None:
         
+        if self.firstJobDone.acquire():
         # printSecond() outputs "second". Do not change or remove this line.
-        printSecond()
+            printSecond()
+            self.secondJobDone.release()
 
 
     def third(self, printThird: 'Callable[[], None]') -> None:
         
+        if self.secondJobDone.acquire():
         # printThird() outputs "third". Do not change or remove this line.
-        printThird()
+            printThird()
