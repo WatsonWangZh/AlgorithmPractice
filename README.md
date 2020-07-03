@@ -1,4 +1,6 @@
 # Coding Practice
+Some Coding Practice based on LeetCode and Coding Interview.  
+Including Algorithm, Database, Shell, Concurrency and some online Contests.
 ## LeetCode Solutions All in One (In Python3)
 ### Algorithms
 | # | Title<br>Difficulty | Category  <br> Solution | Notes |
@@ -517,6 +519,7 @@
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) <br>Easy|String<br> [Python3](LeetCode/Algorithms/String/929.%20Unique%20Email%20Addresses.py) | 哈希表<br>字符串处理<br>Google |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) <br>Medium|HashTable<br>TwoPointers<br> [Python3](LeetCode/Algorithms/TwoPointers/930.%20Binary%20Subarrays%20With%20Sum.py) | :+1::ballot_box_with_check::top:<br>记录基本元素位置<br>前缀和+counts|
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) <br>Easy|Queue<br> [Python3](LeetCode/Algorithms/Queue/933.%20Number%20of%20Recent%20Calls.py) | 二分查找<br>队列 |
+| 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) <br>Medium|HashTable<br> [Python3](LeetCode/Algorithms/HashTable/957.%20Prison%20Cells%20After%20N%20Days.py) | 大数模拟<br>必有循环 |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) <br>Medium|DivideAndConquer<br>Heap<br>Sort<br> [Python3](LeetCode/Algorithms/Sort/973.%20K%20Closest%20Points%20to%20Origin.py) | :+1::ballot_box_with_check:<br>调库<br>分治<br>最小堆|
 | 975 | [Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) <br>Hard|DynamicProgramming<br>Stack<br>OrderedMap<br> [Python3](LeetCode/Algorithms/DynamicProgramming/975.%20Odd%20Even%20Jump.py) | :+1::ballot_box_with_check:<br>单调栈<br>记忆化递归<br>Google |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) <br>Medium|TwoPointers<br> [Python3](LeetCode/Algorithms/TwoPointers/986.%20Interval%20List%20Intersections.py) |:white_check_mark:<br>双指针|
