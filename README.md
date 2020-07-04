@@ -248,8 +248,8 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) <br>Medium|Array<br>TwoPointers<br> [Python3](LeetCode/Algorithms/Array/259.%203Sum%20Smaller.py) |:lock:<br>暴力枚举<br>双指针|
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) <br>Medium|HashTable<br>BitManipulation<br> [Python3](LeetCode/Algorithms/HashTable/260.%20Single%20Number%20III.py) | Awesome XOR! |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) <br>Medium|Graph<br>UnionFind<br>DFS<br>BFS<br> [Python3](LeetCode/Algorithms/Graph/261.%20Graph%20Valid%20Tree.py) |:+1::lock:<br>并查集|
-| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) <br>Medium|Math<br> [Python3](LeetCode/Algorithms/Math/263.%20Ugly%20Number.py) | 依题意 |
-| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) <br>Medium|Math<br>[Python3](LeetCode/Algorithms/Math/264.%20Ugly%20Number%20II.py) | :+1::white_check_mark:<br>模拟 |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) <br>Medium|Math<br> [Python3](LeetCode/Algorithms/Math/263.%20Ugly%20Number.py) | 模拟 |
+| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) <br>Medium|Math<br>[Python3](LeetCode/Algorithms/Math/264.%20Ugly%20Number%20II.py) | :+1::white_check_mark:<br>三指针法 |
 | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) <br>Hard|DynamicProgramming<br> [Python3](LeetCode/Algorithms/DynamicProgramming/265.%20Paint%20House%20II.py) | :+1::top::lock:<br>DP必刷|
 | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) <br>Easy|String<br>HashTable<br> [Python3](LeetCode/Algorithms/String/266.%20Palindrome%20Permutation.py) | :lock:<br>Set应用|
 | 267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) <br>Medium|String<br>BackTracking<br> [Python3](LeetCode/Algorithms/String/267.%20Palindrome%20Permutation%20II.py) | :+1::heart_eyes::white_check_mark::lock:<br>回文串的生成思路<br>重复回文子串的处理|
