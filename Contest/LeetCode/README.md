@@ -46,3 +46,12 @@
 | 2 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/) |  Medium | [Python3](./WeeklyContest195/2.py) |  |
 | 3 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |  Medium | [Naive MLE](./WeeklyContest195/3.py) | |
 | 4 | [Max Value of Equation](https://leetcode.com/contest/weekly-contest-195/problems/max-value-of-equation/) |  Hard | [TODO](./WeeklyContest195/4.py) | |
+
+
+## [Weekly Contest 196](https://leetcode.com/contest/weekly-contest-196/): [2333 / 14301](https://leetcode.com/contest/weekly-contest-196/ranking) 
+| # | Title | Difficulty | Solution | Remark |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/contest/weekly-contest-196/problems/can-make-arithmetic-progression-from-sequence/) | Easy | [Python3](./WeeklyContest196/1.py) |   |
+| 2 | [Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  Medium | [Fuck thinking ](./WeeklyContest196/2.py) |  |
+| 3 | [Count Submatrices With All Ones](https://leetcode.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/) |  Medium | [Python3](./WeeklyContest196/3.py) | Do Again|
+| 4 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/contest/weekly-contest-196/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) |  Hard | [Not Even Open It](./WeeklyContest196/4.py) | Hard! |
