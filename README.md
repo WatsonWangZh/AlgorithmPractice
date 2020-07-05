@@ -394,6 +394,7 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) <br>Easy|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/455.%20Assign%20Cookies.py) | 贪心 |
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/) <br>Medium(Hard)|Array<br>Stack<br> [Python3](LeetCode/Algorithms/Array/456.%20132%20Pattern.py) |:+1::white_check_mark:<br>单调栈扩展  |
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) <br>Hard|Math<br>Brainteaser<br> [Python3](LeetCode/Algorithms/Math/458.%20Poor%20Pigs.py) |:+1:<br>数学分析<br>找规律 |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) <br>Easy|BitManipulation<br> [Python3](LeetCode/Algorithms/BitManipulation/461.%20Hamming%20Distance.py) |Brian Kernighan's Algorithm|
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) <br>Medium|Math<br> [Python3](LeetCode/Algorithms/Math/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) | 分奇偶找中值 |
 | 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) <br>Medium|DynamicProgramming<br>Minimax<br> [Python3](LeetCode/Algorithms/Minimax/464.%20Can%20I%20Win.py) |:+1::top:<br>Minimax博弈<br>记忆化递归 |
 | 465 | [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) <br>Hard|Array<br>Math<br> [Python3](LeetCode/Algorithms/Math/465.%20Optimal%20Account%20Balancing.py) | :+1::top::white_check_mark::lock:<br>哈希表<br>集合<br>DFS<br>综合应用 |
