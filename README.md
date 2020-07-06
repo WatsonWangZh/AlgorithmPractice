@@ -70,7 +70,7 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Algorithms/DynamicProgramming/63.%20Unique%20Paths%20II.py) |:+1::white_check_mark:<br>动态规划|
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) <br>Medium|Array<br>DynamicProgramming<br>  [Python3](LeetCode/Algorithms/DynamicProgramming/64.%20Minimum%20Path%20Sum.py) |普通DP<br>待优化|
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) <br>Hard|Math<br>String<br>  [Python3](LeetCode/Algorithms/String/65.%20Valid%20Number.py) |:+1:<br>正则<br>模拟|
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) <br>Easy|Array<br>  [Python3](LeetCode/Algorithms/Array/66.%20Plus%20One.py) | 进位处理 |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) <br>Easy|Array<br>  [Python3](LeetCode/Algorithms/Array/66.%20Plus%20One.py) | 模拟 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) <br>Easy|Math<br>String<br>  [Python3](LeetCode/Algorithms/String/67.%20Add%20Binary.py) | 逐位处理 |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) <br>Hard|String<br>  [Python3](LeetCode/Algorithms/String/68.%20Text%20Justification.py) |:white_check_mark:<br>模拟<br>逐行处理拼接 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) <br>Easy|Math<br> [Python3](LeetCode/Algorithms/Math/69.%20Sqrt(x).py) | 二分查找 |
@@ -620,8 +620,7 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 ### Concurrency
 | # | Title| Difficulty | Solution | Notes |
 |:---:| :-----: | :---------:| :---------:| :---------:| 
-| 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | Easy | [Python3](LeetCode/Concurrency//1114.%20Print%20in%20Order.py) | 资源锁 |
-
+| 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | Easy | [Python3](LeetCode/Concurrency/1114.%20Print%20in%20Order.py) | acquire<br>release |
 
 ## [CodingInterview](./CodingInterview/)
 
