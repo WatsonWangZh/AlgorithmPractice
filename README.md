@@ -611,16 +611,19 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 | # | Title | Difficulty | Solution | Notes |
 |:---:| :-----: | :-------:| :-------:|  :---------:|
 | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)  | Easy |[SQL](LeetCode/Database/175.%20Combine%20Two%20Tables.sql)|left join |
+| 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)  | Easy |[SQL](LeetCode/Database/176.%20Second%20Highest%20Salary.sql)|IFNULL<br>Count|
 
 ### Shell
 | # | Title|Difficulty | Solution | Notes |
 |:---:| :-----: | :---------:| :---------:|  :---------:|
+| 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | Easy | [Shell](LeetCode/Shell/192.%20Word%20Frequency.sh) | :+1: |
 | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | Easy | [Shell](LeetCode/Shell/195.%20Tenth%20Line.sh) | sed<br>awk<br>head<br>tail |
 
 ### Concurrency
 | # | Title| Difficulty | Solution | Notes |
 |:---:| :-----: | :---------:| :---------:| :---------:| 
 | 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | Easy | [Python3](LeetCode/Concurrency/1114.%20Print%20in%20Order.py) | acquire<br>release |
+| 1279 | [Traffic Light Controlled Intersection](https://leetcode.com/problems/traffic-light-controlled-intersection/) | Easy | [Python3](LeetCode/Concurrency/1279.%20Traffic%20Light%20Controlled%20Intersection.py) | Lock<br> BoundedSemaphore |
 
 ## [CodingInterview](./CodingInterview/)
 
