@@ -1,7 +1,27 @@
 # Coding Practice
-Some Coding Practice based on LeetCode and Coding Interview.  
-Including Algorithm, Database, Shell, Concurrency and some online Contests.
-## LeetCode Solutions All in One (In Python3)
+<div align="center">
+    <img src="picture/coding.png">
+
+
+Coding parctice based on LeetCode and Coding Interview book,   
+including algorithm, database, shell, concurrency problems and other online contests.
+
+![Language](https://img.shields.io/badge/Language-Python-orange.svg?logo=Python&logoColor=yellow) ![Progress](https://img.shields.io/badge/progress-619%2F1505-brightgreen.svg) ![Update](https://img.shields.io/badge/Update-Daily-green.svg)  ![License](https://img.shields.io/badge/License-MIT-green.svg) 
+</div>
+
+# Category
+- [LeetCode](#leetcode)
+  - [Algorithms](#algorithms)
+  - [Database](#database)
+  - [Shell](#shell)
+  - [Concurrency](#concurrency)
+- [CodingInterview](#codinginterview)
+- [Contest](#contest)
+  - [LeetCode Contest](#leetcode-contest)
+  - [KickStart Contest](#kickstart-contest)
+- [Acknowledgments](#acknowledgments)
+
+## LeetCode  
 ### Algorithms
 | # | Title<br>Difficulty | Category  <br> Solution | Notes |
 |:---:| :-----: | :---------:| :---------:| 
@@ -626,8 +646,11 @@ Including Algorithm, Database, Shell, Concurrency and some online Contests.
 | 1279 | [Traffic Light Controlled Intersection](https://leetcode.com/problems/traffic-light-controlled-intersection/) | Easy | [Python3](LeetCode/Concurrency/1279.%20Traffic%20Light%20Controlled%20Intersection.py) | Lock<br> BoundedSemaphore |
 
 ## [CodingInterview](./CodingInterview/)
-
 # Contest
 ## [LeetCode Contest](./Contest/LeetCode/)
-
 ## [KickStart Contest](./Contest/KickStart/)
+
+# Acknowledgments
+* [Grandyang](https://www.cnblogs.com/grandyang/)
+* [fuxuemingzhu](https://blog.csdn.net/fuxuemingzhu)
+* [Hua Hua](https://www.youtube.com/channel/UC5xDNEcvb1vgw3lE21Ack2Q)
