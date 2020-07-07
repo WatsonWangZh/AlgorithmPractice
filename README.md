@@ -20,6 +20,7 @@ including algorithm, database, shell, concurrency problems and other online cont
   - [LeetCode Contest](#leetcode-contest)
   - [KickStart Contest](#kickstart-contest)
 - [Acknowledgments](#acknowledgments)
+- [Feedback](#feedback)
 
 ## LeetCode  
 ### Algorithms
@@ -416,6 +417,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) <br>Hard|Math<br>Brainteaser<br> [Python3](LeetCode/Algorithms/Math/458.%20Poor%20Pigs.py) |:+1:<br>数学分析<br>找规律 |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) <br>Easy|BitManipulation<br> [Python3](LeetCode/Algorithms/BitManipulation/461.%20Hamming%20Distance.py) |Brian Kernighan's Algorithm|
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) <br>Medium|Math<br> [Python3](LeetCode/Algorithms/Math/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) | 分奇偶找中值 |
+| 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) <br>Easy|HashTable<br> [Python3](LeetCode/Algorithms/HashTable/463.%20Island%20Permeter.py) |模拟<br>memo思想 |
 | 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) <br>Medium|DynamicProgramming<br>Minimax<br> [Python3](LeetCode/Algorithms/Minimax/464.%20Can%20I%20Win.py) |:+1::top:<br>Minimax博弈<br>记忆化递归 |
 | 465 | [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) <br>Hard|Array<br>Math<br> [Python3](LeetCode/Algorithms/Math/465.%20Optimal%20Account%20Balancing.py) | :+1::top::white_check_mark::lock:<br>哈希表<br>集合<br>DFS<br>综合应用 |
 | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) <br>Medium|String<br> [Python3](LeetCode/Algorithms/String/468.%20Validate%20Ip%20Address.py) |模拟<br>Regex |
@@ -654,3 +656,6 @@ including algorithm, database, shell, concurrency problems and other online cont
 * [Grandyang](https://www.cnblogs.com/grandyang/)
 * [fuxuemingzhu](https://blog.csdn.net/fuxuemingzhu)
 * [Hua Hua](https://www.youtube.com/channel/UC5xDNEcvb1vgw3lE21Ack2Q)
+
+## Feedback
+Welcome to raise an issue [here](https://github.com/WatsonWangZh/CodingPractice/issues) if you have any feedback.
