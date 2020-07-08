@@ -26,11 +26,11 @@ including algorithm, database, shell, concurrency problems and other online cont
 ### Algorithms
 | # | Title<br>Difficulty | Category  <br> Solution | Notes |
 |:---:| :-----: | :---------:| :---------:| 
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) <br> Easy | Math<br>Array <br>[Python3](LeetCode/Algorithms/Math/1.%20Two%20Sum.py) | 暴力枚举<br>哈希表 |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) <br> Medium | Math<br>LinkedList <br>[Python3](LeetCode/Algorithms/Math/2.%20Add%20Two%20Numbers.py) |  |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) <br> Medium| String<br>Substring <br>[Python3](LeetCode/Algorithms/String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py) | HashTable<br>Deque |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) <br>Hard |Array<br>DevideAndConquer<br>[Python3](LeetCode/Algorithms/DevideAndConquer/4.%20Median%20of%20Two%20Sorted%20Arrays.py) |:+1::heart_eyes::ballot_box_with_check:<br>朴素<br>递归<br>二分<br>另一种二分<br> [好题,膜一发](https://www.youtube.com/watch?v=LPFhl65R7ww&t=1013s)|
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) <br> Medium | String<br>Palindrome<br>[Python3](LeetCode/Algorithms/String/5.%20Longest%20Palindromic%20Substring.py) | 暴力枚举<br>动态规划 |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) <br> Easy | Math<br>Array <br>[Python3](LeetCode/Algorithms/Math/1.%20Two%20Sum.py) | 枚举<br>哈希表 |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) <br> Medium | Math<br>LinkedList <br>[Python3](LeetCode/Algorithms/Math/2.%20Add%20Two%20Numbers.py) | 模拟 |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) <br> Medium| String<br>Substring <br>[Python3](LeetCode/Algorithms/String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py) | 滑动窗口 |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) <br>Hard |Array<br>DevideAndConquer<br>[Python3](LeetCode/Algorithms/DevideAndConquer/4.%20Median%20of%20Two%20Sorted%20Arrays.py) |:facepunch::heavy_check_mark:<br>模拟<br>归并排序<br>二分|
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) <br> Medium | String<br>Palindrome<br>[Python3](LeetCode/Algorithms/String/5.%20Longest%20Palindromic%20Substring.py) | 中心扩散法<br>DP |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) <br> Medium| String <br>[Python3](LeetCode/Algorithms/String/6.%20ZigZag%20Conversion.py) | 模拟<br>找规律 |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) <br> Easy| Math <br>[Python3](LeetCode/Algorithms/Math/7.%20Reverse%20Integer.py) |  |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) <br> Medium| Math <br>[Python3](LeetCode/Algorithms/Math/8.%20String%20to%20Integer%20(atoi).py) |  |
