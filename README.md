@@ -40,7 +40,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) <br>Medium| String <br>[Python3](LeetCode/Algorithms/String/12.%20Integer%20to%20Roman.py) |  |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) <br>Easy| String <br> [Python3](LeetCode/Algorithms/String/13.%20Roman%20to%20Integer.py) |  |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) <br>Easy| String <br> [Python3](LeetCode/Algorithms/String/14.%20Longest%20Common%20Prefix.py) |  |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) <br>Medium|Math<br>Sum<br>  [Python3](LeetCode/Algorithms/Math/15.%203Sum.py) |  |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) <br>Medium|Math<br>Sum<br>  [Python3](LeetCode/Algorithms/Math/15.%203Sum.py) | 双指针法 |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) <br>Medium|Math<br>Sum<br>  [Python3](LeetCode/Algorithms/Math/16.%203Sum%20Closest.py) |  |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) <br>Medium|BackTracking<br>Enumeration<br>  [Python3](LeetCode/Algorithms/BackTracking/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.py) | 递归回溯 |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) <br>Medium|Math<br>Sum<br> [Python3](LeetCode/Algorithms/Math/18.%204Sum.py) |  |
