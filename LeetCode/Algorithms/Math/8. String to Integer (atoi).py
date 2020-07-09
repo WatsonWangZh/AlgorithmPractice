@@ -1,19 +1,16 @@
 # Implement atoi which converts a string to an integer.
-# The function first discards as many whitespace characters 
-# as necessary until the first non-whitespace character is found. 
-# Then, starting from this character, takes an optional initial 
-# plus or minus sign followed by as many numerical digits as possible, 
+# The function first discards as many whitespace characters as necessary 
+# until the first non-whitespace character is found. 
+# Then, starting from this character, 
+# takes an optional initial plus or minus sign followed by as many numerical digits as possible, 
 # and interprets them as a numerical value.
-
-# The string can contain additional characters after those 
-# that form the integral number, which are ignored and 
-# have no effect on the behavior of this function.
-# If the first sequence of non-whitespace characters in str 
-# is not a valid integral number, or if no such sequence exists 
-# because either str is empty or it contains only whitespace characters, 
+# The string can contain additional characters after those that form the integral number, 
+# which are ignored and have no effect on the behavior of this function.
+# If the first sequence of non-whitespace characters in str is not a valid integral number, 
+# or if no such sequence exists because either str is empty or it contains only whitespace characters, 
 # no conversion is performed.
-
 # If no valid conversion could be performed, a zero value is returned.
+
 # Note:
 # Only the space character ' ' is considered as whitespace character.
 # Assume we are dealing with an environment which could only store integers 
@@ -48,47 +45,57 @@
 #              Thefore INT_MIN (−231) is returned.
 
 class Solution(object):
-    def myAtoi(self, str):
-            """
-            :type str: str
-            :rtype: int
-            """
-            if len(str) == 0:
-                return 0
-            numDict = {"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9,"0":0}
-            INT_MAX = 2**31-1
-            INT_MIN = -2**31
-            ans = 0
-            i = 0
-            
-            while i < len(str) and str[i] == " ":
-                i += 1
-            
-            sign = 1
-            if i < len(str) and str[i] =="+":   
-                i += 1
-            elif i < len(str) and str[i] =="-":
-                sign = -1
-                i += 1
-            
-            while i < len(str):
-                if str[i] > '9' or str[i] < '0':
-                    break
-                ans = ans*10+numDict[str[i]]
-                if ans > INT_MAX:
-                    break
-                i += 1
-            
-            return max(INT_MIN,min(ans*sign,INT_MAX))
+    def myAtoi(self, s):
+        """
+        :type str: str
+        :rtype: int
+        """
+        if len(s) == 0:
+            return 0
+        INT_MAX = 2**31-1
+        INT_MIN = -2**31
+        res = 0
+        i = 0
+        
+        while i < len(s) and s[i] == " ":
+            i += 1
+        sign = 1
+        if i < len(s) and s[i] =="+":   
+            i += 1
+        elif i < len(s) and s[i] =="-":
+            sign = -1
+            i += 1
+        
+        while i < len(s):
+            if s[i] > '9' or s[i] < '0':
+                break
+            res = res*10 + int(s[i])
+            if res > INT_MAX:
+                break
+            i += 1
+        return max(INT_MIN, min(res*sign, INT_MAX))
 
-def main():
-    s = Solution()
-    print(s.myAtoi("42"))
-    print(s.myAtoi("   -42"))
-    print(s.myAtoi("4193 with words"))
-    print(s.myAtoi("words and 987"))
-    print(s.myAtoi("-91283472332"))
+        # 二刷
+        idx, sign = 0, 1
+        while idx < len(s) and s[idx] == " ": 
+            idx += 1
 
+        if idx < len(s) and s[idx] == "+": 
+            idx += 1
+        elif idx < len(s) and s[idx] == "-": 
+            idx += 1
+            sign = -1
 
-if __name__ == "__main__":
-    main()
+        res = 0
+        while idx < len(s) and s[idx] >= '0' and s[idx] <= '9':
+            res = res * 10 + int(s[idx])
+            idx += 1
+
+        res *= sign
+        maxv = (1 << 31)
+        if res > 0 and res > maxv - 1: 
+            res = maxv - 1
+        if res < 0 and res < -maxv: 
+            res = - maxv
+
+        return res

@@ -25,32 +25,23 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        # return x >= 0 and x == int(str(x)[::-1])
+        # M1. int -> str -> int
+        return x >= 0 and x == int(str(x)[::-1])
         
-        # a = str(x)
-        # if a == a[::-1]:
-        #     return True
-        # else:
-        #     return False
+        # M2. str
+        a = str(x)
+        if a == a[::-1]:
+            return True
+        else:
+            return False
         
+        # M3. 模拟
         if x < 0:
             return False
-        if x == 0:
-            return True
-        if x % 10 == 0 :
-            return False
-        
-        y = 0
-        while(x>y):
-            y = y * 10 + x % 10
-            x = x/10
-        return y == x or (y > x and y/10 == x)
-
-def main():
-    s = Solution()
-    print(s.isPalindrome(121))
-    print(s.isPalindrome(-121))
-    print(s.isPalindrome(10))
-
-if __name__ == "__main__":
-    main()
+        # 记录原始x值，x在循环中会变化
+        y = x
+        res = 0
+        while x:
+            res = res * 10 + x % 10
+            x = x // 10
+        return res == y

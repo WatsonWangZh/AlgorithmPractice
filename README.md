@@ -32,10 +32,10 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) <br>Hard |Array<br>DevideAndConquer<br>[Python3](LeetCode/Algorithms/DevideAndConquer/4.%20Median%20of%20Two%20Sorted%20Arrays.py) |:facepunch::heavy_check_mark:<br>模拟<br>归并排序<br>二分|
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) <br> Medium | String<br>Palindrome<br>[Python3](LeetCode/Algorithms/String/5.%20Longest%20Palindromic%20Substring.py) | 中心扩散法<br>DP |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) <br> Medium| String <br>[Python3](LeetCode/Algorithms/String/6.%20ZigZag%20Conversion.py) | 模拟<br>找规律 |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) <br> Easy| Math <br>[Python3](LeetCode/Algorithms/Math/7.%20Reverse%20Integer.py) |  |
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) <br> Medium| Math <br>[Python3](LeetCode/Algorithms/Math/8.%20String%20to%20Integer%20(atoi).py) |  |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) <br> Easy| String<br>Palindrome <br>[Python3](LeetCode/Algorithms/String/9.%20Palindrome%20Number.py) |  |
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) <br> Hard| DynamicProgramming <br>[Python3](LeetCode/Algorithms/DynamicProgramming/10.%20Regular%20Expression%20Matching.py) | :+1::white_check_mark:<br>递归<br>自顶向下DP<br>自底向上DP |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) <br> Easy| Math <br>[Python3](LeetCode/Algorithms/Math/7.%20Reverse%20Integer.py) | 转化为字符串<br>模拟 |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) <br> Medium| Math <br>[Python3](LeetCode/Algorithms/Math/8.%20String%20to%20Integer%20(atoi).py) | 模拟 |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) <br> Easy| String<br>Palindrome <br>[Python3](LeetCode/Algorithms/String/9.%20Palindrome%20Number.py) | 转化为字符串<br>模拟 |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) <br> Hard| DynamicProgramming <br>[Python3](LeetCode/Algorithms/DynamicProgramming/10.%20Regular%20Expression%20Matching.py) | :fist::ballot_box_with_check:<br>递归<br>DP |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) <br> Medium|Math, Array<br>[Python3](LeetCode/Algorithms/Math/11.%20Container%20With%20Most%20Water.py) |  |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) <br>Medium| String <br>[Python3](LeetCode/Algorithms/String/12.%20Integer%20to%20Roman.py) |  |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) <br>Easy| String <br> [Python3](LeetCode/Algorithms/String/13.%20Roman%20to%20Integer.py) |  |
