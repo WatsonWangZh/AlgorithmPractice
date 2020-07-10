@@ -49,5 +49,29 @@
 
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
-        # ToDo
-        pass
+        # DP
+        n, m = len(grid), len(grid[0])
+        # * 与 for循环初始化的差别，浅拷贝与深拷贝
+        dp = [[[-1 for _ in range(m)] for _ in range(m)] for _ in range(n)]
+        dp[0][0][m-1] = grid[0][0] + grid[0][m-1]
+        res = 0
+
+        for k in range(1, n):
+            for i in range(m):
+                for j in range(m):
+                    for a in range(i-1, i+2):
+                        for b in range(j-1, j+2):
+                            if a < 0 or a >= m or b < 0 or b >= m:
+                                continue
+                            tmp = dp[k-1][a][b]
+                            if tmp == -1:
+                                continue
+                            if i == j:
+                                tmp += grid[k][i]
+                            else:
+                                tmp += grid[k][i] + grid[k][j]
+                            dp[k][i][j] = max(dp[k][i][j], tmp)
+
+                            res = max(res, dp[k][i][j])
+        
+        return res

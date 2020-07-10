@@ -47,3 +47,8 @@ class Solution:
             if target[i] != arr[i]:
                 return False
         return True
+
+        # Redo 
+        target.sort()
+        arr.sort()
+        return target == arr

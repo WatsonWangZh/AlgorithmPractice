@@ -48,3 +48,14 @@ class Solution:
             else:
                 return False
         return True
+
+        # Redo
+        rec = set()
+        tmp = 0
+        for i in range(len(s)):
+            tmp = tmp * 2 + int(s[i])
+            if i >= k:
+                tmp -= int(s[i-k]) << k
+            if i >= k-1:
+                rec.add(tmp)
+        return len(rec) == (1<<k)

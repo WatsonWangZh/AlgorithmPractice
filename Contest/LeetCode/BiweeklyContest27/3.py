@@ -70,3 +70,20 @@ class Solution:
             else:
                 result.append(False)
         return result
+
+class Solution:
+    def checkIfPrerequisite(self, n: int, ps: List[List[int]], qs: List[List[int]]) -> List[bool]:
+        # Redo 
+        # FLoyd Algorithm
+        d = [[False] * n for _ in range(n)]
+        for p in ps: 
+            d[p[0]][p[1]] = True
+        for k in range(n):
+            for i in range(n):
+                for j in range(n):
+                    if d[i][k] and d[k][j]:
+                        d[i][j] = True
+        res = []
+        for q in qs:
+            res.append(d[q[0]][q[1]])
+        return res

@@ -2,10 +2,10 @@
 ## [Biweekly Contest 27](https://leetcode.com/contest/biweekly-contest-27): [3075 / 7926](https://leetcode.com/contest/biweekly-contest-27/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/contest/biweekly-contest-27/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | Easy | [Python3](./BiweeklyContest27/1.py) |   |
-| 2 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/contest/biweekly-contest-27/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |  Medium | [Python3](./BiweeklyContest27/2.py) |  |
-| 3 | [Course Schedule IV](https://leetcode.com/contest/biweekly-contest-27/problems/course-schedule-iv/) |  Medium | [Python3](./BiweeklyContest27/3.py) | |
-| 4 | [Cherry Pickup II](https://leetcode.com/contest/biweekly-contest-27/problems/cherry-pickup-ii/) |  Hard | [TODO](./BiweeklyContest27/4.py) | |
+| 1 | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/contest/biweekly-contest-27/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | Easy | [Python3](./BiweeklyContest27/1.py) | 重在分析  |
+| 2 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/contest/biweekly-contest-27/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |  Medium | [Python3](./BiweeklyContest27/2.py) | 模拟<br>思路转化 |
+| 3 | [Course Schedule IV](https://leetcode.com/contest/biweekly-contest-27/problems/course-schedule-iv/) |  Medium | [Python3](./BiweeklyContest27/3.py) |弗洛伊德算法 |
+| 4 | [Cherry Pickup II](https://leetcode.com/contest/biweekly-contest-27/problems/cherry-pickup-ii/) |  Hard | [Good One](./BiweeklyContest27/4.py) | DP建模|
 
 ## [Biweekly Contest 28](https://leetcode.com/contest/biweekly-contest-28): [2395 / 8571](https://leetcode.com/contest/biweekly-contest-28/ranking)
 | # | Title | Difficulty | Solution | Remark |
