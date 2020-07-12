@@ -24,16 +24,26 @@
 # and the output represents the signed integer -1073741825.
  
 # Follow up:
-# If this function is called many times, how would you optimize it?
+# If this function is called many times, how would you optimize it?    
 
 class Solution:
-    # @param n, an integer
-    # @return an integer
-    def reverseBits(self, n):
-        # 位运算 模拟 O(1)
+    def reverseBits(self, n: int) -> int:
+
+        # 位运算 模拟翻转 O(1)
         # 使用位运算 n >> i & 1 可以取出 n 的第 i 位二进制数。
         # 我们从小到大依次取出 n 的所有二进制位，然后逆序累加到另一个无符号整数中。
         res = 0
         for i in range(32):
             res = (res << 1) | (n >> i & 1)
+        return res
+
+# 另一种位运算模拟翻转 O(1)
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        res = 0
+        power = 31
+        while n:
+            res += (n&1) << power
+            n >>= 1
+            power -= 1
         return res
