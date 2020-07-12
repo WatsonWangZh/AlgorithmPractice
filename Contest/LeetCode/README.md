@@ -63,3 +63,11 @@
 | 2 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/contest/biweekly-contest-30/problems/range-sum-of-sorted-subarray-sums/) |  Medium | [Python3](./BiweeklyContest30/2.py) |  |
 | 3 | [Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/contest/biweekly-contest-30/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) |  Medium | [TODO](./BiweeklyContest30/3.py) | |
 | 4 | [Stone Game IV](https://leetcode.com/contest/biweekly-contest-30/problems/stone-game-iv/) |  Hard | [TODO](./BiweeklyContest30/4.py) | |
+
+## [Weekly Contest 197](https://leetcode.com/contest/weekly-contest-197): [Not participated](https://leetcode.com/contest/weekly-contest-197/ranking) 
+| # | Title | Difficulty | Solution | Remark |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Number of Good Pairs](https://leetcode.com/contest/weekly-contest-197/problems/number-of-good-pairs/) | Easy | [TODO](./WeeklyContest197/1.py) |   |
+| 2 | [Number of Substrings With Only 1s](https://leetcode.com/contest/weekly-contest-197/problems/number-of-substrings-with-only-1s/) | Medium | [TODO](./WeeklyContest197/2.py) |  |
+| 3 | [Path with Maximum Probability](https://leetcode.com/contest/weekly-contest-197/problems/path-with-maximum-probability/) | Medium | [TODO](./WeeklyContest197/3.py) | |
+| 4 | [Best Position for a Service Centre](https://leetcode.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/) | Hard | [TODO](./WeeklyContest197/4.py) |  |
