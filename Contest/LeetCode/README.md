@@ -55,3 +55,11 @@
 | 2 | [Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  Medium | [Fuck thinking ](./WeeklyContest196/2.py) |  |
 | 3 | [Count Submatrices With All Ones](https://leetcode.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/) |  Medium | [Python3](./WeeklyContest196/3.py) | Do Again|
 | 4 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/contest/weekly-contest-196/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) |  Hard | [Not Even Open It](./WeeklyContest196/4.py) | Hard! |
+
+## [Biweekly Contest 30](https://leetcode.com/contest/biweekly-contest-30): [3325 / 8175](https://leetcode.com/contest/biweekly-contest-30/ranking) 
+| # | Title | Difficulty | Solution | Remark |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Reformat Date](https://leetcode.com/contest/biweekly-contest-30/problems/reformat-date/) | Easy | [Python3](./BiweeklyContest30/1.py) |   |
+| 2 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/contest/biweekly-contest-30/problems/range-sum-of-sorted-subarray-sums/) |  Medium | [Python3](./BiweeklyContest30/2.py) |  |
+| 3 | [Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/contest/biweekly-contest-30/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) |  Medium | [TODO](./BiweeklyContest30/3.py) | |
+| 4 | [Stone Game IV](https://leetcode.com/contest/biweekly-contest-30/problems/stone-game-iv/) |  Hard | [TODO](./BiweeklyContest30/4.py) | |
