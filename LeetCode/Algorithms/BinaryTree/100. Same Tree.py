@@ -45,4 +45,37 @@ class Solution(object):
         elif q is None or p is None:
             return False
         else:
-            return q.val== p.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+            return q.val == p.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+
+# 迭代 O(n)
+# Definition for a binary tree node.
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+class Solution:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+        def check(p, q):
+            # if both are None
+            if not p and not q:
+                return True
+            # one of p and q is None
+            if not q or not p:
+                return False
+            if p.val != q.val:
+                return False
+            return True
+
+        deq = deque([(p, q)])
+        while deq:
+            p, q = deq.popleft()
+            if not check(p, q):
+                return False
+
+            if p or q:
+                deq.append((p.left, q.left))
+                deq.append((p.right, q.right))
+
+        return True
