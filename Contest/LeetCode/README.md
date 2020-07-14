@@ -18,10 +18,10 @@
 ## [Weekly Contest 193](https://leetcode.com/contest/weekly-contest-193): [6439 / 13794](https://leetcode.com/contest/weekly-contest-193/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Running Sum of 1d Array](https://leetcode.com/contest/weekly-contest-193/problems/running-sum-of-1d-array/) | Easy | [Python3](./WeeklyContest193/1.py) |   |
-| 2 | [Least Number of Unique Integers after K Removals](https://leetcode.com/contest/weekly-contest-193/problems/least-number-of-unique-integers-after-k-removals/) |  Medium | [Python3](./WeeklyContest193/2.py) |  |
-| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/) |  Medium | [TLE TODO](./WeeklyContest193/3.py) | |
-| 4 | [Kth Ancestor of a Tree Node](https://leetcode.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/) |  Hard | [TODO](./WeeklyContest193/4.py) | |
+| 1 | [Running Sum of 1d Array](https://leetcode.com/contest/weekly-contest-193/problems/running-sum-of-1d-array/) | Easy | [Python3](./WeeklyContest193/1.py) | 前缀和  |
+| 2 | [Least Number of Unique Integers after K Removals](https://leetcode.com/contest/weekly-contest-193/problems/least-number-of-unique-integers-after-k-removals/) |  Easy | [Python3](./WeeklyContest193/2.py) | 排序贪心 |
+| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/) |  Medium | [Python3](./WeeklyContest193/3.py) |:thumbsup:<br>动态维护数组 |
+| 4 | [Kth Ancestor of a Tree Node](https://leetcode.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/) |  Hard | [Python3](./WeeklyContest193/4.py) |Trick |
 
 ## [Weekly Contest 194](https://leetcode.com/contest/weekly-contest-194): [3848 / 13808](https://leetcode.com/contest/weekly-contest-194/ranking)
 | # | Title | Difficulty | Solution | Remark |
@@ -71,3 +71,6 @@
 | 2 | [Number of Substrings With Only 1s](https://leetcode.com/contest/weekly-contest-197/problems/number-of-substrings-with-only-1s/) | Medium | [TODO](./WeeklyContest197/2.py) |  |
 | 3 | [Path with Maximum Probability](https://leetcode.com/contest/weekly-contest-197/problems/path-with-maximum-probability/) | Medium | [TODO](./WeeklyContest197/3.py) | |
 | 4 | [Best Position for a Service Centre](https://leetcode.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/) | Hard | [TODO](./WeeklyContest197/4.py) |  |
+
+# Top Coder
+* [awice](https://leetcode.com/awice/)

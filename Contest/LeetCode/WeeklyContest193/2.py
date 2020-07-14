@@ -4,7 +4,8 @@
 # Total Accepted:6453
 # Total Submissions:12682
 # Difficulty:Medium
-# Given an array of integers arr and an integer k. Find the least number of unique integers after removing exactly k elements.
+# Given an array of integers arr and an integer k.
+# Find the least number of unique integers after removing exactly k elements.
 
 # Example 1:
 # Input: arr = [5,5,4], k = 1
@@ -27,21 +28,35 @@ class Solution:
         most_common = Counter(arr).most_common()
         most_common.sort(key=lambda x: x[1])
 
-
-        while k>0:
+        while k > 0:
             for i, tup in enumerate(most_common):
                 k -= tup[1]
-
                 if k < 0:
                     break
                 tup = tup[:1] + (0,)
-
                 most_common[i] = tup
-                
-        res = 0
 
+        res = 0
         for _, val in most_common:
-                if val > 0:
-                    res += 1
+            if val > 0:
+                res += 1
         return res
-        
+
+        # Counter计数 排序
+        dic = Counter(int)
+        for x in arr:
+            dic[x] += 1
+
+        cnt = []
+        for x in dic.keys():
+            cnt.append(dic[x])
+        cnt.sort()
+
+        res = len(cnt)
+        for c in cnt:
+            if k >= c:
+                k -= c
+                res -= 1
+            else:
+                break
+        return res
