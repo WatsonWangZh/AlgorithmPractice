@@ -10,10 +10,10 @@
 ## [Biweekly Contest 28](https://leetcode.com/contest/biweekly-contest-28): [2395 / 8571](https://leetcode.com/contest/biweekly-contest-28/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/contest/biweekly-contest-28/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [Python3](./BiweeklyContest28/1.py) |   |
-| 2 | [Subrectangle Queries](https://leetcode.com/contest/biweekly-contest-28/problems/subrectangle-queries/) |  Medium | [Python3](./BiweeklyContest28/2.py) |  |
-| 3 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/contest/biweekly-contest-28/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) |  Medium | [TODO](./BiweeklyContest28/3.py) | |
-| 4 | [Allocate Mailboxes](https://leetcode.com/contest/biweekly-contest-28/problems/allocate-mailboxes/) |  Hard | [TODO](./BiweeklyContest28/4.py) | |
+| 1 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/contest/biweekly-contest-28/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [Python3](./BiweeklyContest28/1.py) | 蛮力模拟<br>单调栈  |
+| 2 | [Subrectangle Queries](https://leetcode.com/contest/biweekly-contest-28/problems/subrectangle-queries/) |  Easy | [Python3](./BiweeklyContest28/2.py) | 模拟 |
+| 3 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/contest/biweekly-contest-28/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | [Python3](./BiweeklyContest28/3.py) | :thumbsup:<br>记忆化滑动窗口|
+| 4 | [Allocate Mailboxes](https://leetcode.com/contest/biweekly-contest-28/problems/allocate-mailboxes/) |  Hard | [Python3](./BiweeklyContest28/4.py) | :thumbsup:<br>DP细节 |
 
 ## [Weekly Contest 193](https://leetcode.com/contest/weekly-contest-193): [6439 / 13794](https://leetcode.com/contest/weekly-contest-193/ranking)
 | # | Title | Difficulty | Solution | Remark |

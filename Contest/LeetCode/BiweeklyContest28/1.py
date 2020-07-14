@@ -32,9 +32,26 @@
 
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
+        # M1. 蛮力 O(n^2
         for i in range(len(prices)):
             for j in range(i+1, len(prices)):
                 if prices[i] >= prices[j]:
                     prices[i] -= prices[j]
                     break
         return prices
+
+        # M2. 单调栈 O(n)
+        res = []
+        stack = []
+        for i in range(len(prices) - 1, -1, -1):
+            t = prices[i]
+            while stack and stack[-1] > t:
+                stack.pop()
+            if stack:
+                res.append(t - stack[-1])
+            else:
+                res.append(t)
+            while stack and stack[-1] == t:
+                stack.pop()
+            stack.append(t)
+        return res[::-1]
