@@ -472,6 +472,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) <br>Medium|Array<br>HashTable<br> [Python3](LeetCode/Algorithms/Array/554.%20Brick%20Wall.py) |:+1::white_check_mark:<br>贪心+哈希表|
 | 555 | [Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings/) <br>Medium|String<br> [Python3](LeetCode/Algorithms/String/555.%20Split%20Concatenated%20Strings.py) |枚举<br>高位优先优化|
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) <br>Medium|String<br>Math<br> [Python3](LeetCode/Algorithms/Math/556.%20Next%20Greater%20Element%20III.py) |:+1::white_check_mark: <br>找规律|
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) <br>Easy|String<br> [Python3](LeetCode/Algorithms/String/557.%20Reverse%20Words%20in%20a%20String%20III.py) ||
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) <br>Medium|Array<br>HashTable<br> [Python3](LeetCode/Algorithms/Array/560.%20Subarray%20Sum%20Equals%20K.py) |前缀和 + 哈希表|
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) <br>Medium|TwoPointers<br>SlidingWindow<br> [Python3](LeetCode/Algorithms/TwoPointers/567.%20Permutation%20in%20String.py) |滑动窗口|
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) <br>Easy|BinaryTree<br> [Python3](LeetCode/Algorithms/BinaryTree/572.%20Subtree%20of%20Another%20Tree.py) |递归先序<br>模拟比较|
