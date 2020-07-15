@@ -46,6 +46,7 @@
 # 1 <= names[i].length <= 20
 # names[i] consists of lower case English letters, digits and/or round brackets.
 
+from collections import  defaultdict
 class Solution:
     def getFolderNames(self, names: List[str]) -> List[str]:
         dic = set()

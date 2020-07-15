@@ -26,10 +26,10 @@
 ## [Weekly Contest 194](https://leetcode.com/contest/weekly-contest-194): [3848 / 13808](https://leetcode.com/contest/weekly-contest-194/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [XOR Operation in an Array](https://leetcode.com/contest/weekly-contest-194/problems/xor-operation-in-an-array/) | Easy | [Python3](./WeeklyContest194/1.py) |   |
-| 2 | [Making File Names Unique](https://leetcode.com/contest/weekly-contest-194/problems/making-file-names-unique/) |  Medium | [Python3](./WeeklyContest194/2.py) |  |
-| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/) |  Medium | [WA Other's Solution](./WeeklyContest194/3.py) |To Check |
-| 4 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/contest/weekly-contest-194/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  Hard | [TODO](./WeeklyContest194/4.py) | |
+| 1 | [XOR Operation in an Array](https://leetcode.com/contest/weekly-contest-194/problems/xor-operation-in-an-array/) | Easy | [Python3](./WeeklyContest194/1.py) |模拟  |
+| 2 | [Making File Names Unique](https://leetcode.com/contest/weekly-contest-194/problems/making-file-names-unique/) |  Medium | [Python3](./WeeklyContest194/2.py) | 模拟 |
+| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/) |  Medium | [Python3](./WeeklyContest194/3.py) |:thumbsup:<br>预处理+贪心 |
+| 4 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/contest/weekly-contest-194/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  Hard | [Python3](./WeeklyContest194/4.py) |:thumbsup:<br>枚举<br>kruskal |
 
 ## [Biweekly Contest 29](https://leetcode.com/contest/biweekly-contest-29): [4968 / 7932](https://leetcode.com/contest/biweekly-contest-29/ranking)
 | # | Title | Difficulty | Solution | Remark |
