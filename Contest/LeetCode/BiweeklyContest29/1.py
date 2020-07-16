@@ -36,3 +36,11 @@
 class Solution:
     def average(self, salary: List[int]) -> float:
         return (sum(salary) - min(salary) - max(salary)) / (len(salary)-2)
+
+        sumv = 0
+        minv, maxv = float('inf'), float('-inf')
+        for s in salary:
+            sumv += s
+            minv = min(minv, s)
+            maxv = max(maxv, s)
+        return (sumv - minv - maxv) / (len(salary) - 2)

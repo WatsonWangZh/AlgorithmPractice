@@ -34,10 +34,10 @@
 ## [Biweekly Contest 29](https://leetcode.com/contest/biweekly-contest-29): [4968 / 7932](https://leetcode.com/contest/biweekly-contest-29/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [Python3](./BiweeklyContest29/1.py) |   |
-| 2 | [The kth Factor of n](https://leetcode.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/) |  Medium | [Python3](./BiweeklyContest29/2.py) |  |
-| 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [TLE](./BiweeklyContest29/3.py) |TODO |
-| 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Past Competition](./BiweeklyContest29/4.py) | DO AGAIN|
+| 1 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [Python3](./BiweeklyContest29/1.py) |  模拟 |
+| 2 | [The kth Factor of n](https://leetcode.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/) |  Easy | [Python3](./BiweeklyContest29/2.py) | 模拟 |
+| 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [Python3](./BiweeklyContest29/3.py) |滑动窗口 |
+| 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Python3](./BiweeklyContest29/4.py) |:hushed::ballot_box_with_check:<br>拓扑排序<br>状态压缩DP|
 
 ## [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/): [2010 / 11468](https://leetcode.com/contest/weekly-contest-195/ranking) :see_no_evil: LeetCode Crash.
 | # | Title | Difficulty | Solution | Remark |

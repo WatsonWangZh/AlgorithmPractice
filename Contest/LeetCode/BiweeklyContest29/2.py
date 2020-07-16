@@ -39,6 +39,7 @@
 
 class Solution:
     def kthFactor(self, n: int, k: int) -> int:
+        # M1. O(n)
         res = []
         for i in range(1, n+1):
             if n % i == 0:
@@ -46,3 +47,23 @@ class Solution:
         if k > len(res):
             return -1
         return res[k-1]
+
+        # M2. O(n)
+        for i in range(1, n+1):
+            if n % i == 0:
+                k -= 1
+                if k == 0:
+                    return i
+        return -1
+
+        # M3. O(n^0.5)
+        res = []
+        for i in range(1, int(n ** 0.5 + 1)):
+            if n % i == 0:
+                res.append(i)
+                if i != n // i:
+                    res.append(n // i)
+        res.sort()
+        if k > len(res):
+            return -1
+        return res[k - 1]
