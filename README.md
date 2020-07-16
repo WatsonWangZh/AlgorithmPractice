@@ -75,7 +75,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) <br>Medium|BackTracking<br>  [Python3](LeetCode/Algorithms/BackTracking/47.%20Permutations%20II.py) | 排序，跳过重复元素 |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) <br>Medium|Array<br>Math<br>  [Python3](LeetCode/Algorithms/Array/48.%20Rotate%20Image.py) | :+1:<br>操作分解|
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) <br>Medium|String<br>  [Python3](LeetCode/Algorithms/String/49.%20Group%20Anagrams.py) | 三种方法求解 |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) <br>Medium|Math<br>BinarySearch<br>  [Python3](LeetCode/Algorithms/Math/50.%20Pow(x,%20n).py) |库函数<br>蛮力法<br>二分法|
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) <br>Medium|Math<br>BinarySearch<br>  [Python3](LeetCode/Algorithms/Math/50.%20Pow(x,%20n).py) |二分<br>快速幂|
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) <br>Medium|BackTracking<br>  [Python3](LeetCode/Algorithms/BackTracking/51.%20N-Queens.py) | :+1: :white_check_mark: |
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) <br>Hard|BackTracking<br>  [Python3](LeetCode/Algorithms/BackTracking/52.%20N-Queens%20II.py) | :+1: :white_check_mark:|
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) <br>Easy|Array<br>  [Python3](LeetCode/Algorithms/Array/53.%20Maximum%20Subarray.py) |  |

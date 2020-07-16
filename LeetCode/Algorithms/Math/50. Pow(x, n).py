@@ -25,22 +25,19 @@ class Solution(object):
         :rtype: float
         """
         # M0. 自带库
-        # return x ** n
+        return x ** n
 
-        # M1. 蛮力算法 O(n)
-        # if x == 0:
-        #     return 0
-        # if n < 0:
-        #     x = 1/x
-        #     n = -n
+        # M1. 蛮力算法 O(n) TLE
+        if x == 0:
+            return 0
+        if n < 0:
+            x = 1/x
+            n = -n
 
-        # res = 1
-        # # Memory Exceeded for range
-        # # TimeLimitExceeded for xrange
-        # for i in range(n):
-        # # for i in xrange(n):
-        #     res *= x
-        # return res
+        res = 1
+        for i in range(n):
+            res *= x
+        return res
 
         # M2. 二分法 O(lgn)
         if x == 0:
@@ -52,6 +49,21 @@ class Solution(object):
         res = 1
         while n >= 1:
             if n%2 == 1:
+                res *= x
+            x *= x
+            n >>= 1
+        return res
+
+        # M3. 快速幂
+        if x == 0:
+            return 0
+        if n < 0:
+            x = 1 / x
+            n = -n
+
+        res = 1
+        while n:
+            if n & 1:
                 res *= x
             x *= x
             n >>= 1
