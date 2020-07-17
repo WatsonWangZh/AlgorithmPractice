@@ -39,20 +39,24 @@
 # 1 <= nums[i] <= 10^6
 # 1 <= target <= 10^6
 
-# Naive: Memory Limit Exceeded
-import itertools
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
-        tmp = []
-        res = 0
-        for i in range(1, len(nums)+1):
-            iter = itertools.combinations(nums,i)
-            tmp.append(list(iter))
 
-        for l in tmp:
-            for ele in l:
-                # print(list(ele))
-                if max(list(ele)) + min(list(ele)) <= target:
-                    res += 1
-                    
-        return res % (10**9+7)
+        n = len(nums)
+        mod = 1e9 + 7
+        p = [0] * n
+
+        p[0] = 1
+        for i in range(1, n):
+            p[i] = p[i - 1] * 2 % mod
+
+        res = 0
+        nums.sort()
+        i, j = 0, n - 1
+        while i < n:
+            while j >= i and nums[i] + nums[j] > target:
+                j -= 1
+            if j >= i and nums[i] + nums[j] <= target:
+                res = (res + p[j - i]) % mod
+            i += 1
+        return int(res)

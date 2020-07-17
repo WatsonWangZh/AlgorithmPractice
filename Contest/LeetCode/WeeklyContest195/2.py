@@ -21,7 +21,8 @@
 # Example 3:
 # Input: arr = [1,2,3,4,5,6], k = 10
 # Output: false
-# Explanation: You can try all possible pairs to see that there is no way to divide arr into 3 pairs each with sum divisible by 10.
+# Explanation: You can try all possible pairs to see that
+# there is no way to divide arr into 3 pairs each with sum divisible by 10.
 
 # Example 4:
 # Input: arr = [-10,10], k = 2
@@ -38,23 +39,24 @@
 # -10^9 <= arr[i] <= 10^9
 # 1 <= k <= 10^5
 
-import collections
+from collections import defaultdict
+
+
 class Solution:
     def canArrange(self, arr: List[int], k: int) -> bool:
-        if len(arr) % 2:
-            return False
-        freq = collections.defaultdict(int)
-        for i in range(len(arr)):
-            freq[arr[i] % k ] += 1
-        for i in range(len(arr)):
-            rem = arr[i] % k
-            if 2*rem == k: 
-                if freq[rem] % 2 != 0: 
-                    return False
-            elif rem == 0:
-               if freq[rem] & 1:           
-                   return False 
-            elif freq[rem] != freq[k - rem]:
-                return False  
-        return True
 
+        cnt = defaultdict(int)
+        for i in range(len(arr)):
+            cnt[arr[i] % k] += 1
+
+        if cnt[0] & 1:
+            return False
+
+        for i in range(1, k):
+            while cnt[i]:
+                cnt[i] -= 1
+                if cnt[k - i] <= 0:
+                    return False
+                cnt[k - i] -= 1
+
+        return True

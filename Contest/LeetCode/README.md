@@ -42,10 +42,10 @@
 ## [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/): [2010 / 11468](https://leetcode.com/contest/weekly-contest-195/ranking) :see_no_evil: LeetCode Crash.
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Path Crossing](https://leetcode.com/contest/weekly-contest-195/problems/path-crossing/) | Easy | [Python3](./WeeklyContest195/1.py) |   |
-| 2 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/) |  Medium | [Python3](./WeeklyContest195/2.py) |  |
-| 3 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |  Medium | [Naive MLE](./WeeklyContest195/3.py) | |
-| 4 | [Max Value of Equation](https://leetcode.com/contest/weekly-contest-195/problems/max-value-of-equation/) |  Hard | [TODO](./WeeklyContest195/4.py) | |
+| 1 | [Path Crossing](https://leetcode.com/contest/weekly-contest-195/problems/path-crossing/) | Easy | [Python3](./WeeklyContest195/1.py) | 模拟  |
+| 2 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/) |  Medium | [Python3](./WeeklyContest195/2.py) | 余数分桶 |
+| 3 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |  Medium | [Python3](./WeeklyContest195/3.py) | 滑动窗口|
+| 4 | [Max Value of Equation](https://leetcode.com/contest/weekly-contest-195/problems/max-value-of-equation/) |  Hard | [Python3](./WeeklyContest195/4.py) |:thumbsup:<br滑动窗口求最值 |
 
 
 ## [Weekly Contest 196](https://leetcode.com/contest/weekly-contest-196/): [2333 / 14301](https://leetcode.com/contest/weekly-contest-196/ranking) 
