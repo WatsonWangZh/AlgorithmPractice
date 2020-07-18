@@ -38,4 +38,33 @@
 
 class Solution:
     def minInteger(self, num: str, k: int) -> str:
-        pass
+        n = len(num)
+        if k >= n * (n - 1) / 2:
+            return ''.join(sorted(num))
+
+        pos = defaultdict(list)
+        for i in range(n - 1, -1, -1):
+            pos[int(num[i])].append(i)
+
+        prev = []
+        res = ''
+        candi = list(range(10))
+        while k and len(res) < n:
+            for di in candi[:]:
+                if pos[di]:
+                    index = pos[di][-1]
+                    place = bisect(prev, index)
+                    if index - place <= k:
+                        prev.insert(place, index)
+                        k -= index - place
+                        pos[di].pop()
+                        res += str(di)
+                        break
+                else:
+                    candi.remove(di)
+
+        if k == 0 and len(res) < n:
+            prev = set(prev)
+            return res + ''.join(ch for i, ch in enumerate(num) if i not in prev)
+        else:
+            return res
