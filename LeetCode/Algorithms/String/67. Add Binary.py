@@ -16,27 +16,20 @@ class Solution(object):
         :type b: str
         :rtype: str
         """
-        # M1.逐位处理
-        idxa, idxb = len(a)-1, len(b)-1
-        carry = 0
-        res = ""
-        while idxa >= 0 or idxb >= 0 or carry > 0:
-            if idxa >= 0 and idxb >= 0:
-                temp = int(a[idxa]) + int(b[idxb]) + carry
-                idxa -= 1
-                idxb -= 1
-            elif idxa >= 0:
-                temp = int(a[idxa]) + carry
-                idxa -= 1
-            elif idxb>=0:
-                temp = int(b[idxb]) + carry
-                idxb -= 1
-            else:
-                temp = carry
-            carry = temp // 2
-            temp %= 2
-            res += str(temp)
-        return res[::-1]
 
-        # M2.调库
-        #return bin(int(a,2)+int(b,2))[2:]
+        a, b = a[::-1], b[::-1]
+        la, lb = len(a), len(b)
+        res = ''
+
+        carry = 0
+        i = 0
+        while i < la or i < lb or carry:
+            if i < la:
+                carry += int(a[i])
+            if i < lb:
+                carry += int(b[i])
+            res += str(carry%2)
+            carry = carry // 2
+            i += 1
+        
+        return res[::-1]
