@@ -33,6 +33,16 @@
 
 class Solution:
     def minDifference(self, nums: List[int]) -> int:
-        pass
+        n = len(nums)
+        if n <= 3:
+            return 0
+
+        nums.sort()
+        res = float('inf')
+        for l in range(4):
+            r = 3 - l
+            # print(l, r, n-r)
+            res = min(res, (nums[n - r - 1] - nums[l]))
+        return res
             
 

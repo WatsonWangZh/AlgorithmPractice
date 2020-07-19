@@ -4,8 +4,11 @@
 # Total Accepted:3475
 # Total Submissions:4689
 # Difficulty:Medium
-# Given the array nums consisting of n positive integers. You computed the sum of all non-empty continous subarrays from the array and then sort them in non-decreasing order, creating a new array of n * (n + 1) / 2 numbers.
-# Return the sum of the numbers from index left to index right (indexed from 1), inclusive, in the new array. Since the answer can be a huge number return it modulo 10^9 + 7.
+# Given the array nums consisting of n positive integers.
+# You computed the sum of all non-empty continous subarrays from the array and then sort them in non-decreasing order,
+# creating a new array of n * (n + 1) / 2 numbers.
+# Return the sum of the numbers from index left to index right (indexed from 1), inclusive, in the new array.
+# Since the answer can be a huge number return it modulo 10^9 + 7.
 
 # Example 1:
 # Input: nums = [1,2,3,4], n = 4, left = 1, right = 5
@@ -35,20 +38,22 @@
 class Solution:
     def rangeSum(self, nums: List[int], n: int, left: int, right: int) -> int:
         
-        def prefix_sums(A):
-          n = len(A)
-          P = [0] * (n + 1)
-          for k in range(1, n + 1):
-              P[k] = P[k - 1] + A[k - 1]
-          return P[1:]
-    
+        def prefix_sums(nums):
+            n = len(nums)
+            ps = [0] * (n + 1)
+            for k in range(1, n + 1):
+                ps[k] = ps[k - 1] + nums[k - 1]
+            return ps[1:]
+
+        mod = 1e9+7
+
         tmp = []
         for i in range(len(nums)):
             tmp.extend(prefix_sums(nums[i:]))
-
         tmp.sort()
 
         res = 0
         for i in range(left-1, right):
             res += tmp[i]
-        return res
+
+        return int(res % mod)

@@ -38,7 +38,27 @@ class Solution:
             if '0' <= c <= '9':
                 day += c
 
-        dic = {"Jan":'01', "Feb":'02', "Mar":'03', "Apr":'04', "May":'05', "Jun":'06', "Jul":'07', "Aug":'08', "Sep":'09', "Oct":'10', "Nov":'11', "Dec":'12'}
-        res = str(lst[2]) + '-' + dic[lst[1]] + '-'
+        dic = {"Jan": '01', "Feb": '02', "Mar": '03', "Apr": '04',
+               "May": '05', "Jun": '06', "Jul": '07', "Aug": '08',
+               "Sep": '09', "Oct": '10', "Nov": '11', "Dec": '12'}
+
+        res += str(lst[2]) + '-' + dic[lst[1]] + '-'
         res += day if len(day) > 1 else '0' + day
         return res
+
+        # awice https://leetcode.com/awice/
+        res = []
+        d, m, y = date.split()
+        res.append(y)
+
+        months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        i = months.index(m)
+        i += 1
+        i = str(i).zfill(2)
+        res.append(i)
+
+        j = "".join(c for c in d if c.isdigit())
+        j = j.zfill(2)
+        res.append(j)
+
+        return "-".join(res)
