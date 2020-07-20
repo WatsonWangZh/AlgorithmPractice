@@ -26,6 +26,24 @@
 # 1 <= nums.length <= 100
 # 1 <= nums[i] <= 100
 
+from collections import  defaultdict
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
-        pass
+        # 模拟
+        n = len(nums)
+        res = 0
+        for i in range(n - 1):
+            for j in range(i + 1, n):
+                if nums[i] == nums[j]:
+                    res += 1
+        return res
+
+        # 计数统计
+        cnt = defaultdict(int)
+        for num in nums:
+            cnt[num] += 1
+
+        res = 0
+        for v, c in cnt.items():
+            res += c * (c - 1) // 2
+        return res

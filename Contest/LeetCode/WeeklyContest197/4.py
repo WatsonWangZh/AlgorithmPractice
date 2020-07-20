@@ -51,4 +51,49 @@
 
 class Solution:
     def getMinDistSum(self, positions: List[List[int]]) -> float:
-        pass
+        # 梯度下降法
+        # https://leetcode-cn.com/problems/best-position-for-a-service-centre/solution/ti-du-xia-jiang-suan-fa-xiang-jie-python3-by-dz-le/
+
+        # 初始迭代位置
+        x0 = sum([p[0] for p in positions]) / len(positions)
+        y0 = sum([p[1] for p in positions]) / len(positions)
+
+        # 初始步长
+        step = 16
+        while True:
+            dx, dy = self.deri(x0, y0, positions)
+            # 导数都为0, 说明当前是极值点, 退出循环。凹函数的证明可以参考其他文章
+            if (dx, dy) == (0, 0):
+                break
+
+            while True:
+                x1 = x0 - step * dx
+                y1 = y0 - step * dy
+                # 保持x0、y0不变，一直寻找下一个下降点，并在此期间改变步长
+                if self.dist(x1, y1, positions) < self.dist(x0, y0, positions):
+                    break
+
+                # 减少步长
+                step /= 4
+
+            if abs(self.dist(x1, y1, positions) - self.dist(x0, y0, positions)) < 10 ** -7:
+                break
+
+            # 转移到下一个位置点
+            x0, y0 = x1, y1
+
+        return self.dist(x0, y0, positions)
+
+    def dist(self, x, y, positions):
+        """计算欧式距离"""
+        return sum([((x - xi) ** 2 + (y - yi) ** 2) ** 0.5 for xi, yi in positions])
+
+    def deri(self, x, y, positions):
+        """计算导数（偏微分）"""
+        dx, dy = 0, 0
+        for xi, yi in positions:
+            div = ((x - xi) ** 2 + (y - yi) ** 2) ** 0.5
+            if div == 0: continue
+            dx += (x - xi) / div
+            dy += (y - yi) / div
+        return dx, dy

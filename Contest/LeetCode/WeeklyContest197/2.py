@@ -34,6 +34,18 @@
 # s[i] == '0' or s[i] == '1'
 # 1 <= s.length <= 10^5
 
+
 class Solution:
     def numSub(self, s: str) -> int:
-        pass
+        n = len(s)
+        res = 0
+        for i in range(n):
+            if s[i] != '0':
+                j = i+1
+                while j < n and s[j] == '1':
+                    j += 1
+                c = j - i
+                res += c * (c+1) // 2
+                i = j - 1
+
+        return res

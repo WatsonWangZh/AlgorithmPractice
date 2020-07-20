@@ -38,6 +38,27 @@
 # 0 <= succProb[i] <= 1
 # There is at most one edge between every two nodes.
 
+from collections import defaultdict
+from heapq import heappush, heappop
+
+
 class Solution:
     def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start: int, end: int) -> float:
-        pass
+        graph = defaultdict(set)
+        for (x, y), z in zip(edges, succProb):
+            graph[x].add((y, z))
+            graph[y].add((x, z))
+
+        heap = [(start, -1)]
+        prob = [0] * n
+        prob[start] = 1
+        while heap:
+            curr_node, curr_prob = heappop(heap)
+            if prob[curr_node] > -curr_prob:
+                continue
+            for nei, p in graph[curr_node]:
+                if prob[curr_node] * p > prob[nei]:
+                    prob[nei] = prob[curr_node] * p
+                    heappush(heap, (nei, -prob[nei]))
+
+        return prob[end]
