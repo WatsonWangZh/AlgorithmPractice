@@ -16,29 +16,10 @@ class Solution(object):
         :type val: int
         :rtype: ListNode
         """
-        # M1. 特殊处理头部待删除节点
-        if not head:
-            return None
-            
-        p = head
-        while p and p.val == val:
-            p = p.next
-
-        head = p
-        pre = None
-        while p:
-            if p.val == val:
-                pre.next = p.next
-            else:
-                pre = p
-            p = p.next
-        return head
-
-        # M2. 使用dummy node处理头部待删除节点
-        sentinel = ListNode(0)
-        sentinel.next = head
+        dummy = ListNode(0)
+        dummy.next = head
         
-        prev, curr = sentinel, head
+        prev, curr = dummy, head
         while curr:
             if curr.val == val:
                 prev.next = curr.next
@@ -46,4 +27,4 @@ class Solution(object):
                 prev = curr
             curr = curr.next
         
-        return sentinel.next
+        return dummy.next
