@@ -28,33 +28,27 @@ class Solution(object):
         # 时间复杂度分析：单词起点一共有 n^2 个，单词的每个字母一共有上下左右四个方向可以选择，
         # 但由于不能走回头路，所以除了单词首字母外，仅有三种选择。所以总时间复杂度是 O(n^2*3^k)。
 
-        if not board: 
-            return False
-        if not word: 
-            return True
-        directions = [[-1,0],[1,0],[0,1],[0,-1]]
-
-        row = len(board)
-        col = len(board[0])
-
+        if not board:
+            return not word
+        row, col = len(board), len(board[0])
+        
         def dfs(start, word):
-            if not word: 
+            if not word:
                 return True
-            n, m = start[0], start[1]
-            # 枚举单词的起点
-            if 0<= n <= row-1 and 0 <= m <= col-1 and board[n][m] == word[0]:
-                temp = board[n][m]
-                board[n][m] = '#'
-                res = dfs([n, m+1], word[1:]) or dfs([n, m-1], word[1:]) or dfs([n+1, m], word[1:]) or dfs([n-1, m], word[1:])
-                # 遍历完了进行恢复
-                board[n][m] = temp
+            r, c = start
+            if 0 <= r <= row-1 and 0 <= c <= col-1 and board[r][c] == word[0]:
+                tmp = board[r][c]
+                board[r][c] = '#'
+                res = dfs([r-1, c], word[1:]) or dfs([r+1, c], word[1:]) or dfs([r, c-1], word[1:]) or dfs([r, c+1], word[1:]) 
+                board[r][c] = tmp
                 return res
             else:
                 return False
-
+            
+        
         for i in range(row):
             for j in range(col):
-                res = dfs([i,j], word)
+                res = dfs([i, j], word)
                 if res:
                     return True
         return False
