@@ -80,6 +80,14 @@
 | 3 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/contest/weekly-contest-198/problems/maximum-number-of-non-overlapping-substrings/) | Hard | [Python3](./WeeklyContest198/3.py) | :thumbsup:<br>贪心性质的发现<br>Do again.|
 | 4 | [Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/contest/weekly-contest-198/problems/find-a-value-of-a-mysterious-function-closest-to-target/) | Hard | [Python3](./WeeklyContest198/4.py) | 预处理<br>模拟剪枝 |
 
+## [Biweekly Contest 31](https://leetcode-cn.com/contest/biweekly-contest-31/): [747 / 2767(CN)](https://leetcode-cn.com/contest/biweekly-contest-31/ranking/) [2488 / 8677(US)](https://leetcode.com/contest/biweekly-contest-31/ranking/100/)
+| # | Title | Difficulty | Solution | Remark |
+|:---:| :-----: | :---------:| :-----------:| :---------:| 
+| 1 | [Count Odd Numbers in an Interval Range](https://leetcode.com/contest/biweekly-contest-31/problems/count-odd-numbers-in-an-interval-range/) | Easy | [Python3](./BiweeklyContest31/1.py) |  |
+| 2 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/contest/biweekly-contest-31/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [Python3](./BiweeklyContest31/2.py) |  |
+| 3 | [Number of Good Ways to Split a String](https://leetcode.com/contest/biweekly-contest-31/problems/number-of-good-ways-to-split-a-string/) | Medium | [Python3](./BiweeklyContest31/3.py) | |
+| 4 | [Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/contest/biweekly-contest-31/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard | [Python3](./BiweeklyContest31/4.py) |  |
+
 # Top Coder
 * [awice](https://leetcode.com/awice/)
 * [nthistle](https://leetcode.com/nthistle/)
