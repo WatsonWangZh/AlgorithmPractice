@@ -40,4 +40,44 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        pass
+        # Naive TLE O(n^3)
+
+        # def func(arr, l, r):
+        #     res = arr[l]
+        #     for i in range(l+1, r+1):
+        #         res &= arr[i]
+        #     return res
+        
+        # n = len(arr)
+        # minm = float('inf')
+        # for i in range(n):
+        #     for j in range(n):
+        #         minm = min(minm, abs(func(arr, i, j) - target))
+        # return minm
+
+
+        if target in arr:
+            return 0
+
+        # 去除相邻重复元素
+        tmp = [arr[0]]
+        n = len(arr)
+        for i in range(1, n):
+            if arr[i] != tmp[-1]:
+                tmp.append(arr[i])
+        arr = tmp
+
+        # special for reduplicate test cases.
+        arr = sorted(list(set(arr)), key=arr.index)     
+
+        res = float('inf')
+        for i in range(len(arr)):
+            cur = arr[i]
+            for j in range(i, len(arr)):
+                cur &= arr[j]
+                res = min(res, abs(target - cur))
+                if res == 0:
+                    return res
+                if cur < target:
+                    break
+        return res

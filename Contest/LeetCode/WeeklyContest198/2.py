@@ -44,7 +44,7 @@
 # labels.length == n
 # labels is consisting of only of lower-case English letters.
 
-from collections import defaultdict
+from collections import defaultdict, Counter
 class Solution(object):
     def countSubTrees(self, n, edges, labels):
         """
@@ -53,51 +53,28 @@ class Solution(object):
         :type labels: str
         :rtype: List[int]
         """
-        # WA
-        # Input:
-        # 4
-        # [[0,2],[0,3],[1,2]]
-        # "aeed"
-        # Output:
-        # [1,2,1,1]
-        # Expected:
-        # [1,1,2,1]
+        # DFS set去重
 
         res = [1] * n
-        posts = defaultdict(set)
-        froms = defaultdict(set)
+        graph = defaultdict(list)
         la = list(map(str, labels))
+        visited = set()
         
         for s, t in edges:
-            posts[s].add(t)
-            froms[t].add(s)
-            if s in froms.keys():
-                for src in froms[s]:
-                    posts[src].add(t)
-                    froms[t].add(src)
-                    
-            # if t in froms.keys():
-            #     for src in froms[t]:
-            #         posts[src].add(s)
-            #         froms[t].add(src)
-                    
-            if t in posts.keys():
-                for tar in posts[t]:
-                    froms[tar].add(s)
-                    posts[s].add(tar)
-                    
-            # if s in posts.keys():
-            #     for tar in posts[s]:
-            #         froms[tar].add(t)
-            #         posts[s].add(tar)
-                    
-        # print(posts, froms)   
-        for i in range(n):
-            if i in posts:
-                for p in posts[i]:
-                    if la[p] == la[i]:
-                        res[i] += 1
-                # for f in froms[i]:
-                #     if la[f] == la[i]:
-                #         res[f] += 1     
+            graph[s].append(t)
+            graph[t].append(s)
+
+        def dfs(cur):
+            visited.add(cur)
+            cnt = Counter({la[cur]: 1})
+
+            for son in graph[cur]:
+                if son in visited:
+                    continue
+                cnt += dfs(son)
+
+            res[cur] = cnt[la[cur]]
+            return cnt
+        
+        dfs(0)
         return res

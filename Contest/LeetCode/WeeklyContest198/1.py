@@ -47,3 +47,9 @@ class Solution(object):
             res += cnt
             nb -= ne * cnt
         return res
+
+        res = nb
+        while nb >= ne:
+            res += nb // ne
+            nb = nb // ne + nb % ne
+        return res 

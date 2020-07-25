@@ -70,15 +70,16 @@
 | 1 | [Number of Good Pairs](https://leetcode.com/contest/weekly-contest-197/problems/number-of-good-pairs/) | Easy | [Python3](./WeeklyContest197/1.py) | 模拟<br>计数统计 |
 | 2 | [Number of Substrings With Only 1s](https://leetcode.com/contest/weekly-contest-197/problems/number-of-substrings-with-only-1s/) | Medium | [Python3](./WeeklyContest197/2.py) | 滑动窗口 |
 | 3 | [Path with Maximum Probability](https://leetcode.com/contest/weekly-contest-197/problems/path-with-maximum-probability/) | Medium | [Python3](./WeeklyContest197/3.py) |Dijkstra|
-| 4 | [Best Position for a Service Centre](https://leetcode.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/) | Hard | [](./WeeklyContest197/4.py) | :thumbsup:<br>梯度下降 |
+| 4 | [Best Position for a Service Centre](https://leetcode.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/) | Hard | [Python3](./WeeklyContest197/4.py) | :thumbsup:<br>梯度下降 |
 
 ## [Weekly Contest 198](https://leetcode.com/contest/weekly-contest-198): [3231 / 15151](https://leetcode.com/contest/weekly-contest-198/ranking) 
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
 | 1 | [Water Bottles](https://leetcode.com/contest/weekly-contest-198/problems/water-bottles/) | Easy | [Python3](./WeeklyContest198/1.py) | 模拟<br>计数统计 |
-| 2 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/contest/weekly-contest-198/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) | Medium? | [WA](./WeeklyContest198/2.py) |  |
-| 3 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/contest/weekly-contest-198/problems/maximum-number-of-non-overlapping-substrings/) | Medium | [TODO](./WeeklyContest198/3.py) | |
-| 4 | [Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/contest/weekly-contest-198/problems/find-a-value-of-a-mysterious-function-closest-to-target/) | Hard | [TODO](./WeeklyContest198/4.py) |  |
+| 2 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/contest/weekly-contest-198/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) | Medium | [Python3](./WeeklyContest198/2.py) | :thumbsup:<br>递归DFS<br>set去重 |
+| 3 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/contest/weekly-contest-198/problems/maximum-number-of-non-overlapping-substrings/) | Hard | [Python3](./WeeklyContest198/3.py) | :thumbsup:<br>贪心性质的发现<br>Do again.|
+| 4 | [Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/contest/weekly-contest-198/problems/find-a-value-of-a-mysterious-function-closest-to-target/) | Hard | [Python3](./WeeklyContest198/4.py) | 预处理<br>模拟剪枝 |
 
 # Top Coder
 * [awice](https://leetcode.com/awice/)
+* [nthistle](https://leetcode.com/nthistle/)
