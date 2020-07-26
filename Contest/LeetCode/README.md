@@ -91,10 +91,10 @@
 ## [Weekly Contest 199](https://leetcode-cn.com/contest/weekly-contest-199/): [1521 / 5231(CN)](https://leetcode-cn.com/contest/weekly-contest-199/ranking/) [4495 / 14309(US)](https://leetcode.com/contest/weekly-contest-199/ranking/180/)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Count Odd Numbers in an Interval Range](https://leetcode.com/contest/biweekly-contest-31/problems/count-odd-numbers-in-an-interval-range/) | Easy | [Python3](./BiweeklyContest31/1.py) |  |
-| 2 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/contest/biweekly-contest-31/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [Python3](./BiweeklyContest31/2.py) |  |
-| 3 | [Number of Good Ways to Split a String](https://leetcode.com/contest/biweekly-contest-31/problems/number-of-good-ways-to-split-a-string/) | Medium | [Python3](./BiweeklyContest31/3.py) | |
-| 4 | [Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/contest/biweekly-contest-31/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard | [Python3](./BiweeklyContest31/4.py) |  |
+| 1 | [Shuffle String](https://leetcode.com/contest/weekly-contest-199/problems/shuffle-string/) | Easy | [Python3](./WeeklyContest199/1.py) |  |
+| 2 | [Bulb Switcher IV](https://leetcode.com/contest/weekly-contest-199/problems/bulb-switcher-iv/) | Medium | [Python3](./WeeklyContest199/2.py) |  |
+| 3 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/contest/weekly-contest-199/problems/number-of-good-leaf-nodes-pairs/) | Medium | [TODO](./WeeklyContest199/3.py) | |
+| 4 | [String Compression II](https://leetcode.com/contest/weekly-contest-199/problems/string-compression-ii/) | Hard | [TODO](./WeeklyContest199/4.py) |  |
 
 # Top Coder
 * [awice](https://leetcode.com/awice/)
