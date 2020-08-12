@@ -532,6 +532,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) <br>Hard|Math<br> [Python3](LeetCode/Algorithms/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
 | 840 | [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) <br>Easy|Array<br> [Python3](LeetCode/Algorithms/Array/840.%20Magic%20Squares%20In%20Grid.py) | 枚举检查 |
 | 843 | [Guess the Word](https://leetcode.com/problems/guess-the-word/) <br>Hard|Minimax<br> [Python3](LeetCode/Algorithms/Minimax/843.%20Guess%20the%20Word.py) | :+1:<br>Google<br>交互问题 |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) <br>Easy|TwoPointer<br>Stack<br> [Python3](LeetCode/Algorithms/Stack/844.%20Backspace%20String%20Compare.py) | 模拟<br>双指针 |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) <br>Easy|Heap<br> [Python3](LeetCode/Algorithms/Map/846.%20Hand%20of%20Straights.py) | Counter应用 |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) <br>Easy|Array<br> [Python3](LeetCode/Algorithms/Array/849.%20Maximize%20Distance%20to%20Closest%20Person.py) |滑动窗口<br>两侧特殊处理<br>Google|
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) <br>Easy|Array<br>BinarySearch<br> [Python3](LeetCode/Algorithms/Array/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) |线性<br>折半|
