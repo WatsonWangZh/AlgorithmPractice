@@ -33,19 +33,18 @@ class Solution(object):
         :type s: str
         :rtype: List[int]
         """
-        # 利用栈 贪心寻找倒置起止点
-        res = []
-        stack = []
+        n = len(s)
+        res = [i+1 for i in range(n+1)]
         
-        for i in range(1, len(s)+1):
-            if s[i-1] == 'I':
-                stack.append(i)
-                while stack:
-                    res.append(stack.pop())
-            else:
-                stack.append(i)
+        i = 0
+        while i < n:
+            if s[i] != 'D':
+                i += 1
+                continue
 
-        stack.append(len(s)+1)
-        while stack:
-            res.append(stack.pop())
+            j = i
+            while i < n and s[i] == 'D':
+                i += 1  
+            res[j:i+1]=list(reversed(res[j:i+1]))
+           
         return res

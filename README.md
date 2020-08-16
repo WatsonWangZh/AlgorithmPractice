@@ -432,7 +432,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) <br>Medium|BitManipulation<br> [Python3](LeetCode/Algorithms/BitManipulation/477.%20Total%20Hamming%20Distance.py) |按位统计|
 | 481 | [Magical String](https://leetcode.com/problems/magical-string/) <br>Medium|String<br> [Python3](LeetCode/Algorithms/String/481.%20Magical%20String.py) | :+1:规律模拟 |
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) <br>Easy|String<br> [Python3](LeetCode/Algorithms/String/482.%20License%20Key%20Formatting.py) |字符串基础操作<br>模拟<br>Google |
-| 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) <br>Medium|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/484.%20Find%20Permutation.py) | :+1::lock:<br>贪心栈 |
+| 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) <br>Medium|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/484.%20Find%20Permutation.py) | :+1::lock:<br>模拟 |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) <br>Easy|Array<br> [Python3](LeetCode/Algorithms/Array/485.%20Max%20Consecutive%20Ones.py) | 水题 |
 | 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) <br>Medium|DynamicProgramming<br>MiniMax<br> [Python3](LeetCode/Algorithms/Minimax/486.%20Predict%20the%20Winner.py) | DP |
 | 487 | [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/) <br>Medium|TwoPointers<br>SlidingWindow<br>[Python3](LeetCode/Algorithms/TwoPointers/487.%20Max%20Consecutive%20Ones%20II.py) | :lock:<br>分两段<br>滑动窗口<br>流式记录 |
