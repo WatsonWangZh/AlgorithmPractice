@@ -16,32 +16,6 @@ class ListNode(object):
 
 class Solution(object):
 
-    def findMiddle(self, head):
-        p2 = head
-        while p2 and p2.next:
-            head = head.next
-            p2 = p2.next.next
-        return head
-
-    def _reverse(self,head):
-        pre = None
-        while head:
-            curr, head = head, head.next
-            #head = head.next
-            curr.next, pre = pre, curr
-            #pre = curr
-        return pre
-
-    def _merge(self, head, headR):
-        while head.next and headR.next:
-            temp1 = head.next
-            temp2 = headR.next
-            head.next = headR
-            headR.next = temp1
-            head = temp1
-            headR = temp2
-        return
-
     def reorderList(self, head):
         """
         :type head: ListNode
@@ -51,11 +25,30 @@ class Solution(object):
         # 求中点（可以先遍历找到中点，但更好的是快慢指针）
         # 翻转后面的链表
         # 两个链表合并
-        if not head or not head.next:
-            return
-        headR = self.findMiddle(head)
-        headR = self._reverse(headR)
-        self._merge(head, headR)
-        return
-
+        if not head or not head.next or not head.next.next: 
+            return head
         
+        # break linked list into two equal length
+        slow = fast = head                              #快慢指针技巧
+        while fast and fast.next:                       #需要熟练掌握
+            slow = slow.next                            #链表操作中常用
+            fast = fast.next.next
+        head1 = head
+        head2 = slow.next
+        slow.next = None
+
+        # reverse linked list head2
+        dummy=ListNode(0); dummy.next=head2             #翻转前加一个头结点
+        p=head2.next; head2.next=None                   #将p指向的节点一个一个插入到dummy后面
+        while p:                                        #就完成了链表的翻转
+            tmp=p; p=p.next                             #运行时注意去掉中文注释
+            tmp.next=dummy.next
+            dummy.next=tmp
+        head2=dummy.next
+
+        # merge two linked list head1 and head2
+        p1 = head1; p2 = head2
+        while p2:
+            tmp1 = p1.next; tmp2 = p2.next
+            p1.next = p2; p2.next = tmp1
+            p1 = tmp1; p2 = tmp2

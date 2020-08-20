@@ -167,7 +167,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) <br>Hard|DynamicProgramming<br>  [Python3](LeetCode/Algorithms/DynamicProgramming/140.%20Word%20Break%20II.py) |:+1::white_check_mark:<br>DFS<br>记忆DP |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) <br>Easy|LinkedList<br> [Python3](LeetCode/Algorithms/LinkedList/142.%20Linked%20List%20Cycle.py) | 快慢指针 |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) <br>Medium|LinkedList<br> [Python3](LeetCode/Algorithms/LinkedList/142.%20Linked%20List%20Cycle%20II.py) | 龟兔赛跑<br>快慢指针法 |
-| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) <br>Medium|LinkedList<br>  [Python3](LeetCode/Algorithms/LinkedList/143.%20Reorder%20List.py) |找中点反转归并 |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) <br>Medium|LinkedList<br>  [Python3](LeetCode/Algorithms/LinkedList/143.%20Reorder%20List.py) |模拟|
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) <br>Medium|BinaryTree<br>  [Python3](LeetCode/Algorithms/BinaryTree/144.%20Binary%20Tree%20Preorder%20Traversal.py) |递归法<br>栈迭代法|
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) <br>Hard|BinaryTree<br>  [Python3](LeetCode/Algorithms/BinaryTree/145.%20Binary%20Tree%20Postorder%20Traversal.py) |递归法<br>栈迭代法|
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) <br>Medium|LinkedList<br>  [Python3](LeetCode/Algorithms/LinkedList/146.%20LRU%20Cache.py) |:+1:<br>哈希表+链表 |
