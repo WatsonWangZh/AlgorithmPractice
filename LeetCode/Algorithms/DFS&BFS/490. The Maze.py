@@ -50,42 +50,42 @@ class Solution(object):
         :type destination: List[int]
         :rtype: bool
         """
-        # DFS 不撞南墙不回头，回头检查终点否
+        # DFS 模拟
 
         if not maze or not maze[0]:
             return False
         
-        self.m, self.n = len(maze), len(maze[0])
-        visited = [[0] * self.n for _ in range(self.m)]
-        dir = [(-1, 0), (0, -1), (1, 0), (0, 1)]
+        rows, cols = len(maze), len(maze[0])
+        visited = [[0] * cols for _ in range(rows)]
+        dirs = [(-1, 0), (0, -1), (1, 0), (0, 1)]
         
         x, y = start[0], start[1]
 
-        return self.dfs(maze, visited, dir, x, y, destination) 
-        
-        
-    def dfs(self, maze, visited, dir, x, y, destination):
+        def dfs(maze, visited, dirs, x, y, destination):
 
-        visited[x][y] = 1
-        
-        if x == destination[0] and y == destination[1]:
-            return True
-        
-        for dx, dy in dir:
-            # move along the direction until reach the wall
-            xn, yn = x+dx, y+dy
-            while 0 <= xn < self.m and 0 <= yn < self.n and maze[xn][yn] == 0:
-                xn += dx
-                yn += dy
+            visited[x][y] = 1
             
-            # move back to the last feasbile location
-            xn -= dx
-            yn -= dy
-            
-            if visited[xn][yn]:
-                continue
-                
-            if self.dfs(maze, visited, dir, xn, yn, destination):
+            if x == destination[0] and y == destination[1]:
                 return True
             
-        return False
+            for dx, dy in dirs:
+                # move along the direction until reach the wall
+                xn, yn = x+dx, y+dy
+                while 0 <= xn < rows and 0 <= yn < cols and maze[xn][yn] == 0:
+                    xn += dx
+                    yn += dy
+                
+                # move back to the last feasbile location
+                xn -= dx
+                yn -= dy
+                
+                if visited[xn][yn]:
+                    continue
+                    
+                if dfs(maze, visited, dirs, xn, yn, destination):
+                    return True
+                
+            return False
+
+        return dfs(maze, visited, dirs, x, y, destination) 
+        
