@@ -386,6 +386,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) <br>Medium|UnionFind<br>Graph<br> [Python3](LeetCode/Algorithms/Graph/399.%20Evaluate%20Division.py) | 哈希模拟<br>并查集|
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) <br>Easy|BackTracking<br>BitManipulation<br> [Python3](LeetCode/Algorithms/BitManipulation/401.%20Binary%20Watch.py) |遍历count验证 |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) <br>Medium|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/402.%20Remove%20K%20Digits.py) | 栈的应用 |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) <br>Easy|BinaryTree<br> [Python3](LeetCode/Algorithms/BinaryTree/404.%20Sum%20of%20Left%20Leaves.py) | 递归分情况 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) <br>Easy|BitManipulation<br> [Python3](LeetCode/Algorithms/BitManipulation/405.%20Convert%20a%20Number%20to%20Hexadecimal.py) |特殊处理负数|
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) <br>Medium|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/406.%20Queue%20Reconstruction%20by%20Height.py) |:+1:<br>贪心性质发现<br>模拟|
 | 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) <br>Hard|Heap<br>BFS<br> [Python3](LeetCode/Algorithms/Heap/407.%20Trapping%20Rain%20Water%20II.py) | :+1::white_check_mark:<br>BFS |
