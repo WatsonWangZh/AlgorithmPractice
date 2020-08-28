@@ -26,15 +26,15 @@
 # def rand7():
 # @return a random integer in the range 1 to 7
 
-# 该题数学意义大于编程意义
 # E(Calls of rand7()):2.45次 等比级数求和
-import sys
 class Solution:
     def rand10(self):
         """
         :rtype: int
         """
-        index = sys.maxsize
-        while index >= 40:
-            index = 7 * (rand7() - 1) + (rand7() - 1)
-        return index % 10 + 1
+        # https://leetcode-cn.com/problems/implement-rand10-using-rand7/comments/
+        a, b = rand7(), rand7()
+        if a > 4 and b < 4:
+            return self.rand10()
+        else:
+            return (a+b) % 10 + 1
