@@ -31,11 +31,11 @@ class Solution(object):
         :rtype: bool
         """
         # M1. 滑动窗口模拟 O(nk) O(1)
-        if not nums or k<=0 or t<0:
+        if not nums or k <= 0 or t < 0:
             return False
 
         # for TLE case
-        if t==0:
+        if t == 0:
             return len(nums) != len(set(nums))
 
         for i in range(len(nums)):
@@ -44,26 +44,7 @@ class Solution(object):
                     return True
         return False
 
-        # M2. 滑动窗口模拟
-        if not nums or k<=0 or t<0:
-            return False
-        if t == 0:
-            return len(nums) != len(set(nums))
-
-        size = len(nums)
-        for i, cur_val in enumerate(nums):
-            for j in range( i+1, i+k+1):
-                if j >= size:
-                    # avoid index out of boundary
-                    break
-                if abs(cur_val - nums[j]  ) <= t:
-                    # hit: 
-                    # i != j, | i-j | <= k
-                    # | nums[i] - nums[j] | <= t
-                    return True
-        return False
-
-        # M3. 数学推导 
+        # M2. 数学推导 
         # https://blog.csdn.net/qian2729/article/details/50753127
         import collections
         if k < 1 or t < 0:

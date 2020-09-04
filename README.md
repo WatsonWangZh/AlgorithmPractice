@@ -421,6 +421,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) <br>Easy|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/455.%20Assign%20Cookies.py) | 贪心 |
 | 456 | [132 Pattern](https://leetcode.com/problems/132-pattern/) <br>Medium(Hard)|Array<br>Stack<br> [Python3](LeetCode/Algorithms/Array/456.%20132%20Pattern.py) |:+1::white_check_mark:<br>单调栈扩展  |
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) <br>Hard|Math<br>Brainteaser<br> [Python3](LeetCode/Algorithms/Math/458.%20Poor%20Pigs.py) |:+1:<br>数学分析<br>找规律 |
+| 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) <br>Easy|String<br> [Python3](LeetCode/Algorithms/String/459.%20Repeated%20Substring%20Pattern.py) | |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) <br>Easy|BitManipulation<br> [Python3](LeetCode/Algorithms/BitManipulation/461.%20Hamming%20Distance.py) |Brian Kernighan's Algorithm|
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) <br>Medium|Math<br> [Python3](LeetCode/Algorithms/Math/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) | 分奇偶找中值 |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) <br>Easy|HashTable<br> [Python3](LeetCode/Algorithms/HashTable/463.%20Island%20Permeter.py) |模拟<br>memo思想 |
