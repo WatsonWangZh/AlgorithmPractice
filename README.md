@@ -539,6 +539,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 809 | [Expressive Words](https://leetcode.com/problems/expressive-words/) <br>Medium|String<br> [Python3](LeetCode/Algorithms/String/809.%20Expressive%20Words.py) | 模拟<br>分段核对 |
 | 824 | [Goat Latin](https://leetcode.com/problems/goat-latin/) <br>Easy|String<br> [Python3](LeetCode/Algorithms/String/824.%20Goat%20Latin.py) | 模拟|
 | 829 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) <br>Hard|Math<br> [Python3](LeetCode/Algorithms/Math/829.%20Consecutive%20Numbers%20Sum.py) |:+1:<br>数学分析<br>等差数列求和 |
+| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) <br>Medium|Array<br> [Python3](LeetCode/Algorithms/Array/835.%20Image%20Overlap.py) | 穷举 |
 | 840 | [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) <br>Easy|Array<br> [Python3](LeetCode/Algorithms/Array/840.%20Magic%20Squares%20In%20Grid.py) | 枚举检查 |
 | 843 | [Guess the Word](https://leetcode.com/problems/guess-the-word/) <br>Hard|Minimax<br> [Python3](LeetCode/Algorithms/Minimax/843.%20Guess%20the%20Word.py) | :+1:<br>Google<br>交互问题 |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) <br>Easy|TwoPointer<br>Stack<br> [Python3](LeetCode/Algorithms/Stack/844.%20Backspace%20String%20Compare.py) | 模拟<br>双指针 |
