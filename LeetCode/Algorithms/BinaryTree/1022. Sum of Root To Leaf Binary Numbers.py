@@ -40,17 +40,16 @@ class Solution(object):
         # 那么当前结点到根的二进制值就是父结点乘以2加上当前结点的值。
         # 如果遍历到叶子结点，那么就更新答案。
         # 时间复杂度分析：每个结点遍历一次，所以时间复杂度为O(n)。
-        self.ans = 0
-        self.mod = 10 ** 9 + 7
+        self.res = 0
 
         def dfs(r, temp_sum):
             temp_sum = temp_sum * 2 + r.val
-            if r.left == None and r.right == None:
-                self.ans += temp_sum
+            if not r.left and not r.right:
+                self.res += temp_sum
                 return
             if r.left:
                 dfs(r.left, temp_sum)
             if r.right:
                 dfs(r.right, temp_sum)
         dfs(root, 0)
-        return self.ans % self.mod
+        return self.res 
