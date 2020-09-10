@@ -28,29 +28,16 @@ class Solution(object):
         :type guess: str
         :rtype: str
         """
-        hint = ""
-        m = len(secret)
-
-        bulls = 0
-        cows = 0
-        secret_dict = {}
-        guess_dict = {}
-        for i in range(m):
-            if secret[i] == guess[i]:
-                bulls += 1
+        ac, bc = 0, 0
+        n = len(secret)
+        secret_dict, guess_dict = defaultdict(int), defaultdict(int)
+        for i in range(n):
+            if secret[i]==guess[i]:
+                ac += 1
             else:
-                if secret[i] not in secret_dict:
-                    secret_dict[secret[i]] = 1
-                else:
-                    secret_dict[secret[i]] += 1
-                if guess[i] not in guess_dict:
-                    guess_dict[guess[i]] = 1
-                else:
-                    guess_dict[guess[i]] += 1
-
-        for key in secret_dict:
-            if key in guess_dict:
-                cows += min(guess_dict[key], secret_dict[key])
-
-        hint += str(bulls) + "A" + str(cows) + "B"
-        return hint
+                secret_dict[secret[i]] += 1
+                guess_dict[guess[i]] += 1
+        for x in set(secret_dict)&set(guess_dict):
+            bc += min(secret_dict[x],guess_dict[x])
+                
+        return str(ac) + 'A' + str(bc) + 'B'
