@@ -13,7 +13,8 @@
 
 class Solution(object):
     def maxProduct(self, nums) -> int:
-        
+
+        # 递归
         if len(nums) == 0:
             return 0
         elif len(nums) == 1:
@@ -43,3 +44,15 @@ class Solution(object):
             return result
         else:
             return max(self.maxProduct(nums[negIndex[0]+1:]), self.maxProduct(nums[:negIndex[-1]]))
+
+
+        # 动态规划
+        if not nums:
+            return 0
+        res, curmax, curmin = nums[0], nums[0], nums[0]
+        for i in range(1, len(nums)):
+            premax, premin = curmax, curmin
+            curmax = max(nums[i], premax*nums[i], premin*nums[i])
+            curmin = min(nums[i], premax*nums[i], premin*nums[i])
+            res = max(res, curmax)
+        return res
