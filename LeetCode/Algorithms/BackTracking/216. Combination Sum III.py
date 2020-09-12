@@ -13,10 +13,6 @@
 # Output: [[1,2,6], [1,3,5], [2,3,4]]
 
 class Solution(object):
-    # DFS O(C9k)
-    # 暴力搜索出所有从9个数中选k个的方案，记录所有和等于 n 的方案。
-    # 为了避免重复计数，比如 {1, 2, 3} 和 {1, 3, 2} 是同一个集合，对集合中的数定序，每次枚举时，要保证同一方案中的数严格递增，
-    # 即如果上一个选的数是 x，那我们从 x+1 开始枚举当前数
     def combinationSum3(self, k, n):
         """
         :type k: int
@@ -24,18 +20,18 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         res = []
-        candidates = list(range(1, 10))
-        self.dfs(candidates, 0, n, res, [], k)
-        return res
+        tmp = []
 
-    def dfs(self, nums, index, target, res, cur, k):
-        if target < 0:
-            return
-        if target == 0:
-            if len(cur) == k:
-                res.append(cur)
-            return
-        for i in range(index, len(nums)):
-            if i > index and nums[i] == nums[i - 1]:
-                continue
-            self.dfs(nums, i + 1, target - nums[i], res, cur + [nums[i]], k)
+        def dfs(start, n, k):
+            if not n:
+                if not k:
+                    res.append(tmp[:])
+            elif k:
+                for i in range(start, 10):
+                    if n >= i:
+                        tmp.append(i)
+                        dfs(i + 1, n - i, k - 1)
+                        tmp.pop()
+
+        dfs(1, n, k)
+        return res
