@@ -82,7 +82,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) <br>Medium|Matrix<br>  [Python3](LeetCode/Algorithms/Matrix/54.%20Spiral%20Matrix.py) | 过程模拟<br>边界处理<br>标记已访问 |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) <br>Medium|Array<br>Greedy<br>  [Python3](LeetCode/Algorithms/Greedy/55.%20Jump%20Game.py) | :+1:<br>贪心 |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) <br>Medium|Sort<br>  [Python3](LeetCode/Algorithms/Sort/56.%20Merge%20Intervals.py) | 先排序后合并 |
-| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) <br>Hard|Array<br>Sort<br>  [Python3](LeetCode/Algorithms/Sort/57.%20Insert%20Interval.py) | :+1::white_check_mark:<br>区间合并 |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) <br>Hard|Array<br>Sort<br>  [Python3](LeetCode/Algorithms/Sort/57.%20Insert%20Interval.py) | :+1::white_check_mark:<br>模拟 |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) <br>Easy|String<br> [Python3](LeetCode/Algorithms/String/58.%20Length%20of%20Last%20Word.py) | 长度之差 |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) <br>Medium|Array<br> [Python3](LeetCode/Algorithms/Array/59.%20Spiral%20Matrix%20II.py) | 简单模拟 |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) <br>Medium|Math<br>BackTracking<br> [Python3](LeetCode/Algorithms/Math/60.%20Permutation%20Sequence.py) | :+1::top::white_check_mark:<br>based on 46<br>based on 31<br>规律模拟 |

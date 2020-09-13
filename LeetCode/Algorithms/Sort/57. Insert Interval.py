@@ -25,7 +25,6 @@ class Solution(object):
         # 对于与新区间相交的区间，我们维护合并后区间的左端点和右端点，最后再将合并后的区间插入适当的位置。
         # 时间复杂度分析：每个区间只会遍历一次，所以总时间复杂度是 O(n)。
 
-        keys = [i[0] for i in intervals]
         i = 0
         j = len(intervals) - 1
         start = newInterval[0]
