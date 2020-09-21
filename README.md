@@ -605,6 +605,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 1065 | [Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/) <br>Easy|String<br>Trie<br> [Python3](LeetCode/Algorithms/String/1065.%20Index%20Pairs%20of%20a%20String.py) | :lock:<br>查找排序 |
 | 1085 | [Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/) <br>Easy|Array<br> [Python3](LeetCode/Algorithms/Array/1085.%20Sum%20of%20Digits%20in%20the%20Minimum%20Number.py) | :lock:<br>模拟|
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) <br>Easy|Array<br>HashTable<br>Sort<br>Heap<br> [Python3](LeetCode/Algorithms/Heap/1086.%20High%20Five.py) | :lock:<br>大根堆 |
+| 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) <br>Easy|Greedy<br> [Python3](LeetCode/Algorithms/Greedy/1094.%20Car%20Pooling.py) | 模拟|
 | 1099 | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) <br>Easy|Array<br> [Python3](LeetCode/Algorithms/Array/1099.%20Two%20Sum%20Less%20Than%20K.py) | :lock:<br>双指针|
 | 1103 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)<br>Easy |Math<br> [Python3](LeetCode/Algorithms/Math/1103.%20Distribute%20Candies%20to%20People.py) | :+1:<br>模拟<br>数学推导 |
 | 1118 | [Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/) <br>Easy|HashTable<br> [Python3](LeetCode/Algorithms/HashTable/1118.%20Number%20of%Days%20in%20a%20Month.py) | :lock:<br>分闰平|
