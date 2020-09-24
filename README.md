@@ -159,7 +159,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) <br>Medium|String<br>BackTracking<br> [Python3](LeetCode/Algorithms/String/131.%20Palindrome%20Partitioning.py) | DFS<br>回溯<br>DP(TODO) |
 | 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) <br>Hard|DynamicProgramming<br>  [Python3](LeetCode/Algorithms/DynamicProgramming/132.%20Palindrome%20Partitioning%20II.py) | DP |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) <br>Medium|Graph<br>BFS<br>DFS<br>  [Python3](LeetCode/Algorithms/Graph/133.%20Clone%20Graph.py) | set去重 |
-| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) <br>Medium|Greddy<br>Array<br>  [Python3](LeetCode/Algorithms/Greedy/134.%20Gas%20Station.py) | 贪心双指针 |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) <br>Medium|Greddy<br>Array<br>  [Python3](LeetCode/Algorithms/Greedy/134.%20Gas%20Station.py) | 模拟 |
 | 135 | [Candy](https://leetcode.com/problems/candy/) <br>Hard|Greedy<br>  [Python3](LeetCode/Algorithms/Greedy/135.%20Candy.py) | :ballot_box_with_check:<br>找规律<br>Trick |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) <br>Easy|HashTable<br>BitManipulation<br>  [Python3](LeetCode/Algorithms/HashTable/136.%20Single%20Number.py) | 字典应用<br>Awesome XOR! |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) <br>Medium|HashTable<br>BitManipulation<br>  [Python3](LeetCode/Algorithms/HashTable/137.%20Single%20Number%20II.py) | hash<br>数学<br>Awesome XOR! |

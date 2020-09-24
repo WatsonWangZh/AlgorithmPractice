@@ -52,11 +52,13 @@ class Solution(object):
         # 一共 n 个位置，每个位置最多遍历两次，故时间复杂度为O(n)。
 
         diff = [gas[i]-cost[i] for i in range(len(gas))]
+
+        if len([e for e in diff if e<0]) == len(diff):
+            return -1
+            
         for i in range(len(diff)):
             if diff[i]>=0:
                 break
-            else:
-                return -1
 
         start, end = i, (i+1)%len(diff)
         now = diff[i]
