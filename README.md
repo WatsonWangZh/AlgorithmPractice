@@ -517,6 +517,7 @@ including algorithm, database, shell, concurrency problems and other online cont
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) <br>Easy|BinarySearch<br> [Python3](LeetCode/Algorithms/BinarySearch/704.%20Binary%20Search.py) |依题意|
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) <br>Easy|HashTable<br>Design<br> [Python3](LeetCode/Algorithms/Design/705.%20Design%20HashSet.py) | 数组模拟 |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) <br>Easy|HashTable<br>Design<br> [Python3](LeetCode/Algorithms/Design/706.%20Design%20HashMap.py) | 数组模拟 |
+| 708 | [Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) <br>Medium|LinkedList<br> [Python3](LeetCode/Algorithms/LinkedList/708.%20Insert%20into%20a%20Sorted%20Circular%20Linked%20List.py) | 双指针模拟 |
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack/) <br>Easy|Stack<br>Design<br> [Python3](LeetCode/Algorithms/Design/716.%20Max%20Stack.py) |:+1::lock:<br>双栈模拟|
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) <br>Easy|Math<br> [Python3](LeetCode/Algorithms/Math/728.%20Self%20Dividing%20Numbers.py) |模拟|
 | 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) <br>Medium|Array<br> [Python3](LeetCode/Algorithms/Array/729.%20My%20Calendar%20I.py) |蛮力<br>Need Imporve|
