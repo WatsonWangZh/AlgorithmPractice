@@ -10,92 +10,48 @@
 ## [Biweekly Contest 28](https://leetcode.com/contest/biweekly-contest-28): [2395 / 8571](https://leetcode.com/contest/biweekly-contest-28/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/contest/biweekly-contest-28/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [Python3](./BiweeklyContest28/1.py) | 蛮力模拟<br>单调栈  |
-| 2 | [Subrectangle Queries](https://leetcode.com/contest/biweekly-contest-28/problems/subrectangle-queries/) |  Easy | [Python3](./BiweeklyContest28/2.py) | 模拟 |
-| 3 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/contest/biweekly-contest-28/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | [Python3](./BiweeklyContest28/3.py) | :thumbsup:<br>记忆化滑动窗口|
-| 4 | [Allocate Mailboxes](https://leetcode.com/contest/biweekly-contest-28/problems/allocate-mailboxes/) |  Hard | [Python3](./BiweeklyContest28/4.py) | :thumbsup:<br>DP细节 |
+| 1 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/contest/biweekly-contest-28/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [Python3](./BiweeklyContest28/1.py) |   |
+| 2 | [Subrectangle Queries](https://leetcode.com/contest/biweekly-contest-28/problems/subrectangle-queries/) |  Medium | [Python3](./BiweeklyContest28/2.py) |  |
+| 3 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/contest/biweekly-contest-28/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) |  Medium | [TODO](./BiweeklyContest28/3.py) | |
+| 4 | [Allocate Mailboxes](https://leetcode.com/contest/biweekly-contest-28/problems/allocate-mailboxes/) |  Hard | [TODO](./BiweeklyContest28/4.py) | |
 
 ## [Weekly Contest 193](https://leetcode.com/contest/weekly-contest-193): [6439 / 13794](https://leetcode.com/contest/weekly-contest-193/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Running Sum of 1d Array](https://leetcode.com/contest/weekly-contest-193/problems/running-sum-of-1d-array/) | Easy | [Python3](./WeeklyContest193/1.py) | 前缀和  |
-| 2 | [Least Number of Unique Integers after K Removals](https://leetcode.com/contest/weekly-contest-193/problems/least-number-of-unique-integers-after-k-removals/) |  Easy | [Python3](./WeeklyContest193/2.py) | 排序贪心 |
-| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/) |  Medium | [Python3](./WeeklyContest193/3.py) |:thumbsup:<br>动态维护数组 |
-| 4 | [Kth Ancestor of a Tree Node](https://leetcode.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/) |  Hard | [Python3](./WeeklyContest193/4.py) |Trick |
+| 1 | [Running Sum of 1d Array](https://leetcode.com/contest/weekly-contest-193/problems/running-sum-of-1d-array/) | Easy | [Python3](./WeeklyContest193/1.py) |   |
+| 2 | [Least Number of Unique Integers after K Removals](https://leetcode.com/contest/weekly-contest-193/problems/least-number-of-unique-integers-after-k-removals/) |  Medium | [Python3](./WeeklyContest193/2.py) |  |
+| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/) |  Medium | [TLE TODO](./WeeklyContest193/3.py) | |
+| 4 | [Kth Ancestor of a Tree Node](https://leetcode.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/) |  Hard | [TODO](./WeeklyContest193/4.py) | |
 
 ## [Weekly Contest 194](https://leetcode.com/contest/weekly-contest-194): [3848 / 13808](https://leetcode.com/contest/weekly-contest-194/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [XOR Operation in an Array](https://leetcode.com/contest/weekly-contest-194/problems/xor-operation-in-an-array/) | Easy | [Python3](./WeeklyContest194/1.py) |模拟  |
-| 2 | [Making File Names Unique](https://leetcode.com/contest/weekly-contest-194/problems/making-file-names-unique/) |  Medium | [Python3](./WeeklyContest194/2.py) | 模拟 |
-| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/) |  Medium | [Python3](./WeeklyContest194/3.py) |:thumbsup:<br>预处理+贪心 |
-| 4 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/contest/weekly-contest-194/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  Hard | [Python3](./WeeklyContest194/4.py) |:thumbsup:<br>枚举<br>kruskal |
+| 1 | [XOR Operation in an Array](https://leetcode.com/contest/weekly-contest-194/problems/xor-operation-in-an-array/) | Easy | [Python3](./WeeklyContest194/1.py) |   |
+| 2 | [Making File Names Unique](https://leetcode.com/contest/weekly-contest-194/problems/making-file-names-unique/) |  Medium | [Python3](./WeeklyContest194/2.py) |  |
+| 3 | [Minimum Number of Days to Make m Bouquets](https://leetcode.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/) |  Medium | [WA Other's Solution](./WeeklyContest194/3.py) |To Check |
+| 4 | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/contest/weekly-contest-194/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  Hard | [TODO](./WeeklyContest194/4.py) | |
 
 ## [Biweekly Contest 29](https://leetcode.com/contest/biweekly-contest-29): [4968 / 7932](https://leetcode.com/contest/biweekly-contest-29/ranking)
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [Python3](./BiweeklyContest29/1.py) |  模拟 |
-| 2 | [The kth Factor of n](https://leetcode.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/) |  Easy | [Python3](./BiweeklyContest29/2.py) | 模拟 |
-| 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [Python3](./BiweeklyContest29/3.py) |滑动窗口 |
-| 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Python3](./BiweeklyContest29/4.py) |:hushed::ballot_box_with_check:<br>拓扑排序<br>状态压缩DP|
+| 1 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [Python3](./BiweeklyContest29/1.py) |   |
+| 2 | [The kth Factor of n](https://leetcode.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/) |  Medium | [Python3](./BiweeklyContest29/2.py) |  |
+| 3 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/) |  Medium | [TLE](./BiweeklyContest29/3.py) |TODO |
+| 4 | [Parallel Courses II](https://leetcode.com/contest/biweekly-contest-29/problems/parallel-courses-ii/) |  Hard | [Past Competition](./BiweeklyContest29/4.py) | DO AGAIN|
 
 ## [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/): [2010 / 11468](https://leetcode.com/contest/weekly-contest-195/ranking) :see_no_evil: LeetCode Crash.
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Path Crossing](https://leetcode.com/contest/weekly-contest-195/problems/path-crossing/) | Easy | [Python3](./WeeklyContest195/1.py) | 模拟  |
-| 2 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/) |  Medium | [Python3](./WeeklyContest195/2.py) | 余数分桶 |
-| 3 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |  Medium | [Python3](./WeeklyContest195/3.py) | 滑动窗口|
-| 4 | [Max Value of Equation](https://leetcode.com/contest/weekly-contest-195/problems/max-value-of-equation/) |  Hard | [Python3](./WeeklyContest195/4.py) |:thumbsup:<br>滑动窗口求最值 |
+| 1 | [Path Crossing](https://leetcode.com/contest/weekly-contest-195/problems/path-crossing/) | Easy | [Python3](./WeeklyContest195/1.py) |   |
+| 2 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/) |  Medium | [Python3](./WeeklyContest195/2.py) |  |
+| 3 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) |  Medium | [Naive MLE](./WeeklyContest195/3.py) | |
+| 4 | [Max Value of Equation](https://leetcode.com/contest/weekly-contest-195/problems/max-value-of-equation/) |  Hard | [TODO](./WeeklyContest195/4.py) | |
 
 
 ## [Weekly Contest 196](https://leetcode.com/contest/weekly-contest-196/): [2333 / 14301](https://leetcode.com/contest/weekly-contest-196/ranking) 
 | # | Title | Difficulty | Solution | Remark |
 |:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/contest/weekly-contest-196/problems/can-make-arithmetic-progression-from-sequence/) | Easy | [Python3](./WeeklyContest196/1.py) | 模拟 |
-| 2 | [Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  Medium | [Python3](./WeeklyContest196/2.py) | 思维转换 |
-| 3 | [Count Submatrices With All Ones](https://leetcode.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/) |  Medium | [Python3](./WeeklyContest196/3.py) | :thumbsup:<br>模拟计数<br>不重不漏|
-| 4 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/contest/weekly-contest-196/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) |  Hard | [Python3](./WeeklyContest196/4.py) | :thumbsup:<br>贪心<br>bisect |
-
-## [Biweekly Contest 30](https://leetcode.com/contest/biweekly-contest-30): [3325 / 8175](https://leetcode.com/contest/biweekly-contest-30/ranking) 
-| # | Title | Difficulty | Solution | Remark |
-|:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Reformat Date](https://leetcode.com/contest/biweekly-contest-30/problems/reformat-date/) | Easy | [Python3](./BiweeklyContest30/1.py) | zfill<br>index<br>isdigit |
-| 2 | [Range Sum of Sorted Subarray Sums](https://leetcode.com/contest/biweekly-contest-30/problems/range-sum-of-sorted-subarray-sums/) |  Medium | [Python3](./BiweeklyContest30/2.py) | 模拟 |
-| 3 | [Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/contest/biweekly-contest-30/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) |  Medium | [Python3](./BiweeklyContest30/3.py) |枚举模拟 |
-| 4 | [Stone Game IV](https://leetcode.com/contest/biweekly-contest-30/problems/stone-game-iv/) |  Hard | [Python3](./BiweeklyContest30/4.py) |博弈论|
-
-## [Weekly Contest 197](https://leetcode.com/contest/weekly-contest-197): [Not participated](https://leetcode.com/contest/weekly-contest-197/ranking) 
-| # | Title | Difficulty | Solution | Remark |
-|:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Number of Good Pairs](https://leetcode.com/contest/weekly-contest-197/problems/number-of-good-pairs/) | Easy | [Python3](./WeeklyContest197/1.py) | 模拟<br>计数统计 |
-| 2 | [Number of Substrings With Only 1s](https://leetcode.com/contest/weekly-contest-197/problems/number-of-substrings-with-only-1s/) | Medium | [Python3](./WeeklyContest197/2.py) | 滑动窗口 |
-| 3 | [Path with Maximum Probability](https://leetcode.com/contest/weekly-contest-197/problems/path-with-maximum-probability/) | Medium | [Python3](./WeeklyContest197/3.py) |Dijkstra|
-| 4 | [Best Position for a Service Centre](https://leetcode.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/) | Hard | [Python3](./WeeklyContest197/4.py) | :thumbsup:<br>梯度下降 |
-
-## [Weekly Contest 198](https://leetcode.com/contest/weekly-contest-198): [3231 / 15151](https://leetcode.com/contest/weekly-contest-198/ranking) 
-| # | Title | Difficulty | Solution | Remark |
-|:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Water Bottles](https://leetcode.com/contest/weekly-contest-198/problems/water-bottles/) | Easy | [Python3](./WeeklyContest198/1.py) | 模拟<br>计数统计 |
-| 2 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/contest/weekly-contest-198/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) | Medium | [Python3](./WeeklyContest198/2.py) | :thumbsup:<br>递归DFS<br>set去重 |
-| 3 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/contest/weekly-contest-198/problems/maximum-number-of-non-overlapping-substrings/) | Hard | [Python3](./WeeklyContest198/3.py) | :thumbsup:<br>贪心性质的发现<br>Do again.|
-| 4 | [Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/contest/weekly-contest-198/problems/find-a-value-of-a-mysterious-function-closest-to-target/) | Hard | [Python3](./WeeklyContest198/4.py) | 预处理<br>模拟剪枝 |
-
-## [Biweekly Contest 31](https://leetcode-cn.com/contest/biweekly-contest-31/): [747 / 2767(CN)](https://leetcode-cn.com/contest/biweekly-contest-31/ranking/) [2488 / 8677(US)](https://leetcode.com/contest/biweekly-contest-31/ranking/100/)
-| # | Title | Difficulty | Solution | Remark |
-|:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Count Odd Numbers in an Interval Range](https://leetcode.com/contest/biweekly-contest-31/problems/count-odd-numbers-in-an-interval-range/) | Easy | [Python3](./BiweeklyContest31/1.py) |  |
-| 2 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/contest/biweekly-contest-31/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [Python3](./BiweeklyContest31/2.py) |  |
-| 3 | [Number of Good Ways to Split a String](https://leetcode.com/contest/biweekly-contest-31/problems/number-of-good-ways-to-split-a-string/) | Medium | [Python3](./BiweeklyContest31/3.py) | |
-| 4 | [Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/contest/biweekly-contest-31/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard | [Python3](./BiweeklyContest31/4.py) |  |
-
-## [Weekly Contest 199](https://leetcode-cn.com/contest/weekly-contest-199/): [1521 / 5231(CN)](https://leetcode-cn.com/contest/weekly-contest-199/ranking/) [4495 / 14309(US)](https://leetcode.com/contest/weekly-contest-199/ranking/180/)
-| # | Title | Difficulty | Solution | Remark |
-|:---:| :-----: | :---------:| :-----------:| :---------:| 
-| 1 | [Shuffle String](https://leetcode.com/contest/weekly-contest-199/problems/shuffle-string/) | Easy | [Python3](./WeeklyContest199/1.py) |  |
-| 2 | [Bulb Switcher IV](https://leetcode.com/contest/weekly-contest-199/problems/bulb-switcher-iv/) | Medium | [Python3](./WeeklyContest199/2.py) |  |
-| 3 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/contest/weekly-contest-199/problems/number-of-good-leaf-nodes-pairs/) | Medium | [TODO](./WeeklyContest199/3.py) | |
-| 4 | [String Compression II](https://leetcode.com/contest/weekly-contest-199/problems/string-compression-ii/) | Hard | [TODO](./WeeklyContest199/4.py) |  |
-
-# Top Coder
-* [awice](https://leetcode.com/awice/)
-* [nthistle](https://leetcode.com/nthistle/)
+| 1 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/contest/weekly-contest-196/problems/can-make-arithmetic-progression-from-sequence/) | Easy | [Python3](./WeeklyContest196/1.py) |   |
+| 2 | [Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  Medium | [Fuck thinking ](./WeeklyContest196/2.py) |  |
+| 3 | [Count Submatrices With All Ones](https://leetcode.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/) |  Medium | [Python3](./WeeklyContest196/3.py) | Do Again|
+| 4 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/contest/weekly-contest-196/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) |  Hard | [Not Even Open It](./WeeklyContest196/4.py) | Hard! |

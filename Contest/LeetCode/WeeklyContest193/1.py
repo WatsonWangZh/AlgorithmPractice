@@ -28,10 +28,9 @@
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
         n = len(nums)
-        res = [0] * n
-        res[0] = nums[0]
+        S = [0]*(n+1)
+        
+        for i,x in enumerate(nums):
+            S[i+1] = S[i] + x
 
-        for i in range(1, n):
-            res[i] = res[i-1] + nums[i]
-
-        return res
+        return S[1:]

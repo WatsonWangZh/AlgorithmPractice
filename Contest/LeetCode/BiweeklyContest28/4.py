@@ -36,30 +36,23 @@
 # Array houses contain unique integers.
  
 class Solution:
-    def minDistance(self, houses: List[int], m: int) -> int:
-        # dp[i][j]表示从1到i，最多划分为k个段，所对应的距离之和的最小值
-        houses.sort()
-        n = len(houses)
-        dp = [[0] * (m + 1) for _ in range(n)]
-        cost = [[0] * n for _ in range(n)]
+    def minDistance(self, houses: List[int], k: int) -> int:
+        # if k >= len(houses):
+        #     return 0
+        # houses.sort()
+        # res = 0
+        # num = 0
+        # tmp = houses[1:] + [houses[1]]
+        # diff = [tmp[i] - houses[i] for i in range(len(houses)-1)]
 
-        for i in range(n):
-            for j in range(i, n):
-                for k in range(i, j + 1):
-                    cost[i][j] += abs(houses[k] - houses[i + (j - i + 1) // 2])
+        # diff.sort()
+        
+        # for i in range(len(diff)):
+        #     res += diff[i]
+        #     num += 2
+        #     k -= 1
+        #     if num + k == len(houses):
+        #         return res
 
-        for i in range(n):
-            dp[i][0] = 1e8
-
-        for i in range(1, n):
-            for j in range(1, m + 1):
-                dp[i][j] = 1e8
-                for k in range(i + 1):
-                    t = 0
-                    if k:
-                        t = dp[k - 1][j - 1]
-                    dp[i][j] = min(dp[i][j], t + cost[k][i])
-        return dp[n - 1][m]
-
-
+        pass
 

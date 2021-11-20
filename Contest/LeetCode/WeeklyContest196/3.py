@@ -49,27 +49,23 @@
 
 class Solution:
     def numSubmat(self, mat: List[List[int]]) -> int:
+        
+        M, N = len(mat), len(mat[0])
 
-        n, m = len(mat), len(mat[0])
-        cnt = [[0] * m for _ in range(n)]
-        for row in range(n):
-            for col in range(m):
-                if col == 0:
-                    cnt[row][col] = mat[row][col]
-                else:
-                    if mat[row][col] == 0:
-                        cnt[row][col] = 0
-                    else:
-                        cnt[row][col] = cnt[row][col - 1] + 1
+        count = [[0] * N for _ in range(M)]
+        # print(count)
+        for row in range(M):
+            for col in range(N):
+                if mat[row][col] == 1:
+                    count[row][col] = 1 + count[row][col - 1] if col > 0 else 1
+        
         res = 0
-        for row in range(n):
-            for col in range(m):
-                curr_min = cnt[row][col]
-                k = row
-                while k >= 0:
-                    if cnt[k][col] == 0:
-                        break
-                    curr_min = min(cnt[k][col], curr_min)
-                    res += curr_min
-                    k -= 1
+        for row in range(M):
+            for col in range(N):
+                j = row
+                min_val = float('inf')
+                while j >= 0 and count[j][col] > 0:
+                    min_val = min(min_val, count[j][col])
+                    res += min_val
+                    j -= 1
         return res

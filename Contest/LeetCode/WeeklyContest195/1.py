@@ -26,19 +26,32 @@ class Solution:
         x, y = 0, 0
         visited = set()
         visited.add((x, y))
-
         for p in path:
             if p == 'N':
                 x += 1
+                if (x, y) in visited:
+                    return True
+                else:
+                    visited.add((x, y))
             if p == 'E':
                 y += 1
+                if (x, y) in visited:
+                    return True
+                else:
+                    visited.add((x, y))
             if p == 'W':
                 y -= 1
+                if (x, y) in visited:
+                    return True
+                else:
+                    visited.add((x, y))
             if p == 'S':
                 x -= 1
-            if (x, y) in visited:
-                return True
-            else:
-                visited.add((x, y))
+                if (x, y) in visited:
+                    return True
+                else:
+                    visited.add((x, y))
       
         return False
+        
+        

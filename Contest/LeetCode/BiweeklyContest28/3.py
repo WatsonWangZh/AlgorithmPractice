@@ -41,26 +41,27 @@
 
 class Solution:
     def minSumOfLengths(self, arr: List[int], target: int) -> int:
-        # 记忆化 滑动窗口
-
-        n = len(arr)
-        f = [1e8 for _ in range(n)]
-        res = float('inf')
-        right, left = 0, 0
-        tmp = 0
-
-        while right < n:
-            tmp += arr[right]
-            while tmp > target:
-                tmp -= arr[left]
-                left += 1
-            if tmp == target:
-                if left:
-                    res = min(res, right-left+1 + f[left-1])
-                    f[right] = right-left+1
-            if right:
-                f[right] = min(f[right], f[right-1])
-
-        if res == float('inf'):
-            return -1
-        return res
+        # res = []
+        # loc = 0
+        # for i in range(len(arr)):
+        #     for j in range(i+1, len(arr)):
+        #         if sum(arr[i:j]) == target:
+        #             res.append(arr[i:j])
+        #             loc = j 
+                    
+        # for i in range(loc, len(arr)):
+        #     for j in range(i+1, len(arr)):
+        #         if sum(arr[i:j]) == target:
+        #             res.append(arr[i:j])
+        
+                    
+        # found = False       
+        
+        # if len(res) >=2:
+        #     found = True
+              
+        # if found:
+        #     return sum(sorted(len(ele)for ele in res)[:2])
+        # return -1
+        
+        pass 

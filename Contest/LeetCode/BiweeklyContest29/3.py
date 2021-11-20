@@ -36,21 +36,61 @@
 # 1 <= nums.length <= 10^5
 # nums[i] is either 0 or 1.
 
-
+# TLE
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
-
-        # 滑动窗口 始终保持窗口内最多只有一个0
-        n = len(nums)
-        res = 0
-        l, r = 0, 0
-        zero_count = 0
-        while r < n:
-            if nums[r] == 0:
-                zero_count += 1
-            while zero_count > 1 and l < n:
-                zero_count -= int(not nums[l])
-                l += 1
-            res = max(res, r - l + 1 - 1)
-            r += 1
-        return res
+        if sum(nums) == len(nums):
+            return sum(nums) - 1
+        
+        def helper(nums):
+            cnt = 0
+            res = 0
+            for i in range(len(nums)):
+                if nums[i] == 1:
+                    cnt += 1
+                if nums[i] == 0:
+                    res = max(res, cnt)
+                    cnt = 0
+                res = max(res, cnt)
+            return res
+        
+        t = 0
+        r = 0
+        fwd = [0] * len(nums)
+        bwd = [0] * len(nums)
+        leave = [0] * len(nums)
+        
+        for i in range(len(nums)):   
+            fwd[i] = helper(nums[:i])
+            bwd[i] = helper(nums[i+1:])
+            leave[i] = helper(nums[:i]+nums[i+1:])
+            
+        res = [0] * len(nums)
+        if nums[0] == 0:
+            res[0] = bwd[0]
+        if nums[-1] == 0:
+            res[0] = fwd[0]
+            
+        tmp = [1] * len(nums)
+        if nums[0] == 0 and nums[1] == 0:
+            tmp[0] = 0
+        if nums[-1] == 0 and nums[-2] == 0:
+            tmp[0] = 0
+        for i in range(1, len(nums)-1):
+            if (nums[i] == 0 and nums[i+1] == 0) or (nums[i] == 0 and nums[i-1] == 0):
+                tmp[i] = 0
+                
+        # print(tmp)
+        for i in range(1, len(nums)-1):
+            if nums[i] == 0 and tmp[i]:
+                res[i] = leave[i]
+            elif nums[i] == 0:
+                res[i] = max(fwd[i], bwd[i])
+            if nums[i] == 1:
+                res[i] = max(fwd[i], bwd[i])
+                
+        # for i in range(len(nums)):
+        #     res[i] *= tmp[i]
+            
+        # print(fwd, bwd, res)
+        return max(res)
